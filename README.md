@@ -1,2 +1,1 @@
-# fame-benchmark
-FAME: Factuality Evaluation Benchmark
+# FAME: Factuality Evaluation Benchmark
