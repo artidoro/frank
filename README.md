@@ -1,1 +1,1 @@
-# FAME: Factuality Evaluation Benchmark
+# FRANK: Factuality Evaluation Benchmark
