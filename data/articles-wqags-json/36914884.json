@@ -1,0 +1,123 @@
+{
+    "BERTS2S": "an elephant has been hit by a stone at a zoo in western france after it was hit by a tree.",
+    "BERTS2S_lines": [
+        "an elephant has been hit by a stone at a zoo in western france after it was hit by a tree."
+    ],
+    "TConvS2S": "an elephant has died after being hit by a elephant at a zoo in the us state of idaho.",
+    "TConvS2S_lines": [
+        "an elephant has died after being hit by a elephant at a zoo in the us state of idaho."
+    ],
+    "PtGen": "a 12-year-old girl has died after being hit by a elephant at a zoo in rabat, rabat, texas.",
+    "PtGen_lines": [
+        "a 12-year-old girl has died after being hit by a elephant at a zoo in rabat, rabat, texas."
+    ],
+    "TranS2S": "an elephant has been killed by an elephant at a zoo in paris.",
+    "TranS2S_lines": [
+        "an elephant has been killed by an elephant at a zoo in paris."
+    ],
+    "article": "The stone got past the elephant's fence and a ditch separating the animal and visitors, the zoo said in a statement.The girl was taken to hospital and died within a few hours, the zoo added.The zoo statement said the enclosure met international standards and said \"this kind of accident is rare, unpredictable and unusual\".Africa Live: More on this and other storiesThe statement went on (in French) to point out two other recent incidents in the US:Phyllis Lee, Scientific Director of the Amboseli Trust for Elephants, says that targeted throwing of stones and branches by elephants is very unusual.\"It can happen when elephants are frustrated or bored. In my opinion, it's unlikely the elephant was directly targeting the girl - but exhibiting frustration. You can't predict what animals in captivity will do.\"The moments after the girl was struck at Rabat Zoo on Tuesday were filmed by a bystander and uploaded onto YouTube.The video shows the elephant waving its trunk behind a fence and swerves round to show a stone on the ground.Metres away people are gathered around the girl, holding her head and stroking her leg.",
+    "article_lines": [
+        "The stone got past the elephant's fence and a ditch separating the animal and visitors, the zoo said in a statement.",
+        "The girl was taken to hospital and died within a few hours, the zoo added.",
+        "The zoo statement said the enclosure met international standards and said \"this kind of accident is rare, unpredictable and unusual\".",
+        "Africa Live:",
+        "More on this and other storiesThe statement went on (in French) to point out two other recent incidents in the US:",
+        "Phyllis Lee, Scientific Director of the Amboseli Trust for Elephants, says that targeted throwing of stones and branches by elephants is very unusual.",
+        "\"It can happen when elephants are frustrated or bored.",
+        "In my opinion, it's unlikely the elephant was directly targeting the girl - but exhibiting frustration.",
+        "You can't predict what animals in captivity will do.",
+        "\"The",
+        "moments after the girl was struck at Rabat Zoo on Tuesday were filmed by a bystander and uploaded onto YouTube.",
+        "The video shows the elephant waving its trunk behind a fence and swerves round to show a stone on the ground.",
+        "Metres away people are gathered around the girl, holding her head and stroking her leg."
+    ],
+    "entity_counter": {
+        "The stone": 1,
+        "the elephant's fence": 1,
+        "the animal": 1,
+        "visitors": 1,
+        "the zoo": 3,
+        "a statement": 2,
+        "The girl": 4,
+        "hospital": 1,
+        "the enclosure": 1,
+        "international standards": 1,
+        "this kind": 1,
+        "accident": 1,
+        "Africa": 1,
+        "More on this and other storiesThe statement": 1,
+        "French": 1,
+        "two other recent incidents": 1,
+        "the US": 1,
+        "Phyllis Lee": 1,
+        "Scientific Director": 1,
+        "the Amboseli Trust": 1,
+        "Elephants": 1,
+        "targeted throwing": 1,
+        "stones": 1,
+        "branches": 1,
+        "elephants": 2,
+        "my opinion": 1,
+        "the elephant": 2,
+        "frustration": 1,
+        "what animals": 1,
+        "captivity": 1,
+        "a bystander": 2,
+        "YouTube": 1,
+        "its trunk": 1,
+        "a fence": 1,
+        "a stone": 1,
+        "the ground": 1,
+        "people": 1,
+        "her head": 1,
+        "her leg": 1
+    },
+    "negative_entity": "Floyd Mayweather",
+    "url": "http://web.archive.org/web/20170724140324/http://www.bbc.com/news/world-africa-36914884",
+    "hash": "36914884",
+    "traps": [
+        [
+            "F6",
+            "metres away people are gathered around the girl, holding her head and stroking your leg."
+        ],
+        [
+            "F5",
+            "holding other will at enclosure."
+        ],
+        [
+            "F6",
+            "in your opinion, it's unlikely the elephant was directly targeting the girl - but exhibiting frustration."
+        ],
+        [
+            "F6",
+            "the video shows the elephant waving my trunk behind a fence and swerves round to show a stone on the ground."
+        ],
+        [
+            "F5",
+            "its more stroking rare storiesthe other video on says in."
+        ],
+        [
+            "F5",
+            "stroking for and of her fence the exhibiting incidents n't scientific it."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "a seven-year-old girl has died after being hit by a stone thrown by an elephant from its enclosure at rabat zoo in morocco.",
+    "BERTS2S_qags": 0.5,
+    "TConvS2S_qags": 0.0,
+    "PtGen_qags": 0.7,
+    "TranS2S_qags": 0.4,
+    "BERTS2S_qags20": 0.65,
+    "TConvS2S_qags20": 0.3,
+    "PtGen_qags20": 0.75,
+    "TranS2S_qags20": 0.3,
+    "BERTS2S_qags10": 0.5333333333333334,
+    "TConvS2S_qags10": 0.0,
+    "PtGen_qags10": 0.6571428571428571,
+    "TranS2S_qags10": 0.08
+}

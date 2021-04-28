@@ -1,0 +1,90 @@
+{
+    "BERTS2S": "a british man and his wife have won one of the world\\'s most successful men\\'s athletics championships.",
+    "BERTS2S_lines": [
+        "a british man and his wife have won one of the world\\'s most successful men\\'s athletics championships."
+    ],
+    "TConvS2S": "the wife of one of the world\\'s most famous competitors athletes has said she is ``shocked\\'\\'by the lack of success in the sport.",
+    "TConvS2S_lines": [
+        "the wife of one of the world\\'s most famous competitors athletes has said she is ``shocked\\'\\'by the lack of success in the sport."
+    ],
+    "PtGen": "the world\\'s elephants have been celebrating the world\\'s elephants race, which has been at the centre of the world\\'s olympic games.",
+    "PtGen_lines": [
+        "the world\\'s elephants have been celebrating the world\\'s elephants race, which has been at the centre of the world\\'s olympic games."
+    ],
+    "TranS2S": "a pair of paralympian pistols has set up a marathon on track in a bid to break the world championships in lithuania.",
+    "TranS2S_lines": [
+        "a pair of paralympian pistols has set up a marathon on track in a bid to break the world championships in lithuania."
+    ],
+    "article": "18 March 2014 Last updated at 09:22 GMTRichard Blake-Smith and his partner Anna beat Vytautas Kirkliauskas of Lithuania, carrying his wife, Neringa Kirliauskiene.Rich said: \"We put in a whole week's work, running around the athletics track near where we live - and it's paid off\"\"We were pushed hard, especially by the Lithuanians there.\"Competitors must tackle a 380-metre course, hurdling over haystacks, scrabbling up a steep slope, and dodging water pistols.You don't need to be married to take part.The race saw all combinations of competitors - men carrying women, men carrying men and one woman carrying a woman.Rich and Anna will now compete at the World Championships in Finland in July.",
+    "article_lines": [
+        "18 March 2014",
+        "Last updated at 09:22 GMTRichard Blake-Smith and his partner Anna beat Vytautas Kirkliauskas of Lithuania, carrying his wife, Neringa Kirliauskiene.",
+        "Rich said: \"We put in a whole week's work, running around the athletics track near where we live - and it's paid",
+        "off\"\"We were pushed hard, especially by the Lithuanians there.",
+        "\"Competitors must tackle a 380-metre course, hurdling over haystacks, scrabbling up a steep slope, and dodging water pistols.",
+        "You don't need to be married to take part.",
+        "The race saw all combinations of competitors - men carrying women, men carrying men and one woman carrying a woman.",
+        "Rich and Anna will now compete at the World Championships in Finland in July."
+    ],
+    "entity_counter": {
+        "Last": 1,
+        "his partner": 1,
+        "Anna": 2,
+        "Vytautas Kirkliauskas": 1,
+        "Lithuania": 1,
+        "his wife": 1,
+        "Neringa Kirliauskiene": 1,
+        "a whole week's work": 1,
+        "off\"\"We": 1,
+        "the Lithuanians": 1,
+        "a 380-metre course": 1,
+        "haystacks": 1,
+        "a steep slope": 1,
+        "water pistols": 1,
+        "part": 1,
+        "The race": 1,
+        "all combinations": 1,
+        "competitors - men": 1,
+        "women": 1,
+        "men": 1,
+        "a woman": 1,
+        "the World Championships": 1,
+        "Finland": 1
+    },
+    "negative_entity": "74-year-old Lynne Abraham",
+    "url": "http://web.archive.org/web/20170428181258/http://www.bbc.co.uk/newsround/26625099",
+    "hash": "26625099",
+    "traps": [
+        [
+            "F5",
+            "we to 's put vytautas the rich paid at the championships."
+        ],
+        [
+            "F5",
+            "men at course you put carrying must near a."
+        ],
+        [
+            "F0",
+            "18 march 2014"
+        ],
+        [
+            "F1",
+            "rich and anna will not now compete at the world championships in finland in july ."
+        ],
+        [
+            "F5",
+            "live a and pushed now."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "the uk wife carrying championships have a winner!",
+    "BERTS2S_dep": 0.9677637219429016,
+    "TConvS2S_dep": 0.9838708639144897,
+    "PtGen_dep": 0.8731050491333008,
+    "TranS2S_dep": 0.9857489466667175
+}

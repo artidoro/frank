@@ -1,0 +1,138 @@
+{
+    "BERTS2S": "britain\\'s hannah williamson says she is \" lucky to be alive \" after a serious accident at the uci track cycling world championships in rotterdam.",
+    "BERTS2S_lines": [
+        "britain\\'s hannah williamson says she is \" lucky to be alive \" after a serious accident at the uci track cycling world championships in rotterdam."
+    ],
+    "TConvS2S": "former world champion williamson norfolk says she is ``lucky to be alive\\'\\'after suffering a serious neck injury in a motorbike crash.",
+    "TConvS2S_lines": [
+        "former world champion williamson norfolk says she is ``lucky to be alive\\'\\'after suffering a serious neck injury in a motorbike crash."
+    ],
+    "PtGen": "world champion jessica williamson has retired from nottingham hospital after suffering a spinal cord injury in her first match at the velodrome.",
+    "PtGen_lines": [
+        "world champion jessica williamson has retired from nottingham hospital after suffering a spinal cord injury in her first match at the velodrome."
+    ],
+    "TranS2S": "britain\\'s williamson williamson says she is \" very worried \" after she was seriously injured in a crash at the european championships.",
+    "TranS2S_lines": [
+        "britain\\'s williamson williamson says she is \" very worried \" after she was seriously injured in a crash at the european championships."
+    ],
+    "article": "The 22-year-old fractured her neck and back, dislocated her pelvis and slipped a disc in her neck after colliding with Elis Ligtlee during the omnium final.Norfolk's Williamson spent four weeks in hospital after January's accident.\"They were pretty sure paralysis was going to be the outcome while I was in Rotterdam, but luckily I pulled through,\" she told BBC Look East.\"Being an athlete, I think they said because my neck and back were so strong I was able to withstand the force.\"Although I did break a few bones, my spinal cord stayed intact and I'm here to live another day.\"Racing at the event was cancelled after the 2013 World Championships bronze medallist's crash, with fans asked to leave the velodrome.\"I have no memories, which is probably pretty good,\" she said. \"It's not going to put me off in the future,\" she said.\"I remember holding onto the fence getting ready to roll up to the final and then next thing I know I was in hospital and someone was telling me I'd had an accident. I just responded with 'did I win?'. That was all I was worried about.\"Williamson hopes to be back \"easy riding\" on a bike by the end of the summer and says she has the right support around her to make a full recovery.Media playback is not supported on this device\"I'm going to get back on a bike eventually,\" she added. \"I've got no timescale yet, but I don't know what level I'll be able to get to. I'll give it a good go.\"I've got the full support team behind me, I've got physios, doctors. We've got the world's best. At the end of the day, we're a great programme, so I've got every chance of getting back to where I was.\"",
+    "article_lines": [
+        "The 22-year-old fractured her neck and back, dislocated her pelvis and slipped a disc in her neck after colliding with Elis Ligtlee during the omnium final.",
+        "Norfolk's Williamson spent four weeks in hospital after January's accident.",
+        "\"They were pretty sure paralysis was going to be the outcome while I was in Rotterdam, but luckily I pulled through,\" she told BBC Look East.",
+        "\"Being",
+        "an athlete, I think they said because my neck and back were so strong",
+        "I was able to withstand the force.",
+        "\"Although",
+        "I did break a few bones, my spinal cord stayed intact",
+        "and I'm here to live another day.",
+        "\"Racing",
+        "at the event was cancelled after the 2013 World Championships bronze medallist's crash, with fans asked to leave the velodrome.",
+        "\"I have no memories, which is probably pretty good,\" she said.",
+        "\"It's not going to put me off in the future,\" she said.",
+        "\"I remember holding onto the fence getting ready to roll up to the final",
+        "and then next thing I know I was in hospital and someone was telling me I'd had an accident.",
+        "I just responded with 'did I win?'.",
+        "That was all I was worried about.",
+        "\"Williamson hopes to be back \"easy riding\" on a bike by the end of the summer and says she has the right support around her to make a full recovery.",
+        "Media playback is not supported on",
+        "this device\"I'm going to get back on a bike eventually,\" she added.",
+        "\"I've got no timescale yet, but I don't know what level I'll be able to get to.",
+        "I'll give it a good go.",
+        "\"I've got the full support team behind me, I've got physios, doctors.",
+        "We've got the world's best.",
+        "At the end of the day, we're a great programme, so I've got every chance of getting back to where I was.\""
+    ],
+    "entity_counter": {
+        "The 22-year-old fractured her neck": 1,
+        "her pelvis": 1,
+        "a disc": 1,
+        "her neck": 1,
+        "Elis Ligtlee": 1,
+        "the omnium": 1,
+        "Norfolk's Williamson": 1,
+        "hospital": 2,
+        "January's accident": 1,
+        "paralysis": 1,
+        "the outcome": 1,
+        "Rotterdam": 1,
+        "BBC": 1,
+        "Look East": 1,
+        "my neck": 1,
+        "back": 1,
+        "the force": 1,
+        "a few bones": 1,
+        "my spinal cord": 1,
+        "the event": 1,
+        "the 2013 World Championships bronze medallist's crash": 1,
+        "fans": 1,
+        "the velodrome": 1,
+        "no memories": 1,
+        "the future": 1,
+        "\"I": 1,
+        "the fence": 1,
+        "an accident": 1,
+        "\"easy riding": 1,
+        "a bike": 2,
+        "the right support": 1,
+        "a full recovery": 1,
+        "Media playback": 1,
+        "device\"I'm": 1,
+        "no timescale": 1,
+        "what level": 1,
+        "a good go": 1,
+        "the full support team": 1,
+        "physios": 1,
+        "doctors": 1,
+        "a great programme": 1,
+        "every chance": 1
+    },
+    "negative_entity": "Zlatan Ibrahimovic",
+    "url": "http://web.archive.org/web/20160310114343/http://www.bbc.co.uk/sport/cycling/35764147",
+    "hash": "35764147",
+    "traps": [
+        [
+            "F4",
+            "only existing glacial inventory from the french alps was published four decades ago within the context of the world glacier inventory."
+        ],
+        [
+            "F0",
+            "the 22-year-old fractured her neck and back, dislocated her pelvis and slipped a disc in her neck after colliding with elis ligtlee during the omnium final."
+        ],
+        [
+            "F6",
+            "\"williamson hopes to be back \"easy riding\" on a bike by the end of the summer and says he has the right support around her to make a full recovery."
+        ],
+        [
+            "F4",
+            "sweeney, who is originally from stockton-on-tees, spent 13 years at hartlepool, making 444 appearances."
+        ],
+        [
+            "F5",
+            "was eventually hopes up luckily not weeks memories she to no leave back all velodrome."
+        ],
+        [
+            "F6",
+            "\"it's not going to put them off in the future,\" she said."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "britain\\'s victoria williamson says she is lucky not to be paralysed after her serious crash at rotterdam\\'s zesdaagse.",
+    "BERTS2S_qags": 1.0,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 1.0,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 1.0,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 0.95,
+    "TranS2S_qags20": 0.9,
+    "BERTS2S_qags10": 0.3,
+    "TConvS2S_qags10": 0.3,
+    "PtGen_qags10": 0.6,
+    "TranS2S_qags10": 0.5
+}

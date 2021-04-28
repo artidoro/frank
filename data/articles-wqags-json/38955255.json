@@ -1,0 +1,94 @@
+{
+    "BERTS2S": "the met office has issued a warning of gales and winds of up to 90mph in parts of wales.",
+    "BERTS2S_lines": [
+        "the met office has issued a warning of gales and winds of up to 90mph in parts of wales."
+    ],
+    "TConvS2S": "hundreds of people have been warned to expect disruption after a wind turbine was spotted off the coast of pembrokeshire.",
+    "TConvS2S_lines": [
+        "hundreds of people have been warned to expect disruption after a wind turbine was spotted off the coast of pembrokeshire."
+    ],
+    "PtGen": "forecasters have warned of severe thunderstorms on beaches across the south of england overnight on monday morning, forecasters have said.",
+    "PtGen_lines": [
+        "forecasters have warned of severe thunderstorms on beaches across the south of england overnight on monday morning, forecasters have said."
+    ],
+    "TranS2S": "the met office has issued a yellow \" be aware \" warning for gusts of up to 70mph ( 75km / h ) over the weekend",
+    "TranS2S_lines": [
+        "the met office has issued a yellow \" be aware \" warning for gusts of up to 70mph ( 75km / h ) over the weekend"
+    ],
+    "article": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkIt issued a yellow warning of wind, saying gusts of up to 75mph (120kmph) could occur locally, particularly to the west of the mountains.It added the unusual easterly direction could add to the impact of the winds.Forecasters said disruption to travel on roads and at sea was likely.The affected counties are Conwy, Anglesey, Gwynedd, Pembrokeshire, Carmarthenshire, Ceredigion and Powys.Gusts overnight brought a tree down in Menai Bridge on Anglesey, closing one of the main routes into the town.The council said Telford Road was expected to remain closed for most of Monday to allow clean-up work to be carried out.",
+    "article_lines": [
+        "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkIt issued a yellow warning of wind, saying gusts of up to 75mph (120kmph) could occur locally, particularly to the west of the mountains.",
+        "It added the unusual easterly direction could add to the impact of the winds.",
+        "Forecasters said disruption to travel on roads and at sea was likely.",
+        "The affected counties are Conwy, Anglesey, Gwynedd, Pembrokeshire, Carmarthenshire, Ceredigion and Powys.",
+        "Gusts overnight brought a tree down in Menai Bridge on Anglesey, closing one of the main routes into the town.",
+        "The council said Telford Road was expected to remain closed for most of Monday to allow clean-up work to be carried out."
+    ],
+    "entity_counter": {
+        "this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy": 1,
+        "a yellow warning": 1,
+        "wind": 1,
+        "gusts": 1,
+        "(120kmph": 1,
+        "the west": 1,
+        "the mountains": 1,
+        "the unusual easterly direction": 1,
+        "the impact": 1,
+        "the winds": 1,
+        "Forecasters": 1,
+        "disruption": 1,
+        "roads": 1,
+        "sea": 1,
+        "The affected counties": 1,
+        "Conwy": 1,
+        "Gusts": 1,
+        "a tree": 1,
+        "Menai Bridge": 1,
+        "Anglesey": 1,
+        "the main routes": 1,
+        "the town": 1,
+        "The council": 1,
+        "Telford Road": 1,
+        "clean-up work": 1
+    },
+    "negative_entity": "Liam Marshall-Ascough",
+    "url": "http://web.archive.org/web/20170214184109/http://www.bbc.co.uk/news/uk-wales-38955255",
+    "hash": "38955255",
+    "traps": [
+        [
+            "F5",
+            "was disruption the anglesey to this."
+        ],
+        [
+            "F1",
+            "forecasters said disruption to travel on roads and at sea was not likely ."
+        ],
+        [
+            "F5",
+            "to of remain town conwy was road anglesey it sea closing in."
+        ],
+        [
+            "F0",
+            "share this withemailfacebookmessengermessengertwitterpinterestwhatsapplinkedincopy this linkit issued a yellow warning of wind, saying gusts of up to 75mph (120kmph) could occur locally, particularly to the west of the mountains."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "the met office has warned of very strong winds along the western coastlines of wales throughout the day on monday.",
+    "BERTS2S_qags": 1.0,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 1.0,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 1.0,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 0.95,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.0,
+    "TConvS2S_qags10": 0.4,
+    "PtGen_qags10": 0.1181818181818182,
+    "TranS2S_qags10": 0.14444444444444443
+}

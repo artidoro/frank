@@ -1,0 +1,134 @@
+{
+    "BERTS2S": "hollywood actress mark stone has won the award for best actress in a film for emma stone\\'s la la land.",
+    "BERTS2S_lines": [
+        "hollywood actress mark stone has won the award for best actress in a film for emma stone\\'s la la land."
+    ],
+    "TConvS2S": "la la land film la la land has won the top prize at the venice film festival.",
+    "TConvS2S_lines": [
+        "la la land film la la land has won the top prize at the venice film festival."
+    ],
+    "PtGen": "la la land may have been revealed as the new host of the film la la la la la land.",
+    "PtGen_lines": [
+        "la la land may have been revealed as the new host of the film la la la la la land."
+    ],
+    "TranS2S": "la la la land has won the top prize at this year\\'s venice film festival.",
+    "TranS2S_lines": [
+        "la la la land has won the top prize at this year\\'s venice film festival."
+    ],
+    "article": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkThe jazz film is the follow up to director Damien Chazelle's Academy Award-winning film Whiplash.The People's Choice, voted for by the audience, has proved to be a decent predictor for Oscars success in recent years.Previous winners include 12 Years a Slave and The King's Speech.La La Land, set for release in December, stars Stone as an aspiring actress in Los Angeles who meets a jazz pianist (Gosling) who is trying to stay true to the music he has devoted himself to.The film also stars singer John Legend and JK Simmons, who won an Oscar for best supporting actor for his performance in Whiplash.La La Land has enjoyed rave reviews since premiering at the Venice Film Festival in August.Chazelle wrote the script six years ago but was not able to persuade anyone to make it until he broke through with Whiplash in 2014.Stone, who won the best actress prize at Venice for her La La Land role, previously starred with Gosling in Crazy, Stupid, Love.Toronto's Platform prize for international directors was won by Pablo Larrain for Jackie, the Jacqueline Kennedy biopic starring Natalie Portman.Raoul Peck won the People's Choice documentary award for I Am Not Your Negro, which follows the lives and assassinations of Martin Luther King Jr, Malcolm X and Medgar Evers.The film is based on James Baldwin's unfinished book, Remember This House.Follow us on Twitter @BBCNewsEnts, on Instagram, or if you have a story suggestion email entertainment.news@bbc.co.uk.",
+    "article_lines": [
+        "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkThe jazz film is the follow up to director Damien Chazelle's Academy Award-winning film Whiplash.",
+        "The People's Choice, voted for by the audience, has proved to be a decent predictor for Oscars success in recent years.",
+        "Previous winners include 12 Years a Slave and The King's Speech.",
+        "La La Land, set for release in December, stars Stone as an aspiring actress in Los Angeles who meets a jazz pianist (Gosling) who is trying to stay true to the music he has devoted himself to.",
+        "The film also stars singer John Legend and JK Simmons, who won an Oscar for best supporting actor for his performance in Whiplash.",
+        "La La Land has enjoyed rave reviews since premiering at the Venice Film Festival in August.",
+        "Chazelle wrote the script six years ago but was not able to persuade anyone to make it until he broke through with Whiplash in 2014.Stone, who won the best actress prize at Venice for her La La Land role, previously starred with Gosling in Crazy, Stupid, Love.",
+        "Toronto's Platform prize for international directors was won by Pablo Larrain for Jackie, the Jacqueline Kennedy biopic starring Natalie Portman.",
+        "Raoul Peck won the People's Choice documentary award for I",
+        "Am Not Your Negro, which follows the lives and assassinations of Martin Luther King Jr, Malcolm X and Medgar Evers.",
+        "The film is based on James Baldwin's unfinished book, Remember This House.",
+        "Follow us on Twitter @BBCNewsEnts, on Instagram, or if you have a story suggestion email entertainment.news@bbc.co.uk."
+    ],
+    "entity_counter": {
+        "this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy": 1,
+        "this linkThe jazz film": 2,
+        "the follow": 1,
+        "director Damien Chazelle's Academy Award-winning film Whiplash": 1,
+        "The People's Choice": 1,
+        "the audience": 1,
+        "a decent predictor": 1,
+        "Oscars success": 1,
+        "Previous winners": 1,
+        "a Slave": 1,
+        "The King's Speech": 1,
+        "La La Land": 2,
+        "release": 1,
+        "stars Stone": 1,
+        "an aspiring actress": 1,
+        "Los Angeles": 1,
+        "a jazz pianist": 1,
+        "Gosling": 2,
+        "the music": 1,
+        "singer John Legend": 1,
+        "JK Simmons": 1,
+        "an Oscar": 1,
+        "best supporting actor": 1,
+        "his performance": 1,
+        "Whiplash": 2,
+        "rave reviews": 1,
+        "the Venice Film Festival": 2,
+        "Chazelle": 1,
+        "the script": 1,
+        "the best actress prize": 1,
+        "Venice": 1,
+        "her La La Land role": 1,
+        "Crazy, Stupid, Love": 1,
+        "Toronto's Platform prize": 1,
+        "international directors": 1,
+        "Pablo Larrain": 1,
+        "Jackie": 1,
+        "the Jacqueline Kennedy biopic": 1,
+        "Natalie Portman": 1,
+        "Raoul Peck": 1,
+        "the People's Choice documentary award": 1,
+        "Your Negro": 1,
+        "the lives": 1,
+        "assassinations": 1,
+        "Martin Luther King Jr": 1,
+        "Malcolm X": 1,
+        "Medgar": 1,
+        "Evers": 1,
+        "James Baldwin's unfinished book": 1,
+        "This House": 1,
+        "Twitter": 1,
+        "@BBCNewsEnts": 1,
+        "Instagram": 1,
+        "a story suggestion": 1,
+        "entertainment.news@bbc.co.uk": 1
+    },
+    "negative_entity": "109-year-old Toby",
+    "url": "http://web.archive.org/web/20170108085108/http://www.bbc.com/news/entertainment-arts-37405757",
+    "hash": "37405757",
+    "traps": [
+        [
+            "F6",
+            "chazelle wrote the script six years ago but was not able to persuade anyone to make it until she broke through with whiplash in 2014.stone, who won the best actress prize at venice for her la la land role, previously starred with gosling in crazy, stupid, love."
+        ],
+        [
+            "F0",
+            "share this withemailfacebookmessengermessengertwitterpinterestwhatsapplinkedincopy this linkthe jazz film is the follow up to director damien chazelle's academy award-winning film whiplash."
+        ],
+        [
+            "F6",
+            "am not his negro, which follows the lives and assassinations of martin luther king jr, malcolm x and medgar evers."
+        ],
+        [
+            "F6",
+            "follow us on twitter @bbcnewsents, on instagram, or if him have a story suggestion email entertainment.news@bbc.co.uk."
+        ],
+        [
+            "F1",
+            "la la land has not enjoyed rave reviews since premiering at the venice film festival in august ."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "musical movie la la land has picked up the prestigious people\\'s choice award at the toronto international film festival (tiff).",
+    "BERTS2S_qags": 1.0,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 1.0,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 1.0,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 1.0,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.0,
+    "TConvS2S_qags10": 0.1,
+    "PtGen_qags10": 0.6,
+    "TranS2S_qags10": 0.0
+}

@@ -1,0 +1,117 @@
+{
+    "BERTS2S": "great britain will host greece in a friendly at london\\'s copper box on friday night.",
+    "BERTS2S_lines": [
+        "great britain will host greece in a friendly at london\\'s copper box on friday night."
+    ],
+    "TConvS2S": "bbc sport\\'s football expert mark lawrenson is pitting his wits against a different guest for the copper box.",
+    "TConvS2S_lines": [
+        "bbc sport\\'s football expert mark lawrenson is pitting his wits against a different guest for the copper box."
+    ],
+    "PtGen": "team gb\\'s hopes of qualifying for the eurobasket 2017 finals will be boosted by the next eurobasket 2017 copper box, says the team gb guard.",
+    "PtGen_lines": [
+        "team gb\\'s hopes of qualifying for the eurobasket 2017 finals will be boosted by the next eurobasket 2017 copper box, says the team gb guard."
+    ],
+    "TranS2S": "the british national team will play greece in the eurobasket 2017 next month.",
+    "TranS2S_lines": [
+        "the british national team will play greece in the eurobasket 2017 next month."
+    ],
+    "article": "Coverage will be on BBC iPlayer and the BBC Sport website and app.The two teams faced off in Patras, Greece, earlier this month, with European title contenders Greece running out winners, 92-64.Three members of that team will be missing at the Copper Box, however, offering GB a chance of revenge.\"I think it's going to be amazing - I'm from Stratford so I love playing there [at the Copper Box],\" said GB guard Teddy Okereafor.\"This is the level we need to be playing at to make sure we're 100% ready for EuroBasket this year.\"We've got a couple of guys who are going to be playing for the first time in London so it's going to be exciting for them - I think the atmosphere's going to be great.\"The game will be Britain's only home game before they compete at FIBA EuroBasket 2017, which starts at the beginning of September with a qualifying group in Istanbul, Turkey.After they play Greece, coach Joe Prunty's team travel to a four-team tournament in Poland, their last warm-up games before EuroBasket starts.(BST)17:30-19:30 - BBC iPlayer17:30-19:30 - BBC Sport website",
+    "article_lines": [
+        "Coverage will be on BBC iPlayer and the BBC Sport website and app.",
+        "The two teams faced off in Patras, Greece, earlier this month, with European title contenders Greece running out winners, 92-64.Three members of that team will be missing at the Copper Box, however, offering GB a chance of revenge.",
+        "\"I think it's going to be amazing",
+        "- I'm from Stratford",
+        "so I love playing there [at the Copper Box],\" said GB guard Teddy Okereafor.",
+        "\"This is the level we need to be playing at to make sure we're 100% ready for EuroBasket this year.",
+        "\"We've got a couple of guys who are going to be playing for the first time in London so it's going to be exciting for them",
+        "- I think the atmosphere's going to be great.",
+        "\"The",
+        "game will be Britain's only home game before they compete at FIBA EuroBasket 2017, which starts at the beginning of September with a qualifying group in Istanbul, Turkey.",
+        "After they play Greece, coach Joe Prunty's team travel to a four-team tournament in Poland, their last warm-up games before EuroBasket starts.(BST)17:30-19:30 - BBC iPlayer17:30-19:30 - BBC Sport website"
+    ],
+    "entity_counter": {
+        "Coverage": 1,
+        "BBC iPlayer": 1,
+        "the BBC Sport website": 1,
+        "app": 1,
+        "The two teams": 1,
+        "Patras": 1,
+        "Greece": 3,
+        "European title contenders": 1,
+        "winners": 1,
+        "92-64.Three members": 1,
+        "that team": 1,
+        "the Copper Box": 2,
+        "GB": 1,
+        "a chance": 1,
+        "revenge": 1,
+        "Stratford": 1,
+        "GB guard Teddy Okereafor": 1,
+        "\"This": 1,
+        "the level": 1,
+        "EuroBasket": 1,
+        "a couple": 1,
+        "guys": 1,
+        "the first time": 1,
+        "London": 1,
+        "the atmosphere": 1,
+        "game": 1,
+        "Britain's only home game": 1,
+        "FIBA EuroBasket": 1,
+        "a qualifying group": 1,
+        "Istanbul": 1,
+        "Turkey": 1,
+        "a four-team tournament": 1,
+        "Poland": 1,
+        "their last warm-up games": 1,
+        "EuroBasket starts.(BST)17:30-19:30 - BBC iPlayer17:30-19:30 - BBC Sport website": 1
+    },
+    "negative_entity": "Mrs O'Riordan's",
+    "url": "http://web.archive.org/web/20170820070354/http://www.bbc.com/sport/basketball/40965536",
+    "hash": "40965536",
+    "traps": [
+        [
+            "F5",
+            "with the the september on gb to home off sport."
+        ],
+        [
+            "F0",
+            "coverage will be on bbc iplayer and the bbc sport website and app."
+        ],
+        [
+            "F6",
+            "\"they've got a couple of guys who are going to be playing for the first time in london so it's going to be exciting for them"
+        ],
+        [
+            "F4",
+            "ms ziuzina, known as anna, was 19 years younger than her husband."
+        ],
+        [
+            "F4",
+            "i wish sam [allardyce], the players, staff and supporters success in the future,\" milner said."
+        ],
+        [
+            "F5",
+            "and at sport 100 going to tournament off that first the september amazing the in."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "bbc sport is showing live coverage of the eurobasket warm-up game between great britain and greece at the copper box in london on saturday 19 august.",
+    "BERTS2S_qags": 0.3,
+    "TConvS2S_qags": 0.7,
+    "PtGen_qags": 1.0,
+    "TranS2S_qags": 0.9,
+    "BERTS2S_qags20": 0.3,
+    "TConvS2S_qags20": 0.8,
+    "PtGen_qags20": 1.0,
+    "TranS2S_qags20": 0.8,
+    "BERTS2S_qags10": 0.0,
+    "TConvS2S_qags10": 0.0,
+    "PtGen_qags10": 0.40629370629370626,
+    "TranS2S_qags10": 0.15
+}

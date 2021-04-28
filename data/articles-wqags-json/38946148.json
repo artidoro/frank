@@ -1,0 +1,137 @@
+{
+    "BERTS2S": "chelsea boss mauricio pochettino says his side need to be ready to challenge for the premier league title after a 2-1 draw at tottenham",
+    "BERTS2S_lines": [
+        "chelsea boss mauricio pochettino says his side need to be ready to challenge for the premier league title after a 2-1 draw at tottenham"
+    ],
+    "TConvS2S": "tottenham can win the premier league title, says tottenham boss mauricio pochettino.",
+    "TConvS2S_lines": [
+        "tottenham can win the premier league title, says tottenham boss mauricio pochettino."
+    ],
+    "PtGen": "chelsea manager mauricio pochettino says chelsea will be ``very difficult\\'\\'to fight for a place in the premier league next season.",
+    "PtGen_lines": [
+        "chelsea manager mauricio pochettino says chelsea will be ``very difficult\\'\\'to fight for a place in the premier league next season."
+    ],
+    "TranS2S": "mauricio pochettino says he is \" sad \" not ready to fight for the premier league title again after his side\\'s 2-1",
+    "TranS2S_lines": [
+        "mauricio pochettino says he is \" sad \" not ready to fight for the premier league title again after his side\\'s 2-1"
+    ],
+    "article": "Media playback is not supported on this deviceSadio Mane scored twice in the space of 138 seconds as second-placed Spurs disappointed at Anfield.\"If you start a game like we start then it is very difficult,\" said Pochettino.\"It is difficult to fight for the Premier League if you show that lack of desire to play for a win.\"Chelsea can extend their lead at the top if they beat Burnley at Turf Moor on Sunday, and Pochettino added: \"If Chelsea go 12 points clear, it is a big problem.\"Spurs have won just twice on the road since 24 September, including defeats at Chelsea and Manchester United in addition to draws at fellow top-six rivals Arsenal and Manchester City.In their past 17 meetings with the other top-six sides away from home, Pochettino's team have won just once.\"In the first 45 minutes you saw a team that is not ready to fight for the Premier League,\" the Argentine told BT Sport.\"We are in a position that is up to us. But if you show like today that you cannot cope with the pressure then it is difficult to challenge and fight for the Premier League.\"Former Liverpool and Spurs midfielder Danny Murphy on Match of the Day\"I couldn't believe what I was watching, they had the best defensive record last season and the joint best this year, but they were all over the place. Against the big sides they have played with a back three but they had a back four today, but I think they should have stuck with what they have done against the big sides - play with a three.\"It was so unlike Spurs, they do so well at home, but the contrast is amazing. There's a lack of pace, and a different mindset when they go away from home. They have to improve and quickly.\"",
+    "article_lines": [
+        "Media playback is not supported on this deviceSadio Mane scored twice in the space of 138 seconds as second-placed Spurs disappointed at Anfield.",
+        "\"If you start a game like we start then",
+        "it is very difficult,\" said Pochettino.",
+        "\"It is difficult to fight for the Premier League if you show that lack of desire to play for a win.",
+        "\"Chelsea can extend their lead at the top if they beat Burnley at Turf Moor on Sunday, and Pochettino added: \"If Chelsea go 12 points clear, it is a big problem.",
+        "\"Spurs have won just twice on the road since 24 September, including defeats at Chelsea and Manchester United in addition to draws at fellow top-six rivals Arsenal and Manchester City.",
+        "In their past 17 meetings with the other top-six sides away from home, Pochettino's team have won just once.",
+        "\"In",
+        "the first 45 minutes",
+        "you saw a team that is not ready to fight for the Premier League,\" the Argentine told BT Sport.",
+        "\"We are in a position that is up to us.",
+        "But if you show like today that you cannot cope with the pressure then it is difficult to challenge and fight for the Premier League.",
+        "\"Former",
+        "Liverpool and Spurs midfielder Danny Murphy on Match of the Day\"I couldn't believe what I was watching, they had the best defensive record last season and the joint best this year, but they were all over the place.",
+        "Against the big sides they have played with a back three",
+        "but they had a back four today, but I think they should have stuck with what they have done against the big sides - play with a three.",
+        "\"It was so unlike Spurs, they do so well at home, but the contrast is amazing.",
+        "There's a lack of pace, and a different mindset when they go away from home.",
+        "They have to improve and quickly.\""
+    ],
+    "entity_counter": {
+        "Media playback": 1,
+        "this deviceSadio Mane": 1,
+        "the space": 1,
+        "second-placed Spurs": 1,
+        "Anfield": 1,
+        "a game": 1,
+        "Pochettino": 2,
+        "the Premier League": 3,
+        "that lack": 1,
+        "desire": 1,
+        "a win": 1,
+        "their lead": 1,
+        "the top": 1,
+        "Burnley": 1,
+        "Turf Moor": 1,
+        "Chelsea": 2,
+        "a big problem": 1,
+        "\"Spurs": 1,
+        "the road": 1,
+        "defeats": 1,
+        "Manchester United": 1,
+        "addition": 1,
+        "fellow top-six rivals": 1,
+        "Arsenal": 1,
+        "Manchester City": 1,
+        "their past 17 meetings": 1,
+        "the other top-six sides": 1,
+        "home": 3,
+        "Pochettino's team": 1,
+        "a team": 1,
+        "the Argentine": 1,
+        "BT Sport": 1,
+        "a position": 1,
+        "the pressure": 1,
+        "Liverpool": 1,
+        "Spurs": 2,
+        "Danny Murphy": 1,
+        "Match": 1,
+        "the Day\"I": 1,
+        "the best defensive record": 1,
+        "the joint": 1,
+        "the place": 1,
+        "the big sides": 1,
+        "the contrast": 1,
+        "a lack": 1,
+        "pace": 1,
+        "a different mindset": 1
+    },
+    "negative_entity": "Scott Stephenson",
+    "url": "http://web.archive.org/web/20170212161659/http://www.bbc.co.uk:80/sport/football/38946148",
+    "hash": "38946148",
+    "traps": [
+        [
+            "F5",
+            "go on they fight three 17 is united at they."
+        ],
+        [
+            "F4",
+            "nikolai primak, head of the russian investigation, said flight information appeared to be missing."
+        ],
+        [
+            "F0",
+            "media playback is not supported on this devicesadio mane scored twice in the space of 138 seconds as second-placed spurs disappointed at anfield."
+        ],
+        [
+            "F4",
+            "in sevastopol, base of the russian black sea fleet, a majority hold russian passports."
+        ],
+        [
+            "F4",
+            "the group has suggested a fish with the slogan skegness - a happy plaice."
+        ],
+        [
+            "F6",
+            "\"chelsea can extend my lead at the top if they beat burnley at turf moor on sunday, and pochettino added: \"if chelsea go 12 points clear, it is a big problem."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "tottenham showed a ``lack of desire\\'\\'to win the premier league with their first-half display in the 2-0 loss at liverpool, says manager mauricio pochettino.",
+    "BERTS2S_qags": 1.0,
+    "TConvS2S_qags": 0.9,
+    "PtGen_qags": 0.8,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 1.0,
+    "TConvS2S_qags20": 0.55,
+    "PtGen_qags20": 1.0,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.3,
+    "TConvS2S_qags10": 0.5,
+    "PtGen_qags10": 0.39999999999999997,
+    "TranS2S_qags10": 0.4
+}

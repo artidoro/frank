@@ -1,0 +1,337 @@
+import json
+import scipy
+from collections import defaultdict, Counter
+import pandas as pd
+import itertools
+from scipy.stats.stats import pearsonr, spearmanr
+import numpy as np
+from scipy import stats
+import sys
+import matplotlib.pyplot as plt
+import os
+import sklearn
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import OneHotEncoder
+import matplotlib
+import argparse
+
+def parse_args(args):
+    parser = argparse.ArgumentParser(description='Arguments for the evaluation script.')
+    
+    metrics = [
+        'Bleu',
+        'Meteor',
+        'Rouge 1',
+        'Rouge 2',
+        'Rouge L',
+        'BertScore P',
+        'BertScore R',
+        'BertScore F1',
+        'FEQA',
+        'QAGS',
+        'Dep Entail',
+        'FactCC',
+    ]
+    ablations_cols = ['Flip_RelE', 'Flip_EntE', 'Flip_CircE', 'Flip_OutE', 'Flip_GramE', 'Flip_CorefE', 'Flip_LinkE', 'Flip_Other']
+    model_names = ['bart_lines', 'pgn_lines', 'bus_lines', 'bert_sum_lines', 's2s_lines', 'TranS2S_lines', 'TConvS2S_lines', 'PtGen_lines', 'BERTS2S_lines']
+
+    parser.add_argument('--base_path', default='../data')
+    parser.add_argument('--human_eval_path', default='human_annotations.csv')
+    parser.add_argument('--cache_path', default='.metrics_cache')
+    parser.add_argument('--overwrite_cache', action='store_true')
+    parser.add_argument('--metrics_info', default='metrics_info.json')
+    parser.add_argument('--metrics', nargs='+', default=metrics, help='metrics to evaluate on (should match the name in the metrics_info).')
+    parser.add_argument('--ablations', nargs='+', default=ablations_cols, help='column names for ablations.')
+    parser.add_argument('--human', default='Factuality', help='column for human judgements.')
+    parser.add_argument('--mode', default='hm-correlation', choices=['hm-correlation', 'ablations', 'ablations-plot', 'mm-correlation'])
+    parser.add_argument('--no_partial_correlation', action='store_true')
+    parser.add_argument('--partial_correlation_variable', default='model_name', help='what column to use as confounding to calculate partial correlations')
+    parser.add_argument('--store_path', default=None)
+    parser.add_argument('--dataset', default=None, choices=[None, 'cnndm', 'bbc'], help='if None use all data')
+    parser.add_argument('--model_name', nargs='+', default=None, help=f'by default use all data, availble model names {model_names}')
+    args = parser.parse_args(args)
+    return vars(args)
+
+def williams_test(r12, r13, r23, n):
+    """The Williams test (Evan J. Williams. 1959. Regression Analysis, volume 14. Wiley, New York, USA)
+
+    A test of whether the population correlation r12 equals the population correlation r13.
+    Significant: p < 0.05
+
+    Arguments:
+        r12 (float): correlation between x1, x2
+        r13 (float): correlation between x1, x3
+        r23 (float): correlation between x2, x3
+        n (int): size of the population
+
+    Returns:
+        t (float): Williams test result
+        p (float): p-value of t-dist
+    """
+    if r12 < r13:
+        print('r12 should be larger than r13')
+        sys.exit()
+    elif n <= 3:
+        print('n should be larger than 3')
+        sys.exit()
+    else:
+        K = 1 - r12**2 - r13**2 - r23**2 + 2*r12*r13*r23
+        denominator = np.sqrt(2*K*(n-1)/(n-3) + (((r12+r13)**2)/4)*((1-r23)**3))
+        numerator = (r12-r13) * np.sqrt((n-1)*(1+r23))
+        t = numerator / denominator
+        p = 1 - stats.t.cdf(t, df=n-3) # changed to n-3 on 30/11/14
+        return t, p
+
+def human_metric_correlation(data_df, human_col, metrics_cols, partial_correlation=True, partial_correlation_variable=None):
+    """
+    human_df: pandas dataframe, should only contain one column corresponding to human judgements
+    metrics_df: pandas dataframe, columns are metrics.
+    partial_correlation: bool - whether to use partial correlations.
+
+    returns a pandas dataframe with pearson and spearman correlation results
+    """
+    correlations = []
+    named_correlations = dict()
+    for metric in metrics_cols:
+        if metric not in data_df:
+            correlations.append([0, 0, 0, 0])
+            named_correlations[metric] = [0, 0, 0, 0]
+            print(f'Warning: {metric} not in dataframe.')
+            continue
+        mask = (data_df[metric].isnull() == False) & (data_df[human_col].isnull() == False)
+        X = data_df[metric][mask]
+        Y = data_df[human_col][mask]
+        if partial_correlation:
+            assert partial_correlation_variable is not None, f'You must specify a column to use as confounding variable for partial correlation calculation'
+            Q = np.array(data_df[mask][partial_correlation_variable])
+            enc = OneHotEncoder(handle_unknown='ignore')
+            Q = enc.fit_transform(Q.reshape(-1, 1))
+            pred_X = LinearRegression().fit(Q, X).predict(Q)
+            pred_Y = LinearRegression().fit(Q, Y).predict(Q)
+            X = X - pred_X
+            Y = Y - pred_Y
+        print(f'Info: metric {metric} used {len(X)} summaries to calculate correlation.')
+        pr, pp = pearsonr(X, Y)
+        sr, sp = spearmanr(X, Y)
+        correlations.append([pr, pp, sr, sp])
+        named_correlations[metric] = [pr, pp, sr, sp]
+    correlation_df = pd.DataFrame.from_dict(
+        named_correlations,
+        orient='index',
+        columns=['pearson', 'pearson p-value', 'spearman', 'spearman p-value']
+    )
+    return correlation_df
+
+def metric_metric_correlation(data_df, human_col, metrics_cols, partial_correlation=True, partial_correlation_variable=None):
+    """
+    metrics_df: pandas dataframe, columns taken as metrics
+    partial_correlation: bool - whether to use partial correlations.
+
+    returns of tuple with two dataframes: (correlation_df, williams_df)
+    correlation_df is a dataframe that contains metric-metric pearson correlation 
+    williams_df is a dataframe of booleans on weather the two metrics are different in statistically significant terms
+    """
+    correlations = []
+    williams = []
+    for i, metric1 in enumerate(metrics_cols):
+        correlation_metric = []
+        williams_metric = []
+        for j, metric2 in enumerate(metrics_cols):
+            if j == i:
+                correlation_metric.append(1)
+                williams_metric.append(False)
+                continue
+            mask1 = (data_df[metric1].isnull() == False) & (data_df['model_name'] != 'reference')
+            mask2 = (data_df[metric2].isnull() == False) & (data_df['model_name'] != 'reference')
+            mask3 = (data_df[human_col].isnull() == False)
+            mask = mask1 & mask2 & mask3
+            X = data_df[metric1][mask]
+            Y = data_df[metric2][mask]
+            Z = data_df[human_col][mask]
+            if partial_correlation_variable is not None:
+                Q = np.array(data_df[mask][partial_correlation_variable])
+                enc = OneHotEncoder(handle_unknown='ignore')
+                Q = enc.fit_transform(Q.reshape(-1, 1))
+                pred_X = LinearRegression().fit(Q, X).predict(Q)
+                pred_Y = LinearRegression().fit(Q, Y).predict(Q)
+                pred_Z = LinearRegression().fit(Q, Z).predict(Q)
+                X = X - pred_X
+                Y = Y - pred_Y    
+                Z = Z - pred_Z                    
+            r12, _ = pearsonr(X, Z)
+            r13, _ = pearsonr(Y, Z)
+            r23, _ = pearsonr(X, Y)
+            n = min(len(X), len(Y))
+            if r12 < r13:
+                r12, r13 = r13, r12
+            _, p = williams_test(r12, r13, r23, n)
+            correlation_metric.append(r23)
+            williams_metric.append(p)
+        correlations.append(correlation_metric)
+        williams.append(williams_metric)
+    correlations_df = pd.DataFrame(correlations, index=metrics_cols, columns=metrics_cols)
+    williams_df = pd.DataFrame(williams, index=metrics_cols, columns=metrics_cols)
+    return (correlations_df, williams_df)
+
+def ablation(data_df, human_col, ablations_cols, metrics_cols, partial_correlation=True, partial_correlation_variable=None):
+    """
+    human_df: pandas dataframe, should only contain one column corresponding to human judgements
+    ablations_df: pandas dataframe, each column corresponds to a different ablation of the human judgements
+    metrics_df: pandas dataframe, columns are metrics.
+    partial_correlation: bool - whether to use partial correlations.
+
+    returns a dataframe each row corresponding to a different ablation
+    """
+    ablations_dict = dict()
+    
+    human_df = human_metric_correlation(data_df, human_col, metrics_cols, partial_correlation=partial_correlation, partial_correlation_variable=partial_correlation_variable)
+    human_correlation = human_df['pearson']
+
+    for ablation in ablations_cols:
+        ablation_df = human_metric_correlation(data_df, ablation, metrics_cols, partial_correlation=partial_correlation, partial_correlation_variable=partial_correlation_variable)
+        ablation_correlation = ablation_df['pearson']
+        ablations_dict[ablation] = human_correlation - ablation_correlation
+    ablations_df = pd.DataFrame(ablations_dict, index=metrics_cols)
+    return ablations_df
+
+def plot_ablations(ablation_df, save_path):
+    """
+    ablation_df: pandas dataframe, the output of ablation function
+    save_path: str, where to save the plot
+
+    Plots the ablation_df and possibly saves it to the location
+    """
+    ax = ablation_df.plot.bar(figsize=(10,4), rot=0)
+    plt.xticks(rotation=45)
+    if not save_path:
+        save_path = '.'
+    fig = ax.get_figure()
+    fig.savefig(os.path.join(save_path, 'ablations_plot.pdf'), bbox_inches='tight')
+    
+
+def load_metrics(data_df, metrics_info, base_path, overwrite_cache=False):
+    """
+    data_df: pandas dataframe, must have columns 'hash' and 'model_name'
+    metrics_info: dictionary containing the information about the metrics
+        schema should look like
+        {
+            "path": "PATH TO FOLDER",
+            "scores": [
+                {"name": "NAME OF SCORE", "key": "KEY TO EXTRACT SCORE"}
+            ]
+        }
+    """
+    metrics_cols = []
+    for metric_info in metrics_info:
+        for score_info in metric_info['scores']:
+            if overwrite_cache or (score_info['name'] not in data_df):
+                data_df[score_info['name']] = data_df.apply(
+                    get_score_lambda(score_info['key'], os.path.join(base_path, metric_info['path'])),
+                    axis=1
+                )
+            else:
+                print(f'Using cached data for metric {score_info["name"]}')
+            metrics_cols.append(score_info['name'])
+    return data_df, metrics_cols
+
+def get_score_lambda(score, path):
+    def get_score(row):
+        try:
+            with open(path+'/'+row['hash']+'.json') as infile:
+                example = json.loads(infile.read())
+                model_name = row['model_name'].replace('_lines', '')
+                if type(score) != str and len(score) > 1:
+                    return example[model_name+"_"+score[0]][score[1]]
+                else:
+                    assert model_name+"_"+score in example, path+'/'+row['hash']+'.json'+' '+model_name
+                    return example[model_name+"_"+score]
+        except:
+            print(f'File {row["hash"]+".json"} was not found at path {path}')
+    return get_score
+
+def cache_data(path, data_df):
+    if not os.path.exists(path):
+        os.makedirs(path)
+    data_df.to_csv(os.path.join(path, 'data_cache.csv'), index=False)
+
+def main(args):
+    """
+    1. Load the data into a dataframe: each row corresponds should have hash and model_name column
+    2. Call the functions according to what the user requests
+    """
+    with open(args['metrics_info']) as infile:
+        metrics_info = json.loads(infile.read())
+
+    # Load from cache if available.
+    if os.path.isdir(os.path.join(args['base_path'], args['cache_path'])):
+        data_df = pd.read_csv(os.path.join(args['base_path'], args['cache_path'], 'data_cache.csv'))
+    else:
+        data_df = pd.read_csv(os.path.join(args['base_path'], args['human_eval_path']))
+    # Load metrics that are not in data_df already (unless overwrite cache)
+    data_df, metrics_cols_all = load_metrics(data_df, metrics_info, args['base_path'], overwrite_cache=args['overwrite_cache'])
+    
+    # Store df as cache so that we don't have to load it again.
+    cache_data(os.path.join(args['base_path'], args['cache_path']), data_df)
+
+    human_col = args['human']
+    ablations_cols = args['ablations']
+    assert all([metric in metrics_cols_all for metric in args['metrics']]), f'not all required metrics are in the metric info file {args["metrics"]}'
+    metrics_cols = args['metrics']
+
+    # Select dataset and models if specified.
+    if args['dataset']:
+        mask = (data_df['dataset'] == args['dataset']) & (data_df['model_name'] != 'reference')
+        df_data = df_data[mask]
+    if args['model_name']:
+        mask = (data_df['model_name'].isin(args['model_name'])) & (data_df['model_name'] != 'reference')
+        df_data = df_data[mask]
+
+    out_df, williams_df = None, None
+    if args['mode'] == 'hm-correlation':
+        out_df = human_metric_correlation(
+            data_df,
+            human_col,
+            metrics_cols,
+            partial_correlation=not args['no_partial_correlation'],
+            partial_correlation_variable=args['partial_correlation_variable']
+        )
+    elif args['mode'] == 'mm-correlation':
+        out_df, williams_df = metric_metric_correlation(
+            data_df,
+            human_col,
+            metrics_cols,
+            partial_correlation=not args['no_partial_correlation'],
+            partial_correlation_variable=args['partial_correlation_variable']
+        )
+    elif args['mode'] == 'ablations':
+        out_df = ablation(
+            data_df, 
+            human_col, 
+            ablations_cols, 
+            metrics_cols, 
+            partial_correlation=not args['no_partial_correlation'], 
+            partial_correlation_variable=args['partial_correlation_variable']
+        )
+    elif args['mode'] == 'ablations-plot':
+        out_df = ablation(
+            data_df, 
+            human_col, 
+            ablations_cols, 
+            metrics_cols, 
+            partial_correlation=not args['no_partial_correlation'], 
+            partial_correlation_variable=args['partial_correlation_variable']
+        )
+        plot_ablations(out_df, args['store_path'])
+    else:
+        raise KeyError
+    
+    print(out_df)
+    if args['store_path']:
+        if out_df is not None:
+            out_df.to_json(os.path.join(args['store_path'], 'out_df.json'), indent=4)
+        if williams_df is not None:
+            williams_df.to_json(os.path.join(args['store_path'], 'williams.json'), indent=4)
+
+if __name__ == '__main__':
+    args = parse_args(sys.argv[1:])
+    main(args)

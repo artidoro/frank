@@ -1,0 +1,103 @@
+{
+    "BERTS2S": "the new owners of bernard matthews have said they are \" confident \" a new pension pension scheme will be changed.",
+    "BERTS2S_lines": [
+        "the new owners of bernard matthews have said they are \" confident \" a new pension pension scheme will be changed."
+    ],
+    "TConvS2S": "the new owners of the bernard matthews have said they are ``dismayed\\'\\'that a new pension scheme will be held in the uk.",
+    "TConvS2S_lines": [
+        "the new owners of the bernard matthews have said they are ``dismayed\\'\\'that a new pension scheme will be held in the uk."
+    ],
+    "PtGen": "a new pension scheme to restore bernard matthews\\'s chicken and chicken has been given guarantees by the unite union.",
+    "PtGen_lines": [
+        "a new pension scheme to restore bernard matthews\\'s chicken and chicken has been given guarantees by the unite union."
+    ],
+    "TranS2S": "the turkey co-founder bernard matthews has been given the green light by the unite union.",
+    "TranS2S_lines": [
+        "the turkey co-founder bernard matthews has been given the green light by the unite union."
+    ],
+    "article": "The turkey firm was sold to the food tycoon Ranjit Boparan on Tuesday.There had been fears that the new owners would not take on the existing workers' pension scheme.But Unite regional officer Steve Harley said: \"We had productive talks and we were given guarantees that all current agreements will be honoured.\"Unite said it understood that the Bernard Matthews final salary pension scheme was closed in 2004 and that its members presently have an alternative pension scheme which is unaffected the takeover.The Boparan Private Office, the \"chicken king\" Mr Boparan's private investment, confirmed that the current pension arrangements with Bernard Matthews would continue under the new ownership.Mr Harley met with representatives from Boparan at the Great Witchingham headquarters.He said: \"It was made clear that the new owner wishes to restore Bernard Matthews to its former position as a highly profitable business.\"This would be achieved by greater investment in the business, cost savings and utilising the present spare capacity at Bernard Matthews to process chicken and not just turkeys.\"",
+    "article_lines": [
+        "The turkey firm was sold to the food tycoon Ranjit Boparan on Tuesday.",
+        "There had been fears that the new owners would not take on the existing workers' pension scheme.",
+        "But Unite regional officer Steve Harley said: \"We had productive talks and we were given guarantees that all current agreements will be honoured.",
+        "\"Unite said it understood that the Bernard Matthews final salary pension scheme was closed in 2004 and that its members presently have an alternative pension scheme which is unaffected the takeover.",
+        "The Boparan Private Office, the \"chicken king\" Mr Boparan's private investment, confirmed that the current pension arrangements with Bernard Matthews would continue under the new ownership.",
+        "Mr Harley met with representatives from Boparan at the Great Witchingham headquarters.",
+        "He said: \"It was made clear that the new owner wishes to restore Bernard Matthews to its former position as a highly profitable business.",
+        "\"This would be achieved by greater investment in the business, cost savings and utilising the present spare capacity at Bernard Matthews to process chicken and not just turkeys.\""
+    ],
+    "entity_counter": {
+        "The turkey firm": 1,
+        "the food tycoon": 1,
+        "Ranjit Boparan": 2,
+        "fears": 1,
+        "the new owners": 1,
+        "the existing workers' pension scheme": 2,
+        "Unite regional officer Steve Harley": 2,
+        "productive talks": 1,
+        "guarantees": 1,
+        "all current agreements": 1,
+        "its members": 1,
+        "an alternative pension scheme": 1,
+        "the takeover": 1,
+        "The Boparan Private Office": 1,
+        "the \"chicken king": 1,
+        "Mr Boparan's private investment": 1,
+        "the current pension arrangements": 1,
+        "Bernard Matthews": 3,
+        "the new ownership": 1,
+        "representatives": 1,
+        "the Great Witchingham headquarters": 1,
+        "the new owner": 1,
+        "its former position": 1,
+        "a highly profitable business": 1,
+        "\"This": 1,
+        "greater investment": 1,
+        "the business": 1,
+        "cost": 1,
+        "savings": 1,
+        "the present spare capacity": 1,
+        "chicken": 1,
+        "not just turkeys": 1
+    },
+    "negative_entity": "George W Bush (pictured)",
+    "url": "http://web.archive.org/web/20170122163830/http://www.bbc.co.uk:80/news/uk-england-norfolk-37429966",
+    "hash": "37429966",
+    "traps": [
+        [
+            "F0",
+            "the turkey firm was sold to the food tycoon ranjit boparan on tuesday."
+        ],
+        [
+            "F6",
+            "\"unite said it understood that the bernard matthews final salary pension scheme was closed in 2004 and that his members presently have an alternative pension scheme which is unaffected the takeover."
+        ],
+        [
+            "F0",
+            "the turkey firm was sold to the food tycoon ranjit boparan on tuesday."
+        ],
+        [
+            "F1",
+            "the turkey firm was not sold to the food tycoon ranjit boparan on tuesday ."
+        ],
+        [
+            "F0",
+            "the turkey firm was sold to the food tycoon ranjit boparan on tuesday."
+        ],
+        [
+            "F0",
+            "the turkey firm was sold to the food tycoon ranjit boparan on tuesday."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "a union has welcomed reassurances from the new owner of bernard matthews over job security and pensions.",
+    "BERTS2S_dep": 0.9989573955535889,
+    "TConvS2S_dep": 0.9987990856170654,
+    "PtGen_dep": 0.9984593391418457,
+    "TranS2S_dep": 0.9998014569282532
+}

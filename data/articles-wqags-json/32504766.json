@@ -1,0 +1,125 @@
+{
+    "BERTS2S": "forty-eight people are feared dead after a passenger ferry caught fire off the coast of spain.",
+    "BERTS2S_lines": [
+        "forty-eight people are feared dead after a passenger ferry caught fire off the coast of spain."
+    ],
+    "TConvS2S": "dozens of people have been injured in a fire at a cargo ship in spain\\'s canary islands, officials say.",
+    "TConvS2S_lines": [
+        "dozens of people have been injured in a fire at a cargo ship in spain\\'s canary islands, officials say."
+    ],
+    "PtGen": "two people have been rescued from a burning ferry off the coast of spain, the balearic islands say.",
+    "PtGen_lines": [
+        "two people have been rescued from a burning ferry off the coast of spain, the balearic islands say."
+    ],
+    "TranS2S": "a spanish cargo ship has caught fire on board a spanish cargo ship which had been burning for more than a week.",
+    "TranS2S_lines": [
+        "a spanish cargo ship has caught fire on board a spanish cargo ship which had been burning for more than a week."
+    ],
+    "article": "The Sorrento was travelling to the coastal city of Valencia when the blaze began and quickly got out of control.The passengers were evacuated from the burning ship on to lifeboats and have been rescued by another ship.At least three people have been injured and have been taken to hospital by helicopter, Spanish media say. One is reported to be seriously hurt.The ship was about 27km (17 miles) from Mallorca when the fire broke out on Tuesday afternoon on one of the car decks. The reason for the fire was unclear.Several ships including two passenger ferries were sent to help. The passengers and crew on the life rafts eventually boarded one of the ferries, the Puglia.Spanish officials said the rescued passengers were on their way back to Palma de Mallorca and were expected to arrive at the port in a few hours' time. Psychologists were being asked to go to the port to provide counselling.\"Due to the fire that it has suffered, The Sorrento may sink in the position in which it finds itself,\" the Balearic Islands port authority said in a tweet (in Spanish).The ferry, owned by Italian company Atlantica di Navigazione, sent out distress signals at 13:50 local time (11:50 GMT), said Spain's Ministry of Public Works.At first, the ministry said the captain did not believe it would be necessary to abandon the ship but the fire became so intense that a full evacuation was called for.",
+    "article_lines": [
+        "The Sorrento was travelling to the coastal city of Valencia when the blaze began and quickly got out of control.",
+        "The passengers were evacuated from the burning ship on to lifeboats and have been rescued by another ship.",
+        "At least three people have been injured and have been taken to hospital by helicopter, Spanish media say.",
+        "One is reported to be seriously hurt.",
+        "The ship was about 27km (17 miles) from Mallorca when the fire broke out on Tuesday afternoon on one of the car decks.",
+        "The reason for the fire was unclear.",
+        "Several ships including two passenger ferries were sent to help.",
+        "The passengers and crew on the life rafts eventually boarded one of the ferries, the Puglia.",
+        "Spanish officials said the rescued passengers were on their way back to Palma de Mallorca and were expected to arrive at the port in a few hours' time.",
+        "Psychologists were being asked to go to the port to provide counselling.",
+        "\"Due",
+        "to the fire that it has suffered, The Sorrento may sink in the position in which it finds itself,\" the Balearic Islands port authority said in a tweet (in Spanish).The ferry, owned by Italian company Atlantica di Navigazione, sent out distress signals at 13:50 local time (11:50 GMT), said Spain's Ministry of Public Works.",
+        "At first, the ministry said the captain did not believe it would be necessary to abandon the ship but the fire became so intense that a full evacuation was called for."
+    ],
+    "entity_counter": {
+        "The Sorrento": 2,
+        "the coastal city": 1,
+        "Valencia": 1,
+        "the blaze": 1,
+        "control": 1,
+        "The passengers": 2,
+        "the burning ship": 2,
+        "lifeboats": 1,
+        "another ship": 1,
+        "At least three people": 1,
+        "hospital": 1,
+        "helicopter": 1,
+        "Spanish media": 1,
+        "Mallorca": 1,
+        "the fire": 4,
+        "the car decks": 1,
+        "The reason": 1,
+        "Several ships": 1,
+        "two passenger ferries": 1,
+        "crew": 1,
+        "the life rafts": 1,
+        "the ferries": 1,
+        "the Puglia": 1,
+        "Spanish officials": 1,
+        "The passengers and crew on the life rafts": 1,
+        "their way": 1,
+        "Palma de Mallorca": 1,
+        "the port": 2,
+        "a few hours' time": 1,
+        "Psychologists": 1,
+        "counselling": 1,
+        "the position": 1,
+        "the Balearic Islands port authority": 1,
+        "a tweet": 1,
+        "Spanish).The ferry": 1,
+        "Italian company Atlantica di Navigazione": 1,
+        "distress signals": 1,
+        "13:50 local time": 1,
+        "(11:50 GMT": 1,
+        "Spain's Ministry": 1,
+        "Public Works": 1,
+        "Spain's Ministry of Public Works": 1,
+        "the captain": 1,
+        "the ship": 1,
+        "a full evacuation": 1
+    },
+    "negative_entity": "Sir Oliver Popplewell",
+    "url": "http://web.archive.org/web/20150429153422/http://www.bbc.com/news/world-europe-32504766",
+    "hash": "32504766",
+    "traps": [
+        [
+            "F5",
+            "believe gmt eventually has so crew."
+        ],
+        [
+            "F5",
+            "fire back is the navigazione."
+        ],
+        [
+            "F1",
+            "one is not reported to be seriously hurt ."
+        ],
+        [
+            "F0",
+            "the sorrento was travelling to the coastal city of valencia when the blaze began and quickly got out of control."
+        ],
+        [
+            "F4",
+            "sidwell, 34, has made 32 championship appearances this season to help the seagulls achieve promotion to the top flight for the first time in 34 years."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "a fire has broken out on a spanish ferry from mallorca, forcing some 150 passengers and crew to abandon ship.",
+    "BERTS2S_qags": 1.0,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 0.0,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 1.0,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 0.0,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.0,
+    "TConvS2S_qags10": 0.0,
+    "PtGen_qags10": 0.1,
+    "TranS2S_qags10": 0.1
+}

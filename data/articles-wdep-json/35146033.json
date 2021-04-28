@@ -1,0 +1,124 @@
+{
+    "BERTS2S": "more than 10, 000 journeys could be made by a rail link between england and the uk over the next 30 years, a study has found.",
+    "BERTS2S_lines": [
+        "more than 10, 000 journeys could be made by a rail link between england and the uk over the next 30 years, a study has found."
+    ],
+    "TConvS2S": "a study into the route of a railway line between the uk and the north-east of england has been described as ``inadequate\\'\\'by a report.",
+    "TConvS2S_lines": [
+        "a study into the route of a railway line between the uk and the north-east of england has been described as ``inadequate\\'\\'by a report."
+    ],
+    "PtGen": "the future of the uk\\'s vulnerable dawlish line could be hit by 2040, according to a new report.",
+    "PtGen_lines": [
+        "the future of the uk\\'s vulnerable dawlish line could be hit by 2040, according to a new report."
+    ],
+    "TranS2S": "a major study has suggested the long-term future of the main rail line between london and the south of england could be reopening to the public",
+    "TranS2S_lines": [
+        "a major study has suggested the long-term future of the main rail line between london and the south of england could be reopening to the public"
+    ],
+    "article": "The report focuses on the impact of sea level rises on the Dawlish to Teignmouth line which connects Cornwall and Devon to the rest of the UK.The line was closed for two months in 2014 after it was destroyed by storms.Network Rail said the study would be \"key\" to long-term developments.The report, published in the Journal of Transport Geography, said that 10% of journeys on the line, which was rebuilt and reopened in April 2014, could be affected by 2040.The report said adverse weather disrupted the line about 10 days per year, but according to sea-level predictions that could rise to almost 40 by 2040 and up to 120 by 2100.Academics from Plymouth University, the University of Leeds and the University of York identified a link between sea-level change and rail incidents over the last 150 years.The academics said there could be similar implications for other vulnerable stretches of railway throughout Wales, south-east England, the Cumbrian coast and Scotland.Dr David Dawson, from the University of Leeds, said the long-term future of the line was \"really worrying\".The report predicts diverting routes could potentially cost billions of pounds.Network Rail said it hoped to develop \"long-term interventions\" to \"secure the future\" of the line.The Department for Transport said it had invested \u00c2\u00a331m into improving the resilience of the route and was \"exploring the potential for longer-term improvements in the area\".In January, the prime minister backed a new Okehampton railway route as the \"most resilient\" alternative to the vulnerable Dawlish line.",
+    "article_lines": [
+        "The report focuses on the impact of sea level rises on the Dawlish to Teignmouth line which connects Cornwall and Devon to the rest of the UK.The line was closed for two months in 2014 after it was destroyed by storms.",
+        "Network Rail said the study would be \"key\" to long-term developments.",
+        "The report, published in the Journal of Transport Geography, said that 10% of journeys on the line, which was rebuilt and reopened in April 2014, could be affected by 2040.The report said adverse weather disrupted the line about 10 days per year, but according to sea-level predictions that could rise to almost 40 by 2040 and up to 120 by 2100.Academics from Plymouth University, the University of Leeds and the University of York identified a link between sea-level change and rail incidents over the last 150 years.",
+        "The academics said there could be similar implications for other vulnerable stretches of railway throughout Wales, south-east England, the Cumbrian coast and Scotland.",
+        "Dr David Dawson, from the University of Leeds, said the long-term future of the line was \"really worrying\".",
+        "The report predicts diverting routes could potentially cost billions of pounds.",
+        "Network Rail said it hoped to develop \"long-term interventions\" to \"secure the future\" of the line.",
+        "The Department for Transport said it had invested \u00c2\u00a331m into improving the resilience of the route and was \"exploring the potential for longer-term improvements in the area\".",
+        "In January, the prime minister backed a new Okehampton railway route as the \"most resilient\" alternative to the vulnerable Dawlish line."
+    ],
+    "entity_counter": {
+        "The report": 2,
+        "the impact": 1,
+        "sea level": 1,
+        "the Dawlish": 1,
+        "Teignmouth line": 1,
+        "Cornwall": 1,
+        "Devon": 1,
+        "the rest": 1,
+        "the UK.The line": 1,
+        "storms": 1,
+        "Network Rail": 2,
+        "the study": 1,
+        "long-term developments": 1,
+        "the Journal": 1,
+        "Transport Geography": 1,
+        "journeys": 1,
+        "the line": 4,
+        "2040.The report": 2,
+        "adverse weather": 1,
+        "sea-level predictions": 1,
+        "Plymouth University": 1,
+        "the University": 3,
+        "Leeds": 2,
+        "York": 1,
+        "a link": 1,
+        "sea-level change and rail incidents": 1,
+        "The academics": 1,
+        "similar implications": 1,
+        "other vulnerable stretches": 1,
+        "railway": 1,
+        "Wales": 1,
+        "south-east England": 1,
+        "the Cumbrian coast": 1,
+        "Scotland": 1,
+        "Dr David Dawson": 1,
+        "the long-term future": 1,
+        "really worrying\"": 1,
+        "diverting routes": 1,
+        "\"long-term interventions": 1,
+        "the future": 1,
+        "The Department": 1,
+        "Transport": 1,
+        "\u00c2\u00a331m": 1,
+        "the resilience": 1,
+        "the route": 1,
+        "the potential": 1,
+        "longer-term improvements": 1,
+        "the area\"": 1,
+        "the prime minister": 1,
+        "a new Okehampton railway route": 1,
+        "the \"most resilient\" alternative": 1,
+        "the vulnerable Dawlish line": 1
+    },
+    "negative_entity": "Manchester United",
+    "url": "http://web.archive.org/web/20170109041224/http://www.bbc.co.uk/news/uk-england-devon-35146033",
+    "hash": "35146033",
+    "traps": [
+        [
+            "F0",
+            "the report focuses on the impact of sea level rises on the dawlish to teignmouth line which connects cornwall and devon to the rest of the uk.the line was closed for two months in 2014 after it was destroyed by storms."
+        ],
+        [
+            "F0",
+            "the report focuses on the impact of sea level rises on the dawlish to teignmouth line which connects cornwall and devon to the rest of the uk.the line was closed for two months in 2014 after it was destroyed by storms."
+        ],
+        [
+            "F0",
+            "the report focuses on the impact of sea level rises on the dawlish to teignmouth line which connects cornwall and devon to the rest of the uk.the line was closed for two months in 2014 after it was destroyed by storms."
+        ],
+        [
+            "F0",
+            "the report focuses on the impact of sea level rises on the dawlish to teignmouth line which connects cornwall and devon to the rest of the uk.the line was closed for two months in 2014 after it was destroyed by storms."
+        ],
+        [
+            "F4",
+            "share this withemailfacebookmessengermessengertwitterpinterestwhatsapplinkedincopy this linkall glass and concrete beside a fast-flowing stream, the longford town centre was to be a cathedral of commerce - now it stands as a monument to the end of the celtic tiger and the republic of ireland's economic crash and burn."
+        ],
+        [
+            "F0",
+            "the report focuses on the impact of sea level rises on the dawlish to teignmouth line which connects cornwall and devon to the rest of the uk.the line was closed for two months in 2014 after it was destroyed by storms."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "climate change could disrupt up to a third of rail services travelling to and from the south west within the next 100 years, a study suggests.",
+    "BERTS2S_dep": 0.9811787009239197,
+    "TConvS2S_dep": 0.9320604205131531,
+    "PtGen_dep": 0.9339557886123657,
+    "TranS2S_dep": 0.8905122876167297
+}

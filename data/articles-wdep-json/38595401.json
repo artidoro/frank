@@ -1,0 +1,102 @@
+{
+    "BERTS2S": "truro city head coach marek churcher has praised his side\\'s performance in the first half of their national rugby league campaign.",
+    "BERTS2S_lines": [
+        "truro city head coach marek churcher has praised his side\\'s performance in the first half of their national rugby league campaign."
+    ],
+    "TConvS2S": "redruth head coach marek churcher says his side are capable of reaching the top of the table with a 2-0 win at home to plymouth.",
+    "TConvS2S_lines": [
+        "redruth head coach marek churcher says his side are capable of reaching the top of the table with a 2-0 win at home to plymouth."
+    ],
+    "PtGen": "exeter city manager brian churcher says his side are ``making 70-plus tackles\\'\\'in the premier league title race.",
+    "PtGen_lines": [
+        "exeter city manager brian churcher says his side are ``making 70-plus tackles\\'\\'in the premier league title race."
+    ],
+    "TranS2S": "reds head coach tom church says the team are in \" high tackles \" as they prepare to face cornwall in the one-day cup.",
+    "TranS2S_lines": [
+        "reds head coach tom church says the team are in \" high tackles \" as they prepare to face cornwall in the one-day cup."
+    ],
+    "article": "The Reds, who are fifth in National Two South, beat third-placed Chinnor 29-12 for a second win in a row.\"Tommy Phillips, Ben Priddey and Craig Williams really led the team from the front,\" Churcher told BBC Cornwall.\"If your front row and front five are making 70-plus tackles in a game you're going to be doing well and that's what happened against Chinnor.\"The Reds face seven teams who are below them in the table in their next eight games, as well as league leaders Old Elthamians.Churcher believes his side still has a lot of room for improvement, adding: \"Chinnor wasn't the complete performance, but emotionally it was a really dogged performance.\"We've got to build on what we did last weekend, because if we don't, last weekend will have been a waste of time.\"",
+    "article_lines": [
+        "The Reds, who are fifth in National Two South, beat third-placed Chinnor 29-12 for a second win in a row.",
+        "\"Tommy",
+        "Phillips, Ben Priddey and Craig Williams really led the team from the front,\" Churcher told BBC Cornwall.",
+        "\"If",
+        "your front row and front five are making 70-plus tackles in a game you're going to be doing well",
+        "and that's what happened against Chinnor.",
+        "\"The",
+        "Reds face seven teams who are below them in the table in their next eight games, as well as league leaders Old Elthamians.",
+        "Churcher believes his side still has a lot of room for improvement, adding: \"Chinnor wasn't the complete performance, but emotionally it was a really dogged performance.",
+        "\"We've got to build on what we did last weekend, because if we don't, last weekend will have been a waste of time.\""
+    ],
+    "entity_counter": {
+        "The Reds": 1,
+        "National Two South": 1,
+        "third-placed Chinnor": 1,
+        "a second win": 1,
+        "a row": 1,
+        "Phillips": 1,
+        "Ben Priddey": 1,
+        "Craig Williams": 1,
+        "the team": 1,
+        "the front": 1,
+        "Churcher": 2,
+        "BBC Cornwall": 1,
+        "your front row": 1,
+        "70-plus tackles": 1,
+        "a game": 1,
+        "Chinnor": 2,
+        "Reds": 1,
+        "seven teams": 1,
+        "the table": 1,
+        "their next eight games": 1,
+        "his side": 1,
+        "a lot": 1,
+        "room": 1,
+        "improvement": 1,
+        "the complete performance": 1,
+        "a really dogged performance": 1,
+        "\"We've": 1,
+        "a waste": 1,
+        "time": 1
+    },
+    "negative_entity": "Bernadette",
+    "url": "http://web.archive.org/web/20170112234951/http://www.bbc.co.uk/sport/rugby-union/38595401",
+    "hash": "38595401",
+    "traps": [
+        [
+            "F1",
+            "the reds , who are not fifth in national two south , beat third - placed chinnor 29 - 12 for a second win in a row ."
+        ],
+        [
+            "F0",
+            "the reds, who are fifth in national two south, beat third-placed chinnor 29-12 for a second win in a row."
+        ],
+        [
+            "F1",
+            "the reds , who are not fifth in national two south , beat third - placed chinnor 29 - 12 for a second win in a row ."
+        ],
+        [
+            "F4",
+            "lib dem lord oates accused labour of being prepared to \"concede everything\", and the opposition's leader in the lords, baroness smith, responded that his party was giving people \"false hope\"."
+        ],
+        [
+            "F5",
+            "are to performance a a has doing phillips chinnor told."
+        ],
+        [
+            "F6",
+            "churcher believes your side still has a lot of room for improvement, adding: \"chinnor wasn't the complete performance, but emotionally it was a really dogged performance."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "redruth boss marek churcher says his side\\'s front row have been key to the club\\'s good form.",
+    "BERTS2S_dep": 0.9976657629013062,
+    "TConvS2S_dep": 0.9992087483406067,
+    "PtGen_dep": 0.9987761378288269,
+    "TranS2S_dep": 0.9986394047737122
+}

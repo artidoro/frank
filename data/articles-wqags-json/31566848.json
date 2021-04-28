@@ -1,0 +1,99 @@
+{
+    "BERTS2S": "a woman was assaulted and assaulted in a mcdonald\\'s restaurant in kent, police have said.",
+    "BERTS2S_lines": [
+        "a woman was assaulted and assaulted in a mcdonald\\'s restaurant in kent, police have said."
+    ],
+    "TConvS2S": "police have released cctv images of two men they want to speak to in connection with a serious assault in st george.",
+    "TConvS2S_lines": [
+        "police have released cctv images of two men they want to speak to in connection with a serious assault in st george."
+    ],
+    "PtGen": "a woman has been arrested after a fire broke out in a restaurant in greater manchester city centre, police have said.",
+    "PtGen_lines": [
+        "a woman has been arrested after a fire broke out in a restaurant in greater manchester city centre, police have said."
+    ],
+    "TranS2S": "three people have been treated in hospital after being attacked by three youths in a kent restaurant.",
+    "TranS2S_lines": [
+        "three people have been treated in hospital after being attacked by three youths in a kent restaurant."
+    ],
+    "article": "The victim was queuing for food at the branch in St George's Street, Canterbury at about 02:15 GMT on Friday when the assault occurred.Investigating officers said three men entered the restaurant and began being noisy and bumping into people.It is believed one of the group then set light to the woman's hair.Officers have released CCTV images of three men they are keen to speak to regarding the attack.Det Sgt Barry Carr said: \"Fortunately the fire was put out quickly and the victim was not seriously hurt, but things could clearly have turned out much worse.\"This was a nasty and extremely dangerous thing to do, and I urge anyone who recognises the men in the CCTV images to contact me as soon as possible.\"",
+    "article_lines": [
+        "The victim was queuing for food at the branch in St George's Street, Canterbury at about 02:15 GMT on Friday when the assault occurred.",
+        "Investigating officers said three men entered the restaurant and began being noisy and bumping into people.",
+        "It is believed one of the group then set light to the woman's hair.",
+        "Officers have released CCTV images of three men they are keen to speak to regarding the attack.",
+        "Det Sgt Barry Carr said: \"Fortunately the fire was put out quickly and the victim was not seriously hurt, but things could clearly have turned out much worse.",
+        "\"This was a nasty and extremely dangerous thing to do, and I urge anyone who recognises the men in the CCTV images to contact me as soon as possible.\""
+    ],
+    "entity_counter": {
+        "The victim": 2,
+        "food": 1,
+        "the branch": 1,
+        "St George's Street": 1,
+        "the assault": 1,
+        "officers": 1,
+        "three men": 2,
+        "the restaurant": 1,
+        "people": 1,
+        "the group": 1,
+        "light": 1,
+        "the woman's hair": 1,
+        "Officers": 1,
+        "CCTV images": 1,
+        "the attack": 1,
+        "Det Sgt Barry Carr": 1,
+        "the fire": 1,
+        "things": 1,
+        "\"This": 1,
+        "a nasty and extremely dangerous thing": 1,
+        "the men": 1,
+        "the CCTV images": 1
+    },
+    "negative_entity": "Bournemouth",
+    "url": "http://web.archive.org/web/20160305063244/http://www.bbc.co.uk/news/uk-england-kent-31566848",
+    "hash": "31566848",
+    "traps": [
+        [
+            "F5",
+            "to released could george much the restaurant carr are began being of officers queuing."
+        ],
+        [
+            "F6",
+            "officers have released cctv images of three men we are keen to speak to regarding the attack."
+        ],
+        [
+            "F4",
+            "the daggers, who reached league one in 2010, needed victory to keep their slim survival hopes alive."
+        ],
+        [
+            "F4",
+            "since violence flared in juba in july and spread to the previously peaceful southern equatoria states of south sudan, 340,000 people have fled the violence into neighbouring uganda."
+        ],
+        [
+            "F6",
+            "\"this was a nasty and extremely dangerous thing to do, and i urge anyone who recognises the men in the cctv images to contact us as soon as possible.\""
+        ],
+        [
+            "F6",
+            "\"this was a nasty and extremely dangerous thing to do, and i urge anyone who recognises the men in the cctv images to contact him as soon as possible.\""
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "a woman had her hair set alight in a ``nasty and extremely dangerous\\'\\'attack at a mcdonald\\'s restaurant in kent, police said.",
+    "BERTS2S_qags": 0.6,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 1.0,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 0.7,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 1.0,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.1,
+    "TConvS2S_qags10": 0.5444444444444445,
+    "PtGen_qags10": 0.6,
+    "TranS2S_qags10": 0.1
+}

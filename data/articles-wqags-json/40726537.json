@@ -1,0 +1,117 @@
+{
+    "BERTS2S": "guy martin has confirmed he will not race in the honda honda honda bike at next year\\'s isle of man tt.",
+    "BERTS2S_lines": [
+        "guy martin has confirmed he will not race in the honda honda honda bike at next year\\'s isle of man tt."
+    ],
+    "TConvS2S": "guy martin has said he will not compete in racing at this year\\'s ulster grand prix.",
+    "TConvS2S_lines": [
+        "guy martin has said he will not compete in racing at this year\\'s ulster grand prix."
+    ],
+    "PtGen": "ulster grand prix champion chris martin has been forced to pull out of the ulster grand prix because of injury.",
+    "PtGen_lines": [
+        "ulster grand prix champion chris martin has been forced to pull out of the ulster grand prix because of injury."
+    ],
+    "TranS2S": "northern ireland\\'s martin mcguinness has said he will not quit racing at the 2016 isle of man tt because of a mechanical problem.",
+    "TranS2S_lines": [
+        "northern ireland\\'s martin mcguinness has said he will not quit racing at the 2016 isle of man tt because of a mechanical problem."
+    ],
+    "article": "The English rider crashed at this year's TT and the Fireblade bike has been plagued by mechanical problems.Martin told MCN that he was quitting road racing but he later clarifying his position on Facebook.\"I've not given up on racing or road racing but I've got no plans to do anymore road racing on the Hondas this year,\" he said.Martin didn't race at the North West 200 after team-mate John McGuinness crashed in practice and he will not compete in next month's Ulster Grand Prix.He added: \"The TT was a bloody disaster, aside from walking the dog and racing the Mugen, I didn't enjoy it.\"It was clear even before that we were going to struggle and then it turned into me really being a test rider, which I did.\"But after we did more testing at Cadwell a few weeks back, I said to the team the bike won't be competitive at the Ulster Grand Prix and they decided to withdraw me from the event, although they didn't tell me, which is OK as the decision was made for me.\"There's no unfinished business and I want to race classics and oddball stuff.\"",
+    "article_lines": [
+        "The English rider crashed at this year's TT and the Fireblade bike has been plagued by mechanical problems.",
+        "Martin told MCN that he was quitting road racing",
+        "but he later clarifying his position on Facebook.",
+        "\"I've",
+        "not given up on racing or road racing",
+        "but I've got no plans to do anymore road racing on the Hondas this year,\" he said.",
+        "Martin didn't race at the North West 200 after team-mate John McGuinness crashed in practice and he will not compete in next month's Ulster Grand Prix.",
+        "He added: \"The TT was a bloody disaster, aside from walking the dog and racing the Mugen, I didn't enjoy it.",
+        "\"It was clear even before that we were going to struggle",
+        "and then it turned into me really being a test rider, which I did.",
+        "\"But",
+        "after we did more testing at Cadwell a few weeks back, I said to the team the bike won't be competitive at the Ulster Grand Prix and they decided to withdraw me from the event, although they didn't tell me, which is OK as the decision was made for me.",
+        "\"There's no unfinished business",
+        "and I want to race classics and oddball stuff.\""
+    ],
+    "entity_counter": {
+        "The English rider": 1,
+        "this year's TT": 1,
+        "the Fireblade bike": 1,
+        "mechanical problems": 1,
+        "Martin": 2,
+        "MCN": 1,
+        "road racing": 3,
+        "his position": 1,
+        "Facebook": 1,
+        "racing": 1,
+        "no plans": 1,
+        "the Hondas": 1,
+        "the North West": 1,
+        "team-mate John McGuinness": 1,
+        "practice": 1,
+        "next month's Ulster Grand Prix": 1,
+        "The TT": 1,
+        "a bloody disaster": 1,
+        "the dog": 1,
+        "the Mugen": 1,
+        "a test rider": 1,
+        "more testing": 1,
+        "Cadwell": 1,
+        "the team": 1,
+        "the bike": 1,
+        "the Ulster Grand Prix": 1,
+        "the event": 1,
+        "the decision": 1,
+        "\"There": 1,
+        "no unfinished business": 1,
+        "classics": 1,
+        "oddball stuff": 1
+    },
+    "negative_entity": "founder Jean-Marie Le Pen",
+    "url": "http://web.archive.org/web/20170726193105/http://www.bbc.com/sport/northern-ireland/40726537",
+    "hash": "40726537",
+    "traps": [
+        [
+            "F1",
+            "he added : \" the tt was a bloody disaster , aside from walking the dog and racing the mugen , i did enjoy it ."
+        ],
+        [
+            "F4",
+            "robert fidler built the house in salfords, in the surrey greenbelt, in 2000 and hid it behind hay bales."
+        ],
+        [
+            "F6",
+            "and then it turned into her really being a test rider, which i did."
+        ],
+        [
+            "F4",
+            "met police barrister richard horwell qc said suspects"
+        ],
+        [
+            "F4",
+            "match ends, inverness ct 2,"
+        ],
+        [
+            "F0",
+            "the english rider crashed at this year's tt and the fireblade bike has been plagued by mechanical problems."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "road racer guy martin says he will not compete for honda for the rest of 2017 after a frustrating season.",
+    "BERTS2S_qags": 1.0,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 1.0,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 0.85,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 1.0,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.1181818181818182,
+    "TConvS2S_qags10": 0.39999999999999997,
+    "PtGen_qags10": 0.0,
+    "TranS2S_qags10": 0.3
+}

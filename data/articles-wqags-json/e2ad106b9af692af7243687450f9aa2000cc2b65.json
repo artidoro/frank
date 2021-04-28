@@ -1,0 +1,170 @@
+{
+    "bart_reference": "Youssouf Mulumbu has revealed votes for the Player of the Year awards . West Brom midfielder has picked Harry Kane for the main award . Eden Hazard was selected by Mulumbu for the young player award .",
+    "bart": "youssouf mulumbu has cast his vote for the pfa player of the year awards . the west brom midfielder has picked tottenham striker harry kane for the top prize . the dr congo international has picked chelsea wideman eden hazard for the young player of the year prize .",
+    "id": "dm-test-e2ad106b9af692af7243687450f9aa2000cc2b65",
+    "filepath": "cnndm/dailymail/stories/e2ad106b9af692af7243687450f9aa2000cc2b65.story",
+    "bert_sum_reference": "youssouf mulumbu has revealed votes for the player of the year awards . west brom midfielder has picked harry kane for the main award . eden hazard was selected by mulumbu for the young player award .",
+    "bert_sum": "youssouf mulumbu has cast his vote for the pfa player of the year awards . west brom midfielder has picked harry kane and eden hazard for the main prizes . chelsea wideman hazard is mulumbu 's pick for the young player of year . click here for all the latest arsenal news .",
+    "bus_reference": "youssouf mulumbu has revealed votes for the player of the year awards . west brom midfielder has picked harry kane for the main award . eden hazard was selected by mulumbu for the young player award .",
+    "bus": "youssouf mulumbu cast his vote for the pfa player of the year awards . the west brom midfielder has picked harry kane and eden hazard for the top award . congo player posted an image of his voting slip to twitter on wednesday .",
+    "pgn_reference": "youssouf mulumbu has revealed votes for the player of the year awards . west brom midfielder has picked harry kane for the main award . eden hazard was selected by mulumbu for the young player award .",
+    "pgn": "harry kane has been given the nod by youssouf mulumbu for this season 's players ' player of the year award . the west brom midfielder has picked chelsea wideman eden hazard for the young player of the year award while chelsea wideman hazard is mulumbu 's pick for young player of the year .",
+    "s2s_reference": "youssouf mulumbu has revealed votes for the player of the year awards . west brom midfielder has picked harry kane for the main award . eden hazard was selected by mulumbu for the young player award .",
+    "s2s": "the west brom midfielder selected harry kane and eden hazard for the main prize . the west brom midfielder has picked up the award for the player of the year award . the west brom midfielder has picked harry kane and eden hazard for the main accolade .",
+    "hash": "e2ad106b9af692af7243687450f9aa2000cc2b65",
+    "url": "http://web.archive.org/web/20150416071959id_/http://www.dailymail.co.uk/sport/football/article-3030463/Harry-Kane-voted-players-Player-Year-Youssouf-Mulumbu-West-Brom-man-picks-Eden-Hazard-young-player-award.html",
+    "article": "Youssouf Mulumbu has cast his vote for the PFA Player of the Year awards and has picked Harry Kane and Eden Hazard for the main prizes. The West Brom midfielder has chosen Tottenham striker Kane for the top award while Chelsea wideman Hazard is Mulumbu's pick for young player of the year. The Baggies player posted an image of his voting slip to Twitter on Wednesday and asked his followers: 'What do u (sic) think?!' Harry Kane has been given the nod by Youssouf Mulumbu for this season's players' Player of the Year award The West Brom midfielder has picked Chelsea wideman Eden Hazard for the young player of the year prize Congo international Mulumbu posted his votes for this year's PFA awards to Twitter on Wednesday Mulumbu challenges QPR defender Yun Suk-Young during West Brom's 4-1 defeat at The Hawthorns Goalkeeper: Hugo Lloris Defenders: Nathaniel Clyne, John Terry, Jose Fonte, Cesar Azpilicueta Midfielders: Yannick Bolasie, Alexis Sanchez, Nemanja Matic, Eden Hazard Strikers: Harry Kane, Diego Costa Clearly impressed by Kane's 19 Premier League goals this term, Mulumbu has tipped the 21-year-old for the players' Player of the Year award while selecting Hazard, almost three years Kane's senior, for the young player's prize. The DR Congo international also showed his selections for Team of the Year and picked five Chelsea players in his XI. Hazard was joined  by Blues' team-mates John Terry, Cesar Azpilicueta, Nemanja Matic and John Terry. Hugo Lloris was given the nod in goal, Southampton defenders Nathaniel Clyne and Jose Fonte joined Terry and Azpilicueta at the back while Crystal Palace winger Yannick Bolasie and Arsenal frontman Alexis Sanchez made up the rest of Mulumbu's XI alongside Kane. Alexis Sanchez was selected in Mulumbu's PFA Team of the Year having impressed for Arsenal this term Tottenham goalkeeper Hugo Lloris was also picked in goal as Mulumbu selected his XI of the year",
+    "entity_counter": {
+        "Youssouf Mulumbu": 5,
+        "his vote": 1,
+        "Harry Kane": 4,
+        "Eden Hazard": 1,
+        "the main prizes": 1,
+        "The West Brom midfielder": 2,
+        "Tottenham striker Kane": 1,
+        "the top award": 1,
+        "Chelsea wideman Hazard": 1,
+        "Mulumbu's pick": 1,
+        "young player": 1,
+        "young player of the year": 1,
+        "an image": 1,
+        "his voting slip": 1,
+        "Twitter": 2,
+        "his followers": 1,
+        "(sic": 1,
+        "the nod": 2,
+        "Chelsea wideman Eden Hazard": 1,
+        "the young player": 1,
+        "the year prize": 1,
+        "his votes": 1,
+        "this year's PFA awards": 1,
+        "QPR defender Yun Suk-Young": 1,
+        "West Brom's 4-1 defeat": 1,
+        "The Hawthorns Goalkeeper": 1,
+        "Hugo Lloris Defenders": 1,
+        "Nathaniel Clyne": 2,
+        "John Terry": 3,
+        "Jose Fonte": 2,
+        "Cesar Azpilicueta Midfielders": 1,
+        "Yannick Bolasie": 1,
+        "Alexis Sanchez": 3,
+        "Nemanja Matic": 2,
+        "Eden Hazard Strikers": 1,
+        "Diego Costa": 1,
+        "Kane's 19 Premier League goals": 1,
+        "Hazard": 2,
+        "Kane's senior": 1,
+        "the young player's prize": 1,
+        "The DR Congo international": 1,
+        "his selections": 1,
+        "Team": 1,
+        "five Chelsea players": 1,
+        "his XI": 2,
+        "Blues' team-mates John Terry": 1,
+        "Cesar Azpilicueta": 1,
+        "Hugo Lloris": 2,
+        "goal": 2,
+        "Southampton defenders": 1,
+        "Azpilicueta": 1,
+        "the back": 1,
+        "Crystal Palace winger Yannick Bolasie": 1,
+        "Arsenal frontman": 1,
+        "the rest": 1,
+        "Mulumbu's XI": 1,
+        "Mulumbu's PFA Team": 1,
+        "Arsenal": 1,
+        "Mulumbu": 1
+    },
+    "bart_lines": [
+        "Youssouf Mulumbu has cast his vote for the PFA Player of the Year awards .",
+        "The West Brom midfielder has picked Tottenham striker Harry Kane for the top prize .",
+        "The DR Congo international has picked Chelsea wideman Eden Hazard for the young player of the year prize ."
+    ],
+    "bert_sum_lines": [
+        "youssouf mulumbu has cast his vote for the pfa player of the year awards .",
+        "west brom midfielder has picked harry kane and eden hazard for the main prizes .",
+        "chelsea wideman hazard is mulumbu 's pick for the young player of year .",
+        "click here for all the latest arsenal news ."
+    ],
+    "bus_lines": [
+        "youssouf mulumbu cast his vote for the pfa player of the year awards .",
+        "the west brom midfielder has picked harry kane and eden hazard for the top award .",
+        "congo player posted an image of his voting slip to twitter on wednesday ."
+    ],
+    "pgn_lines": [
+        "harry kane has been given the nod by youssouf mulumbu for this season 's players ' player of the year award .",
+        "the west brom midfielder has picked chelsea wideman eden hazard for the young player of the year award while chelsea wideman hazard is mulumbu 's pick for young player of the year ."
+    ],
+    "s2s_lines": [
+        "the west brom midfielder selected harry kane and eden hazard for the main prize .",
+        "the west brom midfielder has picked up the award for the player of the year award .",
+        "the west brom midfielder has picked harry kane and eden hazard for the main accolade ."
+    ],
+    "article_lines": [
+        "Youssouf Mulumbu has cast his vote for the PFA Player of the Year awards and has picked Harry Kane and Eden Hazard for the main prizes.",
+        "The West Brom midfielder has chosen Tottenham striker Kane for the top award while Chelsea wideman Hazard is Mulumbu's pick for young player of the year.",
+        "The Baggies player posted an image of his voting slip to Twitter on Wednesday and asked his followers: 'What do u (sic) think?!'",
+        "Harry Kane has been given the nod by Youssouf Mulumbu for this season's players' Player of the Year award",
+        "The West Brom midfielder has picked Chelsea wideman Eden Hazard for the young player of the year prize Congo international Mulumbu posted his votes for this year's PFA awards to Twitter on",
+        "Wednesday Mulumbu challenges QPR defender Yun Suk-Young during West Brom's 4-1 defeat at The Hawthorns Goalkeeper: Hugo Lloris Defenders:",
+        "Nathaniel Clyne, John Terry, Jose Fonte, Cesar Azpilicueta Midfielders: Yannick Bolasie, Alexis Sanchez, Nemanja Matic, Eden Hazard Strikers:",
+        "Harry Kane, Diego Costa Clearly impressed by Kane's 19 Premier League goals this term, Mulumbu has tipped the 21-year-old for the players' Player of the Year award while selecting Hazard, almost three years",
+        "Kane's senior, for the young player's prize.",
+        "The DR Congo international also showed his selections for Team of the Year and picked five Chelsea players in his XI.",
+        "Hazard was joined  by Blues' team-mates John Terry, Cesar Azpilicueta, Nemanja Matic and John Terry.",
+        "Hugo Lloris was given the nod in goal, Southampton defenders Nathaniel Clyne and Jose Fonte joined Terry and Azpilicueta at the back while Crystal Palace winger Yannick Bolasie and Arsenal frontman",
+        "Alexis Sanchez made up the rest of Mulumbu's XI alongside Kane.",
+        "Alexis Sanchez was selected in Mulumbu's PFA Team of the Year having impressed for Arsenal this term",
+        "Tottenham goalkeeper Hugo Lloris was also picked in goal as Mulumbu selected his XI of the year"
+    ],
+    "negative_entity": "Brian O'Driscoll",
+    "bart_cased": "Youssouf Mulumbu has cast his vote for the PFA Player of the Year awards . The West Brom midfielder has picked Tottenham striker Harry Kane for the top prize . The DR Congo international has picked Chelsea wideman Eden Hazard for the young player of the year prize .",
+    "traps": [
+        [
+            "F6",
+            "the dr congo international also showed its selections for team of the year and picked five chelsea players in his xi."
+        ],
+        [
+            "F1",
+            "harry kane has not been given the nod by youssouf mulumbu for this season 's players ' player of the year award"
+        ],
+        [
+            "F1",
+            "alexis sanchez was not selected in mulumbu 's pfa team of the year having impressed for arsenal this term"
+        ],
+        [
+            "F5",
+            "pfa hazard ' wednesday showed for challenges selected kane bolasie in southampton an has asked."
+        ],
+        [
+            "F0",
+            "youssouf mulumbu has cast his vote for the pfa player of the year awards and has picked harry kane and eden hazard for the main prizes."
+        ],
+        [
+            "F1",
+            "hazard was not joined   by blues ' team - mates john terry , cesar azpilicueta , nemanja matic and john terry ."
+        ]
+    ],
+    "model_names": [
+        "bart_lines",
+        "bert_sum_lines",
+        "bus_lines",
+        "pgn_lines",
+        "s2s_lines"
+    ],
+    "bart_qags": 0.6,
+    "bert_sum_qags": 0.8,
+    "bus_qags": 0.7,
+    "pgn_qags": 0.9,
+    "s2s_qags": 1.0,
+    "bart_qags20": 0.55,
+    "bert_sum_qags20": 0.75,
+    "bus_qags20": 0.75,
+    "pgn_qags20": 1.0,
+    "s2s_qags20": 1.0,
+    "bart_qags10": 0.49615384615384617,
+    "bert_sum_qags10": 0.788888888888889,
+    "bus_qags10": 0.8,
+    "pgn_qags10": 0.1125,
+    "s2s_qags10": 0.03333333333333334
+}

@@ -1,0 +1,134 @@
+{
+    "bart_reference": "Stephen Docherty admitted he lost control when he attacked a concreter . He took a large hook and tore another man 's scrotum open . The victim just finished a concrete job on Mr Docherty 's home . Mr Docherty said the job was not done to his specifications .",
+    "bart": "stephen john docherty , 66 , pleaded guilty to wounding with intent . he hired the victim to complete concrete works at his property . mr docherty was agitated when he returned to find the work was n't carried out to his specifications . he told the contractor he would rip the man 's penis off .",
+    "id": "dm-test-5f5a8814d8ec3c16299782db7c724cb771ea5adb",
+    "filepath": "cnndm/dailymail/stories/5f5a8814d8ec3c16299782db7c724cb771ea5adb.story",
+    "bert_sum_reference": "stephen docherty admitted he lost control when he attacked a concreter . he took a large hook and tore another man 's scrotum open . the victim just finished a concrete job on mr docherty 's home . mr docherty said the job was not done to his specifications .",
+    "bert_sum": "stephen john docherty , 66 , pleaded guilty to wounding with intent when he appeared at in the whakatane district court on wednesday . mr docherty hired the victim to complete concrete works at his property . the victim 's scrotum was torn and he required surgery after the attack .",
+    "bus_reference": "stephen docherty admitted he lost control when he attacked a concreter . he took a large hook and tore another man 's scrotum open . the victim just finished a concrete job on mr docherty 's home . mr docherty said the job was not done to his specifications .",
+    "bus": "stephen john docherty pleaded guilty to wounding with intent when he appeared at in the whakatane district court on wednesday . the victim was not on the work site but a contractor told mr docherty he would rip the man 's penis off . mr docherty then returned with a 15 centimetre long hook that had been fashioned from a steel rod .",
+    "pgn_reference": "stephen docherty admitted he lost control when he attacked a concreter . he took a large hook and tore another man 's scrotum open . the victim just finished a concrete job on mr docherty 's home . mr docherty said the job was not done to his specifications .",
+    "pgn": "stephen john docherty , 66 , pleaded guilty to wounding with intent . he hired the victim to complete concrete works at his property . he told the contractor he would rip the man 's genitals off .",
+    "s2s_reference": "stephen docherty admitted he lost control when he attacked a concreter . he took a large hook and tore another man 's scrotum open . the victim just finished a concrete job on mr docherty 's home . mr docherty said the job was not done to his specifications .",
+    "s2s": "stephen john docherty , 66 , pleaded guilty to wounding with intent when he appeared at the UNK district court on wednesday . the victim was not on the work site but a contractor told the contractor he would rip the man 's genitals off .",
+    "hash": "5f5a8814d8ec3c16299782db7c724cb771ea5adb",
+    "url": "http://web.archive.org/web/20150410024044id_/http://www.dailymail.co.uk/news/article-3032355/Man-lost-control-concreting-job-wasn-t-scratch-took-hook-tore-open-man-s-scrotum.html",
+    "article": "A man has admitted to ripping another man\u2019s scrotum with a metal hook after he thought a concreting job wasn\u2019t up to scratch. Stephen John Docherty, 66, pleaded guilty to wounding with intent when he appeared at in the Whakatane District Court on Wednesday, NZ media reported. According to police Mr Docherty hired the victim to complete concrete works at his property. A man has admitted to ripping another man\u2019s scrotum with a metal hook after he thought a concreting job wasn\u2019t up to scratch At around 3.30pm on March 17 Mr Docherty was agitated when he returned to find the work wasn\u2019t carried out to his specifications. At the time, the victim was not on the work site but a contractor told Mr Docherty he would be back shortly. He told the contractor he would rip the man\u2019s penis off.\u00a0Once the victim returned, the two men got in a heated argument. Mr Docherty then repeated that he would rip the man's genitals off.\u00a0He then returned with a 15 centimetre long hook that had been fashioned from a steel rod. Mr Docherty\u00a0pleaded guilty to wounding with intent when he appeared at in the Whakatane District Court on Wednesday Mr Docherty proceeded to grip the hook and reach it down past the victim's crotch. He then abruptly pulled the hook up causing it to tear into the mans pants and scrotum. The victim\u2019s scrotum was torn and he required surgery after the attack. Mr Docherty said he lost control of his temper in the heat of the moment.\u00a0He was remanded on bail and will await a hearing on June 12.",
+    "entity_counter": {
+        "A man": 2,
+        "another man\u2019s scrotum": 2,
+        "a metal hook": 2,
+        "a concreting job": 2,
+        "Stephen John Docherty": 1,
+        "intent": 2,
+        "the Whakatane District Court": 2,
+        "NZ media": 1,
+        "police": 1,
+        "Mr Docherty": 7,
+        "the victim": 3,
+        "concrete works": 1,
+        "his property": 1,
+        "the work": 1,
+        "his specifications": 1,
+        "the time": 1,
+        "the work site": 1,
+        "a contractor": 2,
+        "the man\u2019s penis": 1,
+        "the two men": 1,
+        "a heated argument": 1,
+        "the man's genitals": 1,
+        "a 15 centimetre long hook": 1,
+        "a steel rod": 1,
+        "a 15 centimetre long hook that had been fashioned from a steel rod": 2,
+        "the victim's crotch": 1,
+        "the mans pants": 1,
+        "scrotum": 2,
+        "surgery": 1,
+        "the attack": 1,
+        "control": 1,
+        "his temper": 1,
+        "the heat": 1,
+        "the moment": 1,
+        "bail": 1,
+        "a hearing": 1
+    },
+    "bart_lines": [
+        "Stephen John Docherty , 66 , pleaded guilty to wounding with intent .",
+        "He hired the victim to complete concrete works at his property .",
+        "Mr Docherty was agitated when he returned to find the work was n't carried out to his specifications .",
+        "He told the contractor he would rip the man 's penis off ."
+    ],
+    "bert_sum_lines": [
+        "stephen john docherty , 66 , pleaded guilty to wounding with intent when he appeared at in the whakatane district court on wednesday .",
+        "mr docherty hired the victim to complete concrete works at his property .",
+        "the victim 's scrotum was torn and he required surgery after the attack ."
+    ],
+    "bus_lines": [
+        "stephen john docherty pleaded guilty to wounding with intent when he appeared at in the whakatane district court on wednesday .",
+        "the victim was not on the work site but a contractor told mr docherty he would rip the man 's penis off .",
+        "mr docherty then returned with a 15 centimetre long hook that had been fashioned from a steel rod ."
+    ],
+    "pgn_lines": [
+        "stephen john docherty , 66 , pleaded guilty to wounding with intent .",
+        "he hired the victim to complete concrete works at his property .",
+        "he told the contractor he would rip the man 's genitals off ."
+    ],
+    "s2s_lines": [
+        "stephen john docherty , 66 , pleaded guilty to wounding with intent when he appeared at the UNK district court on wednesday .",
+        "the victim was not on the work site but a contractor told the contractor he would rip the man 's genitals off ."
+    ],
+    "article_lines": [
+        "A man has admitted to ripping another man\u2019s scrotum with a metal hook after he thought a concreting job wasn\u2019t up to scratch.",
+        "Stephen John Docherty, 66, pleaded guilty to wounding with intent when he appeared at in the Whakatane District Court on Wednesday, NZ media reported.",
+        "According to police Mr Docherty hired the victim to complete concrete works at his property.",
+        "A man has admitted to ripping another man\u2019s scrotum with a metal hook after he thought a concreting job wasn\u2019t up to scratch",
+        "At around 3.30pm on March 17",
+        "Mr Docherty was agitated when he returned to find the work wasn\u2019t carried out to his specifications.",
+        "At the time, the victim was not on the work site but a contractor told Mr Docherty he would be back shortly.",
+        "He told the contractor he would rip the man\u2019s penis off.\u00a0",
+        "Once the victim returned, the two men got in a heated argument.",
+        "Mr Docherty then repeated that he would rip the man's genitals off.\u00a0",
+        "He then returned with a 15 centimetre long hook that had been fashioned from a steel rod.",
+        "Mr Docherty\u00a0pleaded guilty to wounding with intent when he appeared at in the Whakatane District Court on Wednesday Mr Docherty proceeded to grip the hook and reach it down past the victim's crotch.",
+        "He then abruptly pulled the hook up causing it to tear into the mans pants and scrotum.",
+        "The victim\u2019s scrotum was torn and he required surgery after the attack.",
+        "Mr Docherty said he lost control of his temper in the heat of the moment.\u00a0",
+        "He was remanded on bail and will await a hearing on June 12."
+    ],
+    "negative_entity": "Manchester United",
+    "bart_cased": "Stephen John Docherty , 66 , pleaded guilty to wounding with intent . He hired the victim to complete concrete works at his property . Mr Docherty was agitated when he returned to find the work was n't carried out to his specifications . He told the contractor he would rip the man 's penis off .",
+    "traps": [
+        [
+            "F0",
+            "a man has admitted to ripping another man\u2019s scrotum with a metal hook after he thought a concreting job wasn\u2019t up to scratch."
+        ],
+        [
+            "F1",
+            "he then returned with a 15 centimetre long hook that had not been fashioned from a steel rod ."
+        ],
+        [
+            "F4",
+            "families and friends hold grave fears for more than a dozen australians who are reported missing after the catastrophic earthquake in nepal, although information is starting to trickle through, with the heartwarming news that ballantyne forder is safe."
+        ],
+        [
+            "F1",
+            "he was remanded on bail and will not await a hearing on june 12 ."
+        ],
+        [
+            "F4",
+            "landwades nell gwyn stakes at newmarket."
+        ]
+    ],
+    "model_names": [
+        "bart_lines",
+        "bert_sum_lines",
+        "bus_lines",
+        "pgn_lines",
+        "s2s_lines"
+    ],
+    "bart_dep": 0.9936904907226562,
+    "bert_sum_dep": 0.9964444041252136,
+    "bus_dep": 0.9932337403297424,
+    "pgn_dep": 0.9896672964096069,
+    "s2s_dep": 0.761988639831543
+}

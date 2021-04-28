@@ -1,0 +1,143 @@
+{
+    "BERTS2S": "a campaign to raise \u00a350, 000 for british troops killed in the iraq war has reached \u00a350, 000.",
+    "BERTS2S_lines": [
+        "a campaign to raise \u00a350, 000 for british troops killed in the iraq war has reached \u00a350, 000."
+    ],
+    "TConvS2S": "a campaign to raise funds for the iraq war has been launched by the uk government.",
+    "TConvS2S_lines": [
+        "a campaign to raise funds for the iraq war has been launched by the uk government."
+    ],
+    "PtGen": "the chilcot campaign group has said it is ``startling and humbling\\'\\'by the chilcot report to fund the chilcot report.",
+    "PtGen_lines": [
+        "the chilcot campaign group has said it is ``startling and humbling\\'\\'by",
+        "the chilcot report to fund the chilcot report."
+    ],
+    "TranS2S": "the families of british troops killed in the 2003 iraq war have launched a campaign to raise funds for the chilcot report.",
+    "TranS2S_lines": [
+        "the families of british troops killed in the 2003 iraq war have launched a campaign to raise funds for the chilcot report."
+    ],
+    "article": "Share this withEmailFacebookTwitterPinterestWhatsAppLinkedinCopy this linkThe campaign was launched on 19 July by the Iraq War Families Campaign Group, which is made up of relatives of British troops killed in the conflict.It aimed to reach that amount to \"bring to justice those responsible for the war and the deaths of our loved ones\".The campaign was led by Reg Keys and Roger Bacon, who lost sons in Iraq.The funding bid began after the publication last month of the long-awaited report by Sir John Chilcot into the 2003 invasion.Chilcot report: Findings at-a-glanceThe campaign group initially aimed to reach \u00a350,000 via crowdfunding, but extended its target after raising that figure in nine hours on the CrowdJustice website.It has now received enough backing to fund the whole campaign.Mr Keys and Mr Bacon said in a statement: \"This is great proof of the underlying support from the British people in our quest for answers and for justice.\"It is startling and humbling at the same time.\"The money raised will allow the group's lawyers, McCue and Partners - currently working free of charge - to analyse the 2.6 million-word report by Sir John and prepare \"a comprehensive opinion approved by expert senior counsel\".This would provide guidance on whether legal action against key people involved in the invasion of Iraq would succeed or not.The Chilcot report did not make any findings on whether individuals acted unlawfully.However, it rejected the legal basis for UK military action, and said then-prime minister Mr Blair overstated the threat posed by then-President of Iraq Saddam Hussein and sent ill-prepared troops into battle.Chilcot report: Coverage in fullMr Blair has apologised for any mistakes made, but not the decision to go to war itself.A total of 179 British service personnel were killed in Iraq between 2003 and 2009, when British troops left Iraqi soil.Tens of thousands of Iraqi civilians died over the period, though estimates vary considerably.",
+    "article_lines": [
+        "Share this withEmailFacebookTwitterPinterestWhatsAppLinkedinCopy this linkThe campaign was launched on 19 July by the Iraq War Families Campaign Group, which is made up of relatives of British troops killed in the conflict.",
+        "It aimed to reach that amount to \"bring to justice those responsible for the war and the deaths of our loved ones\".",
+        "The campaign was led by Reg Keys and Roger Bacon, who lost sons in Iraq.",
+        "The funding bid began after the publication last month of the long-awaited report by Sir John Chilcot into the 2003 invasion.",
+        "Chilcot report:",
+        "Findings at-a-glanceThe campaign group initially aimed to reach \u00a350,000 via crowdfunding, but extended its target after raising that figure in nine hours on the CrowdJustice website.",
+        "It has now received enough backing to fund the whole campaign.",
+        "Mr Keys and Mr Bacon said in a statement: \"This is great proof of the underlying support from the British people in our quest for answers and for justice.",
+        "\"It is startling and humbling at the same time.",
+        "\"The",
+        "money raised will allow the group's lawyers, McCue and Partners - currently working free of charge - to analyse the 2.6 million-word report by Sir John and prepare \"a comprehensive opinion approved by expert senior counsel\".",
+        "This would provide guidance on whether legal action against key people involved in the invasion of Iraq would succeed or not.",
+        "The Chilcot report did not make any findings on whether individuals acted unlawfully.",
+        "However, it rejected the legal basis for UK military action, and said then-prime minister Mr Blair overstated the threat posed by then-President of Iraq Saddam Hussein and sent ill-prepared troops into battle.",
+        "Chilcot report:",
+        "Coverage in fullMr Blair has apologised for any mistakes made, but not the decision to go to war itself.",
+        "A total of 179 British service personnel were killed in Iraq between 2003 and 2009, when British troops left Iraqi soil.",
+        "Tens of thousands of Iraqi civilians died over the period, though estimates vary considerably."
+    ],
+    "entity_counter": {
+        "this withEmailFacebookTwitterPinterestWhatsAppLinkedinCopy": 1,
+        "this linkThe campaign": 2,
+        "the Iraq War Families Campaign Group": 1,
+        "relatives": 1,
+        "British troops": 2,
+        "the conflict": 1,
+        "that amount": 1,
+        "justice": 2,
+        "the war": 1,
+        "the deaths": 1,
+        "our loved ones\"": 1,
+        "Reg Keys": 1,
+        "Roger Bacon": 1,
+        "sons": 1,
+        "Iraq": 4,
+        "The funding bid": 1,
+        "the publication": 1,
+        "the long-awaited report": 1,
+        "Sir John Chilcot": 2,
+        "the 2003 invasion": 1,
+        "a-glanceThe": 1,
+        "crowdfunding": 1,
+        "its target": 1,
+        "that figure": 1,
+        "the CrowdJustice website": 1,
+        "enough backing": 1,
+        "the whole campaign": 1,
+        "Mr Keys": 1,
+        "Mr Bacon": 1,
+        "a statement": 1,
+        "great proof": 1,
+        "the underlying support": 1,
+        "the British people": 1,
+        "our quest": 1,
+        "answers": 1,
+        "the same time": 1,
+        "money": 1,
+        "the group's lawyers": 1,
+        "McCue": 1,
+        "Partners": 1,
+        "charge": 1,
+        "the 2.6 million-word report": 1,
+        "Sir John": 1,
+        "a comprehensive opinion": 1,
+        "expert senior": 1,
+        "guidance": 1,
+        "legal action": 1,
+        "key people": 1,
+        "the invasion": 1,
+        "the long-awaited report by Sir John Chilcot into the 2003 invasion": 1,
+        "any findings": 1,
+        "individuals": 1,
+        "the legal basis": 1,
+        "UK military action": 1,
+        "then-prime minister Mr Blair": 2,
+        "the threat": 1,
+        "ill-prepared troops": 1,
+        "battle": 1,
+        "Chilcot": 1,
+        "Coverage": 1,
+        "any mistakes": 1,
+        "not the decision": 1,
+        "war": 1,
+        "A total": 1,
+        "179 British service personnel": 1,
+        "Iraqi soil": 1,
+        "Iraqi civilians": 1,
+        "the period": 1,
+        "estimates": 1
+    },
+    "negative_entity": "Borussia Dortmund's",
+    "url": "http://web.archive.org/web/20160806103208/http://www.bbc.com/news/uk-36968311",
+    "hash": "36968311",
+    "traps": [
+        [
+            "F5",
+            "a troops chilcot which in campaign."
+        ],
+        [
+            "F6",
+            "findings at-a-glancethe campaign group initially aimed to reach \u00a350,000 via crowdfunding, but extended your target after raising that figure in nine hours on the crowdjustice website."
+        ],
+        [
+            "F0",
+            "share this withemailfacebooktwitterpinterestwhatsapplinkedincopy this linkthe campaign was launched on 19 july by the iraq war families campaign group, which is made up of relatives of british troops killed in the conflict."
+        ],
+        [
+            "F4",
+            "the incident happened near dr gray's hospital shortly after 10:00.the man was taken to the hospital with what police said were serious but not life-threatening injuries."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "an online campaign to fund possible legal action against former prime minister tony blair and other officials has reached its target of # 150,000.",
+    "BERTS2S_dep": 0.9918043613433838,
+    "TConvS2S_dep": 0.9969972372055054,
+    "PtGen_dep": 0.15623407065868378,
+    "TranS2S_dep": 0.9926607608795166
+}

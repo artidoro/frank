@@ -1,0 +1,123 @@
+{
+    "BERTS2S": "former eastenders captain dame barbara kemp is to return to eastenders for the final time in more than a decade, the bbc has confirmed.",
+    "BERTS2S_lines": [
+        "former eastenders captain dame barbara kemp is to return to eastenders for the final time in more than a decade, the bbc has confirmed."
+    ],
+    "TConvS2S": "eastenders actress mitchell mitchell is to return to eastenders after the death of eastenders actress mitchell mitchell.",
+    "TConvS2S_lines": [
+        "eastenders actress mitchell mitchell is to return to eastenders after the death of eastenders actress mitchell mitchell."
+    ],
+    "PtGen": "eastenders actress dame barbara windsor has said he was approached by eastenders as ``the last time legend of eastenders\\'\\'.",
+    "PtGen_lines": [
+        "eastenders actress dame barbara windsor has said he was approached by eastenders as ``the last time legend of eastenders\\'\\'."
+    ],
+    "TranS2S": "eastenders actress barbara kemp has returned to eastenders to return to eastenders for a second time.",
+    "TranS2S_lines": [
+        "eastenders actress barbara kemp has returned to eastenders to return to eastenders for a second time."
+    ],
+    "article": "Kemp, who last played Grant Mitchell in 2006, said it would be \"a brief return\".\"When I was approached about returning to EastEnders for Barbara's final episodes, it was something I could not turn down,\" he said.Following her surprise return to Albert Square, Dame Barbara announced her character would be killed off.Her character reappeared on Friday, having left in 2010, to tell her eldest son Phil, played by Steve McFadden, that her cancer had returned.After the episode, producers revealed that Peggy would die from the disease in emotional scenes to be screened in the spring.Now Kemp, who played Grant from 1990-1999 and then again in 2005 and 2006, will return to bring the Mitchell family back together.\"Barbara is a very close friend, so when I learned of the storyline it felt right that the Mitchell brothers are reunited with their mother for the last time,\" he said.\"I am really looking forward to going back to EastEnders and filming what are set to be some classic EastEnders episodes.\"Grant Mitchell has been one of the soap's most memorable characters in its 30-year history, arriving in 1990 along with brother Phil.He was involved in repeated family dramas including having an affair with his brother's wife, Kathy, and having his brother go on to marry his ex-wife Sharon.\"Grant Mitchell is an EastEnders legend and finally he is returning home to Walford to say goodbye to his mother and be reunited not just with his old loves but also his brother,\" said EastEnders executive producer Dominic Treadwell-Collins.\"To have the Mitchell brothers come face to face again, having to face losing their mother, is an opportunity to show Ross Kemp and Steve McFadden at their very best.\"",
+    "article_lines": [
+        "Kemp, who last played Grant Mitchell in 2006, said it would be \"a brief return\".",
+        "\"When",
+        "I was approached about returning to EastEnders for Barbara's final episodes",
+        ", it was something I could not turn down,\" he said.",
+        "Following her surprise return to Albert Square, Dame Barbara announced her character would be killed off.",
+        "Her character reappeared on Friday, having left in 2010, to tell her eldest son Phil, played by Steve McFadden, that her cancer had returned.",
+        "After the episode, producers revealed that Peggy would die from the disease in emotional scenes to be screened in the spring.",
+        "Now Kemp, who played Grant from 1990-1999 and then again in 2005 and 2006, will return to bring the Mitchell family back together.",
+        "\"Barbara is a very close friend, so when I learned of the storyline it felt right that the Mitchell brothers are reunited with their mother for the last time,\" he said.",
+        "\"I am really looking forward to going back to EastEnders and filming what are set to be some classic EastEnders episodes.",
+        "\"Grant",
+        "Mitchell has been one of the soap's most memorable characters in its 30-year history, arriving in 1990 along with brother Phil.",
+        "He was involved in repeated family dramas including having an affair with his brother's wife, Kathy, and having his brother go on to marry his ex-wife Sharon.",
+        "\"Grant",
+        "Mitchell is an EastEnders legend and finally he is returning home to Walford to say goodbye to his mother and be reunited not just with his old loves but also his brother,\" said EastEnders executive producer Dominic Treadwell-Collins.",
+        "\"To have the Mitchell brothers come face to face again, having to face losing their mother, is an opportunity to show Ross Kemp and Steve McFadden at their very best.\""
+    ],
+    "entity_counter": {
+        "Kemp": 2,
+        "Grant Mitchell": 1,
+        "a brief return\"": 1,
+        "EastEnders": 2,
+        "Barbara's final episodes": 1,
+        "her surprise return": 1,
+        "Albert Square": 1,
+        "Barbara": 2,
+        "her character": 2,
+        "eldest son": 1,
+        "Phil": 2,
+        "Steve McFadden": 2,
+        "her cancer": 1,
+        "the episode": 1,
+        "producers": 1,
+        "the disease": 1,
+        "emotional scenes": 1,
+        "Grant": 1,
+        "the Mitchell family": 3,
+        "a very close friend": 1,
+        "the storyline": 1,
+        "their mother": 3,
+        "the last time": 1,
+        "some classic EastEnders episodes": 1,
+        "\"Grant": 1,
+        "Mitchell": 2,
+        "the soap's most memorable characters": 1,
+        "its 30-year history": 1,
+        "brother": 1,
+        "repeated family dramas": 1,
+        "an affair": 1,
+        "his brother's wife": 1,
+        "Kathy": 1,
+        "brother Phil": 2,
+        "his ex-wife": 1,
+        "Sharon": 1,
+        "an EastEnders legend": 1,
+        "Walford": 1,
+        "goodbye": 1,
+        "his old loves": 1,
+        "EastEnders executive producer Dominic Treadwell-Collins": 1,
+        "face": 1,
+        "an opportunity": 1,
+        "Ross Kemp": 1
+    },
+    "negative_entity": "11:00 BST.Ninety-six football fans",
+    "url": "http://web.archive.org/web/20160119034605/http://www.bbc.co.uk/news/entertainment-arts-35337082",
+    "hash": "35337082",
+    "traps": [
+        [
+            "F4",
+            "the action should stop the tool from being able to infiltrate apple's internet storage service if the safety measure is implemented."
+        ],
+        [
+            "F5",
+            "he announced would also repeated felt return the a along her."
+        ],
+        [
+            "F5",
+            "brother their what an collins is character not involved am to would."
+        ],
+        [
+            "F5",
+            "affair spring brother dramas just."
+        ],
+        [
+            "F4",
+            "it was scrapped this week at the eleventh hour when the government removed it from parliament moments before it was due to be voted into law."
+        ],
+        [
+            "F6",
+            "\"barbara is a very close friend, so when i learned of the storyline it felt right that the mitchell brothers are reunited with his mother for the last time,\" he said."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "ross kemp is returning to eastenders as part of a storyline that will see dame barbara windsor exit the soap for good.",
+    "BERTS2S_dep": 0.9947901964187622,
+    "TConvS2S_dep": 0.9516432881355286,
+    "PtGen_dep": 0.9243061542510986,
+    "TranS2S_dep": 0.9001317620277405
+}

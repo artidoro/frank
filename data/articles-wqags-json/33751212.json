@@ -1,0 +1,117 @@
+{
+    "BERTS2S": "police in southern china have seized more than 1, 000 alcohol bottles and seized more than 1, 200 bottles of contaminated milk, local media report.",
+    "BERTS2S_lines": [
+        "police in southern china have seized more than 1, 000 alcohol bottles and seized more than 1, 200 bottles of contaminated milk, local media report."
+    ],
+    "TConvS2S": "chinese police say they have found a drug that led to the death of two young people in china.",
+    "TConvS2S_lines": [
+        "chinese police say they have found a drug that led to the death of two young people in china."
+    ],
+    "PtGen": "a haul of alcohol seized in china\\'s guangxi province has been arrested in china, a court in china has ruled.",
+    "PtGen_lines": [
+        "a haul of alcohol seized in china\\'s guangxi province has been arrested in china, a court in china has ruled."
+    ],
+    "TranS2S": "chinese police say they have seized more than 1, 000 tonnes of toxic powder seized after at least three people were allegedly smuggled into the city last year",
+    "TranS2S_lines": [
+        "chinese police say they have seized more than 1, 000 tonnes of toxic powder seized after at least three people were allegedly smuggled into the city last year"
+    ],
+    "article": "More than 5,300 bottles of alcohol were seized by the investigators in the southern city of Liuzhou.They also found packets of a white powder called Sildenafil, better known as the anti-impotence drug Viagra.Police in the Guangxi region are now investigating the two distillers.The Liuzhou Food and Drug Administration said (in Chinese) that the powder was added to three different types of 'baijiu' - a strong, clear spirit that is the most popular drink in China.They said the haul was worth up to 700,000 yuan (\u00c2\u00a372,000; $113,000).Doctors recommend that adults requiring prescription should take only one dose of Viagra a day, with a lower dose for those over the age of 65.China continues to face widespread food safety problems.In June, police in cities across China seized more than 100,000 tonnes of smuggled meat, some of which was more than 40 years old.The 2008 tainted milk scandal outraged the nation.Some 300,000 people were affected and at least six babies died after consuming milk adulterated with melamine.",
+    "article_lines": [
+        "More than 5,300 bottles of alcohol were seized by the investigators in the southern city of Liuzhou.",
+        "They also found packets of a white powder called Sildenafil, better known as the anti-impotence drug Viagra.",
+        "Police in the Guangxi region are now investigating the two distillers.",
+        "The Liuzhou Food and Drug Administration said (in Chinese) that the powder was added to three different types of 'baijiu' - a strong, clear spirit that is the most popular drink in China.",
+        "They said the haul was worth up to 700,000 yuan (\u00c2\u00a372,000;",
+        "$113,000).Doctors recommend that adults requiring prescription should take only one dose of Viagra a day, with a lower dose for those over the age of 65.China",
+        "continues to face widespread food safety problems.",
+        "In June, police in cities across China seized more than 100,000 tonnes of smuggled meat, some of which was more than 40 years old.",
+        "The 2008 tainted milk scandal outraged the nation.",
+        "Some 300,000 people were affected and at least six babies died after consuming milk adulterated with melamine."
+    ],
+    "entity_counter": {
+        "More than 5,300 bottles": 1,
+        "alcohol": 1,
+        "the investigators": 1,
+        "the southern city": 1,
+        "Liuzhou": 1,
+        "packets": 1,
+        "a white powder": 1,
+        "the anti-impotence drug": 1,
+        "Viagra": 2,
+        "Police": 1,
+        "the Guangxi region": 1,
+        "the two distillers": 1,
+        "The Liuzhou Food and Drug Administration": 1,
+        "Chinese": 1,
+        "the powder": 1,
+        "three different types": 1,
+        "'baijiu": 1,
+        "a strong, clear spirit": 1,
+        "the most popular drink": 1,
+        "China": 3,
+        "the haul": 1,
+        "\u00c2\u00a372,000": 1,
+        "adults": 1,
+        "prescription": 1,
+        "only one dose": 1,
+        "a lower dose": 1,
+        "the age": 1,
+        "widespread food safety problems": 1,
+        "police": 1,
+        "cities": 1,
+        "smuggled meat": 1,
+        "The 2008 tainted milk scandal": 1,
+        "Some 300,000 people": 1,
+        "at least six babies": 1,
+        "milk": 1,
+        "melamine": 1
+    },
+    "negative_entity": "that 14-year-old Jonathan Pitre",
+    "url": "http://web.archive.org/web/20150802211227/http://www.bbc.com/news/world-asia-china-33751212",
+    "hash": "33751212",
+    "traps": [
+        [
+            "F0",
+            "more than 5,300 bottles of alcohol were seized by the investigators in the southern city of liuzhou."
+        ],
+        [
+            "F5",
+            "recommend six cities the in than of some some."
+        ],
+        [
+            "F6",
+            "you said the haul was worth up to 700,000 yuan (\u00e2\u00a372,000;"
+        ],
+        [
+            "F1",
+            "they said the haul was not worth up to 700,000 yuan ( \u00e2\u00a372,000 ;"
+        ],
+        [
+            "F6",
+            "we said the haul was worth up to 700,000 yuan (\u00e2\u00a372,000;"
+        ],
+        [
+            "F6",
+            "you also found packets of a white powder called sildenafil, better known as the anti-impotence drug viagra."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "distillers in china added viagra to thousands of bottles of spirits and told customers it had ``health-preserving qualities\\'\\', food safety officials say.",
+    "BERTS2S_qags": 1.0,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 0.8,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 1.0,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 0.95,
+    "TranS2S_qags20": 0.9,
+    "BERTS2S_qags10": 0.0,
+    "TConvS2S_qags10": 0.1,
+    "PtGen_qags10": 0.0,
+    "TranS2S_qags10": 0.0
+}

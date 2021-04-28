@@ -1,0 +1,126 @@
+{
+    "BERTS2S": "a canadian family who survived a house fire has been reunited with their family.",
+    "BERTS2S_lines": [
+        "a canadian family who survived a house fire has been reunited with their family."
+    ],
+    "TConvS2S": "the family of a man who died in a blaze at her home in canadian, canada, have said they are ``devastated\\'\\'by the blaze.",
+    "TConvS2S_lines": [
+        "the family of a man who died in a blaze at her home in canadian, canada, have said they are ``devastated\\'\\'by the blaze."
+    ],
+    "PtGen": "a family of a young mother and her three-year-old daughter have spoken of their life in a harrowing attack.",
+    "PtGen_lines": [
+        "a family of a young mother and her three-year-old daughter have spoken of their life in a harrowing attack."
+    ],
+    "TranS2S": "an 11-year-old boy has died in a house fire in canada, his mother has said.",
+    "TranS2S_lines": [
+        "an 11-year-old boy has died in a house fire in canada, his mother has said."
+    ],
+    "article": "Marcy Smith was woken up by her son David to find their house in Glovertown, Newfoundland and Labrador, completely engulfed in flames.The whole family was able to escape, but their house is destroyed and their dog and cats did not make it.Mrs Smith said if it wasn't for her son, she and her daughter probably wouldn't have survived.David was on FaceTime to his father at the time, so was the only one awake and saw the flames out of the corner of his eye.\"Within seconds of him getting us up, the flames were everywhere,\" Mrs Smith told the Canadian Broadcasting Corporation.\"It happened so fast. We were standing in the kitchen by the wood stove and the flames just ate around me and David. The entire kitchen just disappeared while we were standing in it.\"She said the fire was started by some rubbish she burned in the wood stove, something she had done \"a thousand times\" before. The fire alarm did not go off.The family had nothing but pyjamas on when they fled, but Mrs Smith said the community has rallied behind them, donating clothes and shoes and even a bike for her son.\"All he understands is that me and his sister and him got out. He does not understand that he is the only reason we did,\" she said.\"He did a huge thing for such a young boy. I am so proud of him and I am going to tell him for the rest of his life until he understands what a big thing he did.\"",
+    "article_lines": [
+        "Marcy Smith was woken up by her son David to find their house in Glovertown, Newfoundland and Labrador, completely engulfed in flames.",
+        "The whole family was able to escape, but their house is destroyed and their dog and cats did not make it.",
+        "Mrs Smith said if it wasn't for her son, she and her daughter probably wouldn't have survived.",
+        "David was on FaceTime to his father at the time, so was the only one awake and saw the flames out of the corner of his eye.",
+        "\"Within seconds of him getting us up, the flames were everywhere,\" Mrs Smith told the Canadian Broadcasting Corporation.",
+        "\"It happened so fast.",
+        "We were standing in the kitchen by the wood stove and the flames just ate around me and David.",
+        "The entire kitchen just disappeared while we were standing in it.",
+        "\"She said the fire was started by some rubbish she burned in the wood stove, something she had done \"a thousand times\" before.",
+        "The fire alarm did not go off.",
+        "The family had nothing but pyjamas on when they fled, but Mrs Smith said the community has rallied behind them, donating clothes and shoes and even a bike for her son.",
+        "\"All",
+        "he understands is that me and his sister and him got out.",
+        "He does not understand that he is the only reason we did,\" she said.",
+        "\"He did a huge thing for such a young boy.",
+        "I am so proud of him",
+        "and I am going to tell him for the rest of his life until he understands what a big thing he did.\""
+    ],
+    "entity_counter": {
+        "Marcy Smith": 4,
+        "her son": 1,
+        "David": 5,
+        "their house": 1,
+        "Glovertown": 1,
+        "Newfoundland": 1,
+        "Labrador": 1,
+        "flames": 4,
+        "The whole family": 2,
+        "their house in Glovertown, Newfoundland and Labrador": 1,
+        "their dog": 1,
+        "cats": 1,
+        "her daughter": 1,
+        "FaceTime": 1,
+        "his father": 1,
+        "the time": 1,
+        "the corner": 1,
+        "his eye": 1,
+        "\"Within seconds": 1,
+        "the Canadian Broadcasting Corporation": 1,
+        "the kitchen": 2,
+        "the wood stove": 2,
+        "the fire": 1,
+        "some rubbish": 1,
+        "a thousand times": 1,
+        "The fire alarm": 1,
+        "pyjamas": 1,
+        "the community": 1,
+        "clothes": 1,
+        "shoes": 1,
+        "even a bike": 1,
+        "his sister": 1,
+        "the only reason": 1,
+        "a huge thing": 1,
+        "such a young boy": 1,
+        "the rest": 1,
+        "his life": 1,
+        "what a big thing": 1
+    },
+    "negative_entity": "Bournemouth manager Eddie Howe",
+    "url": "http://web.archive.org/web/20170717235727/http://www.bbc.co.uk/news/world-us-canada-40634994",
+    "hash": "40634994",
+    "traps": [
+        [
+            "F6",
+            "the whole family was able to escape, but her house is destroyed and their dog and cats did not make it."
+        ],
+        [
+            "F1",
+            "\" he did not a huge thing for such a young boy ."
+        ],
+        [
+            "F4",
+            "angry parents took to the school's facebook page to complain about the new measures."
+        ],
+        [
+            "F1",
+            "\" he did not a huge thing for such a young boy ."
+        ],
+        [
+            "F4",
+            "the electoral commission said 38 mps had highlighted people, including students, claiming to have voted twice, which is a criminal offence."
+        ],
+        [
+            "F1",
+            "the fire alarm did go off ."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "an 11-year-old canadian boy saved his whole family from a devastating fire, his mother says.",
+    "BERTS2S_qags": 1.0,
+    "TConvS2S_qags": 0.7,
+    "PtGen_qags": 1.0,
+    "TranS2S_qags": 0.9,
+    "BERTS2S_qags20": 1.0,
+    "TConvS2S_qags20": 0.85,
+    "PtGen_qags20": 1.0,
+    "TranS2S_qags20": 0.85,
+    "BERTS2S_qags10": 0.1,
+    "TConvS2S_qags10": 0.5,
+    "PtGen_qags10": 0.2,
+    "TranS2S_qags10": 0.2
+}

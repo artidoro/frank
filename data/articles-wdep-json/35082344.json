@@ -1,0 +1,117 @@
+{
+    "BERTS2S": "google has pledged $ 1bn ( \u00a3800m ) to research and research into artificial intelligence ( ai ).",
+    "BERTS2S_lines": [
+        "google has pledged $ 1bn ( \u00a3800m ) to research and research into artificial intelligence ( ai )."
+    ],
+    "TConvS2S": "ai weiwei, the founder of ai giant ai weiwei, has launched a $ 1m (\u00c2 # venture) research project.",
+    "TConvS2S_lines": [
+        "ai weiwei, the founder of ai giant ai weiwei, has launched a $ 1m (\u00c2 # venture) research project."
+    ],
+    "PtGen": "open ai weiwei has unveiled a $ [UNK] (\u00c2 # [UNK]) venture prize for the spirit of liberty.",
+    "PtGen_lines": [
+        "open ai weiwei has unveiled a $ [UNK] (\u00c2 # [UNK])",
+        "venture prize for the spirit of liberty."
+    ],
+    "TranS2S": "one of the world\\'s biggest physicists has warned that artificial intelligence could be used in humans.",
+    "TranS2S_lines": [
+        "one of the world\\'s biggest physicists has warned that artificial intelligence could be used in humans."
+    ],
+    "article": "The venture's backers include Tesla Motors and SpaceX CEO Elon Musk, Paypal co-founder Peter Thiel, Indian tech giant Infosys and Amazon Web Services.Open AI says it expects its research - free from financial obligations - to focus on a \"positive human impact\".Scientists have warned that advances in AI could ultimately threaten humanity.Mr Musk recently told students at the Massachusetts Institute of Technology (MIT) that AI was humanity's \"biggest existential threat\".Last year, British theoretical physicist Stephen Hawking told the BBC AI could potentially \"re-design itself at an ever increasing rate\", superseding humans by outpacing biological evolution.However, other experts have argued that the risk of AI posing any threat to humans remains remote.A statement on OpenAI's website said the venture aims \"to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return\".\"It's hard to fathom how much human-level AI could benefit society, and it's equally hard to imagine how much it could damage society if built or used incorrectly.\"The statement said AI \"should be an extension of individual human wills and, in the spirit of liberty, as broadly and evenly distributed as is possible safely\".It said only a tiny fraction of the $1bn pledged would be spent in the next few years.",
+    "article_lines": [
+        "The venture's backers include Tesla Motors and SpaceX CEO Elon Musk, Paypal co-founder Peter Thiel, Indian tech giant Infosys and Amazon Web Services.",
+        "Open AI says it expects its research - free from financial obligations - to focus on a \"positive human impact\".",
+        "Scientists have warned that advances in AI could ultimately threaten humanity.",
+        "Mr Musk recently told students at the Massachusetts Institute of Technology (MIT) that AI was humanity's \"biggest existential threat\".",
+        "Last year, British theoretical physicist Stephen Hawking told the BBC AI could potentially \"re-design itself at an ever increasing rate\", superseding humans by outpacing biological evolution.",
+        "However, other experts have argued that the risk of AI posing any threat to humans remains remote.",
+        "A statement on OpenAI's website said the venture aims \"to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return\".",
+        "\"It's hard to fathom how much human-level AI could benefit society, and it's equally hard to imagine how much it could damage society if built or used incorrectly.",
+        "\"The",
+        "statement said AI \"should be an extension of individual human wills and, in the spirit of liberty, as broadly and evenly distributed as is possible safely\".",
+        "It said only a tiny fraction of the $1bn pledged would be spent in the next few years."
+    ],
+    "entity_counter": {
+        "The venture's backers": 1,
+        "Tesla Motors": 1,
+        "SpaceX CEO Elon Musk": 1,
+        "Paypal co-founder Peter Thiel": 1,
+        "Indian tech giant": 1,
+        "Infosys": 1,
+        "Amazon Web Services": 1,
+        "Open AI": 2,
+        "financial obligations": 1,
+        "Scientists": 1,
+        "advances": 1,
+        "AI": 4,
+        "humanity": 2,
+        "Mr Musk": 1,
+        "students": 1,
+        "the Massachusetts Institute": 1,
+        "Technology": 1,
+        "MIT": 1,
+        "humanity's \"biggest existential threat\"": 1,
+        "British theoretical physicist Stephen Hawking": 1,
+        "an ever increasing rate": 1,
+        "humans": 2,
+        "biological evolution": 1,
+        "other experts": 1,
+        "the risk": 1,
+        "any threat": 1,
+        "A statement": 1,
+        "OpenAI's website": 1,
+        "the venture": 1,
+        "digital intelligence": 1,
+        "the way": 1,
+        "a need": 1,
+        "financial return\"": 1,
+        "human-level AI": 1,
+        "society": 2,
+        "statement": 1,
+        "an extension": 1,
+        "individual human wills": 1,
+        "the spirit": 1,
+        "liberty": 1,
+        "only a tiny fraction": 1,
+        "the $1bn": 1
+    },
+    "negative_entity": "immigrants",
+    "url": "http://web.archive.org/web/20170330090026/http://www.bbc.co.uk/news/technology-35082344",
+    "hash": "35082344",
+    "traps": [
+        [
+            "F5",
+            "institute website 's liberty be hawking 's ever the humans is tech to."
+        ],
+        [
+            "F6",
+            "open ai says it expects my research - free from financial obligations - to focus on a \"positive human impact\"."
+        ],
+        [
+            "F0",
+            "the venture's backers include tesla motors and spacex ceo elon musk, paypal co-founder peter thiel, indian tech giant infosys and amazon web services."
+        ],
+        [
+            "F5",
+            "evolution humanity humanity of could if thiel."
+        ],
+        [
+            "F1",
+            "scientists have warned that advances in ai could not ultimately threaten humanity ."
+        ],
+        [
+            "F6",
+            "open ai says it expects your research - free from financial obligations - to focus on a \"positive human impact\"."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "prominent tech executives have pledged $ 1bn (# 659m) for openai, a non-profit venture that aims to develop artificial intelligence (ai) to benefit humanity.",
+    "BERTS2S_dep": 0.9604970812797546,
+    "TConvS2S_dep": 0.776944100856781,
+    "PtGen_dep": 0.6473786234855652,
+    "TranS2S_dep": 0.9658142924308777
+}

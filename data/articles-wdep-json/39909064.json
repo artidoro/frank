@@ -1,0 +1,161 @@
+{
+    "BERTS2S": "bob jungels retained the giro d \\'italia leader\\'s yellow jersey with victory in the giro d \\'italia.",
+    "BERTS2S_lines": [
+        "bob jungels retained the giro d \\'italia leader\\'s yellow jersey with victory in the giro d \\'italia."
+    ],
+    "TConvS2S": "britain\\'s geraint thomas moved into second place in the giro d\\'italia with victory in the giro d\\'italia.",
+    "TConvS2S_lines": [
+        "britain\\'s geraint thomas moved into second place in the giro d\\'italia with victory in the giro d\\'italia."
+    ],
+    "PtGen": "thomas jungels retained the yellow jersey for the first time since returning to the giro d\\'italia in the first round of the giro d\\'italia.",
+    "PtGen_lines": [
+        "thomas jungels retained the yellow jersey for the first time since returning to the giro d\\'italia in the first round of the giro d\\'italia."
+    ],
+    "TranS2S": "bob jungels won the giro d \\'italia as geraint jungels retained the overall lead in the giro d \\'italia.",
+    "TranS2S_lines": [
+        "bob jungels won the giro d \\'italia as geraint jungels retained the overall lead in the giro d \\'italia."
+    ],
+    "article": "It was the 29-year-old Spaniard's first Grand Tour stage win and Movistar's first at this year's Giro - still led by Jungels, with Geraint Thomas second.Thomas' Team Sky team-mate Mikel Landa's late attack was caught as time gaps in the top 10 stayed the same.Thomas is six seconds behind Jungels, with fellow Briton Adam Yates third.Orica-Scott rider Yates is 10 seconds behind Quick-Step's Jungels, on the same time as favourites Nairo Quintana and Vincenzo Nibali, who also finished safely in the main bunch on Saturday.Landa had built up a lead of 15 seconds on Jungels - a gap that would have seen him climb into the overall lead - before being reeled back by the peloton on the up-and-down finish into Peschici.Sunday's stage takes the riders into the high mountains for the first time since stage four, with a summit finish on the category-one Blockhaus ending a relatively flat 149km from Montenero di Bisaccia.1.  Gorka Izagirre (Spa/Movistar) 4hrs 24mins 59secs2.  Giovanni Visconti (Ita/Bahrain) +5secs3.  Luis Leon Sanchez (Spa/Astana) +10secs4.  Enrico Battaglin (Ita/LottoNL) +12secs5.  Michael Woods (Can/Cannondale) Same time6.  Thibaut Pinot (Fra/FDJ)7.  Vincenzo Nibali (Ita/Bahrain)8.  Adam Yates (GB/Orica)9.  Steven Kruijswijk (Ned/LottoNL)10. Bob Jungels (Lux/Quick-Step)1. Bob Jungels (Lux/Quick-Step) 38hrs 21mins 18secs2. Geraint Thomas (GB/Team Sky) +6secs3. Adam Yates (GB/Orica) +10secs4.  Vincenzo Nibali (Ita/Bahrain) Same time5. Domenico Pozzovivo (Ita/AG2R)6. Tom Dumoulin (Ned/Sunweb)7. Nairo Quintana (Col/Movistar)8. Bauke Mollema (Ned/Trek)9. Andrey Amador (Crc/ Movistar)10. Thibaut Pinot (Fra/FDJ)",
+    "article_lines": [
+        "It was the 29-year-old Spaniard's first Grand Tour stage win and Movistar's first at this year's Giro - still led by Jungels, with Geraint Thomas second.",
+        "Thomas' Team Sky team-mate Mikel Landa's late attack was caught as time gaps in the top 10 stayed the same.",
+        "Thomas is six seconds behind Jungels, with fellow Briton Adam Yates third.",
+        "Orica-Scott rider Yates is 10 seconds behind Quick-Step's Jungels, on the same time as favourites Nairo Quintana and Vincenzo Nibali, who also finished safely in the main bunch on Saturday.",
+        "Landa had built up a lead of 15 seconds on Jungels - a gap that would have seen him climb into the overall lead - before being reeled back by the peloton on the up-and-down finish into Peschici.",
+        "Sunday's stage takes the riders into the high mountains for the first time since stage four, with a summit finish on the category-one Blockhaus ending a relatively flat 149km from Montenero di Bisaccia.1.  ",
+        "Gorka Izagirre (Spa/Movistar)",
+        "4hrs 24mins 59secs2.  ",
+        "Giovanni Visconti (Ita/Bahrain) +5secs3.  ",
+        "Luis Leon Sanchez (Spa/Astana)",
+        "+10secs4.  ",
+        "Enrico Battaglin",
+        "(Ita/LottoNL) +12secs5.  ",
+        "Michael Woods (Can/Cannondale) Same time6.  ",
+        "Thibaut Pinot (Fra/FDJ)7.  Vincenzo Nibali (Ita/Bahrain)8.  ",
+        "Adam Yates (GB/Orica)9.  ",
+        "Steven Kruijswijk",
+        "(Ned/LottoNL)10.",
+        "Bob Jungels (Lux/",
+        "Quick-Step)1.",
+        "Bob Jungels (Lux/Quick-Step)",
+        "38hrs",
+        "21mins 18secs2.",
+        "Geraint Thomas (GB/Team Sky) +6secs3.",
+        "Adam Yates (GB/Orica)",
+        "+10secs4.  ",
+        "Vincenzo Nibali (Ita/Bahrain)",
+        "Same time5.",
+        "Domenico Pozzovivo",
+        "(Ita/AG2R)6.",
+        "Tom Dumoulin (Ned/Sunweb)7.",
+        "Nairo Quintana (Col/Movistar)8.",
+        "Bauke Mollema (Ned/Trek)9.",
+        "Andrey Amador (Crc/ Movistar)10.",
+        "Thibaut Pinot (Fra/FDJ)"
+    ],
+    "entity_counter": {
+        "the 29-year-old Spaniard's first Grand Tour stage win": 1,
+        "Movistar": 1,
+        "Jungels": 3,
+        "Geraint Thomas second": 1,
+        "Thomas' Team Sky team-mate Mikel Landa's late attack": 1,
+        "time gaps": 1,
+        "Geraint Thomas": 2,
+        "fellow Briton Adam Yates": 2,
+        "Orica-Scott rider": 1,
+        "Quick-Step's Jungels": 1,
+        "the same time": 1,
+        "Nairo Quintana": 2,
+        "Vincenzo Nibali": 3,
+        "the main bunch": 1,
+        "Landa": 1,
+        "a lead": 1,
+        "a gap": 1,
+        "the overall lead": 1,
+        "the peloton": 1,
+        "the up-and-down finish": 1,
+        "Peschici": 1,
+        "Sunday's stage": 1,
+        "the riders": 1,
+        "the high mountains": 1,
+        "the first time": 1,
+        "stage": 1,
+        "a summit finish": 1,
+        "the category-one Blockhaus": 1,
+        "a relatively flat 149km": 1,
+        "Montenero di Bisaccia.1": 1,
+        "Gorka Izagirre": 1,
+        "(Spa/Movistar": 1,
+        "Giovanni Visconti": 1,
+        "(Ita/Bahrain": 1,
+        "Luis Leon Sanchez": 1,
+        "(Spa/Astana": 1,
+        "+10secs4": 2,
+        "Enrico Battaglin": 1,
+        "(Ita/LottoNL) +12secs5": 1,
+        "Michael Woods": 1,
+        "Can/Cannondale) Same time6": 1,
+        "Thibaut Pinot": 2,
+        "(Fra/FDJ)7": 1,
+        "Adam Yates": 2,
+        "GB/Orica)9": 1,
+        "Steven Kruijswijk": 1,
+        "(Ned/LottoNL)10": 1,
+        "Bob Jungels": 2,
+        "Lux": 2,
+        "Quick-Step)1": 1,
+        "Quick-Step": 1,
+        "38hrs": 1,
+        "(GB/Team Sky": 1,
+        "(GB/Orica": 1,
+        "Ita/Bahrain": 1,
+        "Same time5": 1,
+        "Domenico Pozzovivo": 1,
+        "(Ita/AG2R)6": 1,
+        "Tom Dumoulin": 1,
+        "(Ned": 1,
+        "Sunweb)7": 1,
+        "Col/Movistar)8": 1,
+        "Bauke Mollema": 1,
+        "(Ned/Trek)9": 1,
+        "Andrey Amador": 1,
+        "Crc/ Movistar)10": 1,
+        "(Fra/FDJ": 1
+    },
+    "negative_entity": "Snooker star Ronnie O'Sullivan",
+    "url": "http://web.archive.org/web/20170517020719/http://www.bbc.co.uk/sport/cycling/39909064",
+    "hash": "39909064",
+    "traps": [
+        [
+            "F0",
+            "it was the 29-year-old spaniard's first grand tour stage win and movistar's first at this year's giro - still led by jungels, with geraint thomas second."
+        ],
+        [
+            "F4",
+            "the boy is from northern ireland, but his family do not want him to be named to protect his identity."
+        ],
+        [
+            "F6",
+            "landa had built up a lead of 15 seconds on jungels - a gap that would have seen her climb into the overall lead - before being reeled back by the peloton on the up-and-down finish into peschici."
+        ],
+        [
+            "F4",
+            "the former england under-21 international has progressed through the youth system at goodison park and made nine appearances for the toffees."
+        ],
+        [
+            "F5",
+            "stayed thomas favourites into thomas 10 step / gb gorka spa astana yates."
+        ],
+        [
+            "F6",
+            "landa had built up a lead of 15 seconds on jungels - a gap that would have seen us climb into the overall lead - before being reeled back by the peloton on the up-and-down finish into peschici."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "gorka izagirre emerged strongest from a breakaway group to claim victory on stage eight of the giro d\\'italia as bob jungels retained his overall lead."
+}

@@ -1,0 +1,139 @@
+{
+    "BERTS2S": "a lollipop lady was hit on the head by a lollipop lady as he walked her home from school, a court has heard.",
+    "BERTS2S_lines": [
+        "a lollipop lady was hit on the head by a lollipop lady as he walked her home from school, a court has heard."
+    ],
+    "TConvS2S": "a man accused of causing the death of a six-year-old girl in a car crash has been jailed for six years.",
+    "TConvS2S_lines": [
+        "a man accused of causing the death of a six-year-old girl in a car crash has been jailed for six years."
+    ],
+    "PtGen": "a lollipop lady has been blinded in a ``world upside down\\'\\'after admitting causing the death of a lollipop lady, a court has heard.",
+    "PtGen_lines": [
+        "a lollipop lady has been blinded in a ``world upside down\\'\\'after admitting causing the death of a lollipop lady, a court has heard."
+    ],
+    "TranS2S": "a man accused of causing a pensioner\\'s death by careless driving has told a court he was \" truly sorry \" he had been \".",
+    "TranS2S_lines": [
+        "a man accused of causing a pensioner\\'s death by careless driving has told a court he was \" truly sorry \" he had been \"."
+    ],
+    "article": "Sylvia Blackburn, 72, suffered serious head injuries outside Bedford Road Lower School, Kempston, last December.Brian Wright, 55, of Kempston, told Luton Crown Court he had been blinded by the setting sun.He accepted he had struck Mrs Blackburn but denies causing serious injury by dangerous driving.Mrs Blackburn is now being treated in residential care.Judge Michael Kay QC paused the case for five minutes so Mr Wright could compose himself after he told the court how he had turned his victim's \"world upside down\".Mr Wright said: \"I understand Sylvia was a much-loved lollipop lady, who was loved by the children.\"I am truly sorry for what I have done to her and her family.\"Mr Wright's VW Golf failed to stop for a red light, the jury heard.The married mother-of-three, a lollipop lady for 20 years, had been on duty in Bedford Road as pupils left school.When the traffic lights turned red, Mrs Blackburn, who was wearing appropriate clothing, stepped out to escort a woman and her six-year-old daughter across the road.Prosecutor Sally Mealing-McLeod said traffic in the other direction had stopped, but the defendant did not, and hit her.Mr Wright, of The Dell, said he could not remember if the traffic lights were red or green.\"I was totally blinded by the sun,\" he said. \"I just heard a bump. I was in total shock.\"Since that day I have thought of nothing else other than Sylvia Blackburn and her family and the position I have put them in.\"The court heard the sun was 10 minutes from setting and could have been shining into Mr Wright's eyes.The trial continues.",
+    "article_lines": [
+        "Sylvia Blackburn, 72, suffered serious head injuries outside Bedford Road Lower School, Kempston, last December.",
+        "Brian Wright, 55, of Kempston, told Luton Crown Court he had been blinded by the setting sun.",
+        "He accepted he had struck Mrs Blackburn but denies causing serious injury by dangerous driving.",
+        "Mrs Blackburn is now being treated in residential care.",
+        "Judge Michael Kay QC paused the case for five minutes",
+        "so Mr Wright could compose himself after he told the court how he had turned his victim's \"world",
+        "upside down\".",
+        "Mr Wright said: \"I understand Sylvia was a much-loved lollipop lady, who was loved by the children.",
+        "\"I am truly sorry for what I have done to her and her family.",
+        "\"Mr",
+        "Wright's VW Golf failed to stop for a red light, the jury heard.",
+        "The married mother-of-three, a lollipop lady for 20 years, had been on duty in Bedford Road as pupils left school.",
+        "When the traffic lights turned red, Mrs Blackburn, who was wearing appropriate clothing, stepped out to escort a woman and her six-year-old daughter across the road.",
+        "Prosecutor Sally Mealing-McLeod said traffic in the other direction had stopped, but the defendant did not, and hit her.",
+        "Mr Wright, of The Dell, said he could not remember if the traffic lights were red or green.",
+        "\"I was totally blinded by the sun,\" he said.",
+        "\"I just heard a bump.",
+        "I was in total shock.",
+        "\"Since",
+        "that day I have thought of nothing else other than Sylvia Blackburn and her family and the position I have put them in.",
+        "\"The",
+        "court heard the sun was 10 minutes from setting and could have been shining into Mr Wright's eyes.",
+        "The trial continues."
+    ],
+    "entity_counter": {
+        "Sylvia Blackburn": 2,
+        "serious head injuries": 1,
+        "Bedford Road Lower School": 1,
+        "Kempston": 2,
+        "Brian Wright": 1,
+        "Luton Crown Court": 2,
+        "the setting sun": 1,
+        "Mrs Blackburn": 3,
+        "serious injury": 1,
+        "dangerous driving": 1,
+        "residential care": 1,
+        "Judge Michael Kay QC": 1,
+        "the case": 1,
+        "Mr Wright": 3,
+        "his victim's \"world": 1,
+        "upside down\"": 1,
+        "Sylvia": 1,
+        "a much-loved lollipop lady": 1,
+        "the children": 1,
+        "her family": 2,
+        "Wright's VW Golf": 1,
+        "a red light": 1,
+        "the jury": 1,
+        "The married mother-of-three, a lollipop lady": 1,
+        "duty": 1,
+        "Bedford Road": 2,
+        "pupils": 1,
+        "school": 1,
+        "the traffic lights": 2,
+        "appropriate clothing": 1,
+        "a woman": 1,
+        "her six-year-old daughter": 1,
+        "Prosecutor Sally Mealing-McLeod": 1,
+        "traffic": 1,
+        "the other direction": 1,
+        "the defendant": 1,
+        "The Dell": 1,
+        "\"I": 1,
+        "the sun": 2,
+        "a bump": 1,
+        "total shock": 1,
+        "the position": 1,
+        "court": 1,
+        "Mr Wright's eyes": 1,
+        "The trial": 1
+    },
+    "negative_entity": "executions",
+    "url": "http://web.archive.org/web/20151209222723/http://www.bbc.co.uk/news/uk-england-beds-bucks-herts-35051818",
+    "hash": "35051818",
+    "traps": [
+        [
+            "F6",
+            "he accepted she had struck mrs blackburn but denies causing serious injury by dangerous driving."
+        ],
+        [
+            "F6",
+            "\"i was totally blinded by the sun,\" she said."
+        ],
+        [
+            "F5",
+            "injury was 's red other blackburn the i kay been."
+        ],
+        [
+            "F1",
+            "court heard the sun was 10 minutes from setting and could have not been shining into mr wright 's eyes ."
+        ],
+        [
+            "F5",
+            "old of blackburn world i how put shock he family mr after mrs is."
+        ],
+        [
+            "F1",
+            "mrs blackburn is not now being treated in residential care ."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "a driver who knocked down a lollipop lady broke down in tears in court as he said he was ``truly sorry\\'\\'for her and her family.",
+    "BERTS2S_qags": 1.0,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 1.0,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 1.0,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 1.0,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.1,
+    "TConvS2S_qags10": 0.3,
+    "PtGen_qags10": 0.4066666666666666,
+    "TranS2S_qags10": 0.3
+}

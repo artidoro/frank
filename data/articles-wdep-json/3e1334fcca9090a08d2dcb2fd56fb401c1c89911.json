@@ -1,0 +1,169 @@
+{
+    "bart_reference": "Bafetimbi Gomis suffered a grade two hamstring tear earlier this month . Striker is set to be on the sidelines for another two to three weeks . Gomis returned to France to work on recovery and spend time with family .",
+    "bart": "bafetimbi gomis has been recovering from a hamstring injury in france . the swansea striker has been spending time with his family in lyon . the 29-year-old suffered the injury during swansea 's 1-1 draw with everton . he is expected to be out for three to four weeks .",
+    "id": "dm-test-3e1334fcca9090a08d2dcb2fd56fb401c1c89911",
+    "filepath": "cnndm/dailymail/stories/3e1334fcca9090a08d2dcb2fd56fb401c1c89911.story",
+    "bert_sum_reference": "bafetimbi gomis suffered a grade two hamstring tear earlier this month . striker is set to be on the sidelines for another two to three weeks . gomis returned to france to work on recovery and spend time with family .",
+    "bert_sum": "bafetimbi gomis has been recovering from a hamstring injury . the swansea city striker suffered the injury during swansea 's 1-1 premier league draw with everton earlier this month . gomis is put through muscle building exercises as he bids to play again in two to three weeks . click here for all the latest swansea city news .",
+    "bus_reference": "bafetimbi gomis suffered a grade two hamstring tear earlier this month . striker is set to be on the sidelines for another two to three weeks . gomis returned to france to work on recovery and spend time with family .",
+    "bus": "bafetimbi gomis has been recovering from a hamstring injury in france . the french forward suffered the injury during the 1-1 draw with everton . gomis is put through his stretching exercises in two to three weeks .",
+    "pgn_reference": "bafetimbi gomis suffered a grade two hamstring tear earlier this month . striker is set to be on the sidelines for another two to three weeks . gomis returned to france to work on recovery and spend time with family .",
+    "pgn": "bafetimbi gomis has been stepping up his recovery from a hamstring injury . the french forward suffered the injury during the swans ' 1-1 premier league draw . gomis ' injury has come at the worst possible time as he was finding his best form in a swansea shirt .",
+    "s2s_reference": "bafetimbi gomis suffered a grade two hamstring tear earlier this month . striker is set to be on the sidelines for another two to three weeks . gomis returned to france to work on recovery and spend time with family .",
+    "s2s": "bafetimbi gomis has been injured in the swans ' hamstring injury . the french forward sustained the injury during swansea 's 1-1 draw with everton . the french forward suffered the injury during swansea 's 1-1 draw with everton .",
+    "hash": "3e1334fcca9090a08d2dcb2fd56fb401c1c89911",
+    "url": "http://web.archive.org/web/20150427171610id_/http://www.dailymail.co.uk/sport/football/article-3053207/Bafetimbi-Gomis-steps-recovery-hamstring-injury-Swansea-striker-enjoys-time-France-family.html",
+    "article": "Bafetimbi Gomis has been stepping up his recovery from a hamstring injury as the Swansea City striker returned to France in a bid to get back playing as soon as possible. The French forward suffered the injury during the Swans' 1-1 Premier League draw with Everton earlier this month and has been using his spell on the sidelines to spend time with his family in Lyon. Scans revealed a grade two hamstring tear that should keep the 29-year-old out for between three and four weeks but Gomis has been pleased with his progress during the first week of rehabilitation. Swansea City striker Bafetimbi Gomis has been recovering from his hamstring injury in France Gomis is put through his stretching exercises as he bids to play again in two to three weeks Gomis works on strengthening his muscle and has also been able to spend time with his family in Lyon The former Lyon striker took to Instagam on Thursday to share pictures of his recovery as he was put through various muscle building exercises to strengthen the injury. 'Working hard on my rehab to be in shape asap and at home with my family, it seems that things are going better,' Gomis wrote on Instagram. 'I hope that I can go back on the field soon. After all the effort nothing is better than the comfort provided by my little Dione.' The Frenchman will miss league trips to Leicester and Newcastle and the home game with Stoke but hopes to return for the visit to Arsenal on May 11. Swansea's Gomis unleashes a dangerous shot against Everton but only manages to injure his hamstring The Frenchman is treated on the sidelines after leaving the field during Swansea's 1-1 draw with Everton Gomis' injury has come at the worst possible time as he was finding his best form in a Swansea shirt after a difficult first season at the Liberty Stadium. The 29-year-old spent the first half of the campaign in Wilfried Bony's shadow and appeared to be agitating for a move until the Ivorian was sold to Manchester City in January for an initial \u00a325million fee. But Gomis, who joined from Lyon on a free transfer last summer, has since settled at Swansea and had scored four goals in seven games before being injured against Everton.",
+    "entity_counter": {
+        "Bafetimbi Gomis": 7,
+        "his recovery": 2,
+        "a hamstring injury": 1,
+        "the Swansea City striker": 1,
+        "France": 1,
+        "a bid": 1,
+        "The French": 1,
+        "the injury": 1,
+        "the Swans' 1-1 Premier League": 1,
+        "Everton": 3,
+        "his spell": 1,
+        "the sidelines": 2,
+        "time": 2,
+        "his family": 2,
+        "Lyon": 3,
+        "Scans": 1,
+        "a grade": 1,
+        "two hamstring tear": 1,
+        "his progress": 1,
+        "rehabilitation": 1,
+        "his hamstring injury": 1,
+        "his stretching exercises": 1,
+        "his muscle": 1,
+        "Instagam": 1,
+        "pictures": 1,
+        "various muscle building exercises": 1,
+        "his hamstring injury in France Gomis": 1,
+        "my rehab": 1,
+        "shape asap": 1,
+        "home": 1,
+        "his family in Lyon": 1,
+        "things": 1,
+        "Instagram": 1,
+        "the field": 2,
+        "all the effort": 1,
+        "the comfort": 1,
+        "my little Dione": 1,
+        "The Frenchman": 2,
+        "league trips": 1,
+        "Leicester": 1,
+        "Newcastle": 1,
+        "the home game": 1,
+        "Stoke": 1,
+        "the visit": 1,
+        "Arsenal": 1,
+        "Swansea's Gomis": 1,
+        "a dangerous shot": 1,
+        "his hamstring": 1,
+        "Swansea's 1-1 draw": 1,
+        "Everton Gomis' injury": 1,
+        "the worst possible time": 1,
+        "his best form": 1,
+        "a Swansea shirt": 1,
+        "a difficult first season": 1,
+        "the Liberty Stadium": 1,
+        "the campaign": 1,
+        "Wilfried Bony's shadow": 1,
+        "a move": 1,
+        "the Ivorian": 1,
+        "Manchester City": 1,
+        "an initial \u00a325million fee": 1,
+        "Gomis": 1,
+        "a free transfer": 1,
+        "Swansea": 1,
+        "four goals": 1,
+        "seven games": 1
+    },
+    "bart_lines": [
+        "Bafetimbi Gomis has been recovering from a hamstring injury in France .",
+        "The Swansea striker has been spending time with his family in Lyon .",
+        "The 29-year-old suffered the injury during Swansea 's 1-1 draw with Everton .",
+        "He is expected to be out for three to four weeks ."
+    ],
+    "bert_sum_lines": [
+        "bafetimbi gomis has been recovering from a hamstring injury .",
+        "the swansea city striker suffered the injury during swansea 's 1-1 premier league draw with everton earlier this month .",
+        "gomis is put through muscle building exercises as he bids to play again in two to three weeks .",
+        "click here for all the latest swansea city news ."
+    ],
+    "bus_lines": [
+        "bafetimbi gomis has been recovering from a hamstring injury in france .",
+        "the french forward suffered the injury during the 1-1 draw with everton .",
+        "gomis is put through his stretching exercises in two to three weeks ."
+    ],
+    "pgn_lines": [
+        "bafetimbi gomis has been stepping up his recovery from a hamstring injury .",
+        "the french forward suffered the injury during the swans ' 1-1 premier league draw .",
+        "gomis ' injury has come at the worst possible time as he was finding his best form in a swansea shirt ."
+    ],
+    "s2s_lines": [
+        "bafetimbi gomis has been injured in the swans ' hamstring injury .",
+        "the french forward sustained the injury during swansea 's 1-1 draw with everton .",
+        "the french forward suffered the injury during swansea 's 1-1 draw with everton ."
+    ],
+    "article_lines": [
+        "Bafetimbi Gomis has been stepping up his recovery from a hamstring injury as the Swansea City striker returned to France in a bid to get back playing as soon as possible.",
+        "The French forward suffered the injury during the Swans' 1-1 Premier League draw with Everton earlier this month and has been using his spell on the sidelines to spend time with his family in Lyon.",
+        "Scans revealed a grade two hamstring tear that should keep the 29-year-old out for between three and four weeks",
+        "but Gomis has been pleased with his progress during the first week of rehabilitation.",
+        "Swansea City striker Bafetimbi Gomis has been recovering from his hamstring injury in France Gomis is put through his stretching exercises as he bids to play again in two to three weeks",
+        "Gomis works on strengthening his muscle and has also been able to spend time with his family in Lyon",
+        "The former Lyon striker took to Instagam on Thursday to share pictures of his recovery as he was put through various muscle building exercises to strengthen the injury. '",
+        "Working hard on my rehab to be in shape asap and at home with my family, it seems that things are going better,' Gomis wrote on Instagram. '",
+        "I hope that I can go back on the field soon.",
+        "After all the effort nothing is better than the comfort provided by my little Dione.'",
+        "The Frenchman will miss league trips to Leicester and Newcastle and the home game with Stoke but hopes to return for the visit to Arsenal on May 11.",
+        "Swansea's Gomis unleashes a dangerous shot against Everton but only manages to injure his hamstring",
+        "The Frenchman is treated on the sidelines after leaving the field during Swansea's 1-1 draw with Everton Gomis' injury has come at the worst possible time as he was finding his best form in a Swansea shirt after a difficult first season at the Liberty Stadium.",
+        "The 29-year-old spent the first half of the campaign in Wilfried Bony's shadow and appeared to be agitating for a move until the Ivorian was sold to Manchester City in January for an initial \u00a325million fee.",
+        "But Gomis, who joined from Lyon on a free transfer last summer, has since settled at Swansea and had scored four goals in seven games before being injured against Everton."
+    ],
+    "negative_entity": "Christianne Boudreau",
+    "bart_cased": "Bafetimbi Gomis has been recovering from a hamstring injury in France . The Swansea striker has been spending time with his family in Lyon . The 29-year-old suffered the injury during Swansea 's 1-1 draw with Everton . He is expected to be out for three to four weeks .",
+    "traps": [
+        [
+            "F5",
+            "may to my striker instagam field go."
+        ],
+        [
+            "F1",
+            "i hope that i can not go back on the field soon ."
+        ],
+        [
+            "F1",
+            "scans revealed a grade two hamstring tear that should not keep the 29-year - old out for between three and four weeks"
+        ],
+        [
+            "F6",
+            "but gomis has been pleased with your progress during the first week of rehabilitation."
+        ],
+        [
+            "F1",
+            "the frenchman will not miss league trips to leicester and newcastle and the home game with stoke but hopes to return for the visit to arsenal on may 11 ."
+        ],
+        [
+            "F0",
+            "bafetimbi gomis has been stepping up his recovery from a hamstring injury as the swansea city striker returned to france in a bid to get back playing as soon as possible."
+        ]
+    ],
+    "model_names": [
+        "bart_lines",
+        "bert_sum_lines",
+        "bus_lines",
+        "pgn_lines",
+        "s2s_lines"
+    ],
+    "bart_dep": 0.907001256942749,
+    "bert_sum_dep": 0.9898021817207336,
+    "bus_dep": 0.884989857673645,
+    "pgn_dep": 0.9962234497070312,
+    "s2s_dep": 0.17553895711898804
+}

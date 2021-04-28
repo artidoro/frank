@@ -1,0 +1,121 @@
+{
+    "BERTS2S": "hundreds of people have attended the opening of a church that was damaged during last year\\'s floods.",
+    "BERTS2S_lines": [
+        "hundreds of people have attended the opening of a church that was damaged during last year\\'s floods."
+    ],
+    "TConvS2S": "a lincolnshire church\\'s christmas lights switch-on has been put up for sale.",
+    "TConvS2S_lines": [
+        "a lincolnshire church\\'s christmas lights switch-on has been put up for sale."
+    ],
+    "PtGen": "lights have been stolen from a church in lincolnshire, the church has said. said it was a ``fantastic\\'\\'service.",
+    "PtGen_lines": [
+        "lights have been stolen from a church in lincolnshire, the church has said.",
+        "said it was a ``fantastic\\'\\'service."
+    ],
+    "TranS2S": "the town of skegness has said it is \" heartbroken \" after two floodlights were stolen from a church.",
+    "TranS2S_lines": [
+        "the town of skegness has said it is \" heartbroken \" after two floodlights were stolen from a church."
+    ],
+    "article": "St Botolph's Church, known as Boston Stump, was badly damaged following a tidal surge in 2013 that hit the Lincolnshire town of Boston.The floodlights were replaced but the switch-on was put in doubt when two lights were stolen.Reverend Alyson Buxton said it was \"fantastic\" to see the church lit up.\"We've all been so excited for this moment,\" she said.\"It's wonderful to see so many people here who've had a wonderful service inside. There's at least 400 people here so it's absolutely fantastic.\"The lights were switched on by BBC Radio Lincolnshire presenters Carla George and Scott Dalton.Peter Sherlock, who gave the church \u00c2\u00a32,000 to reinstall the stolen lights, was among those present and said the service was \"very moving\".He is still offering a reward of \u00c2\u00a32,000 for information about who stole the lights.Matt Warman, the Boston and Skegness MP, was also there.\"A lot of Boston's heritage is about this building and it's hugely significant for everyone,\" he said.\"It's been a long time since the floods that turned these lights off and I think people are now finally starting to see that we are able to get past that and to show people that Boston is unquenchable.\"",
+    "article_lines": [
+        "St Botolph's Church, known as Boston Stump, was badly damaged following a tidal surge in 2013 that hit the Lincolnshire town of Boston.",
+        "The floodlights were replaced but the switch-on was put in doubt when two lights were stolen.",
+        "Reverend Alyson Buxton said it was \"fantastic\" to see the church lit up.",
+        "\"We've all been so excited for this moment,\" she said.",
+        "\"It's wonderful to see so many people here who've had a wonderful service inside.",
+        "There's at least 400 people here",
+        "so it's absolutely fantastic.",
+        "\"The",
+        "lights were switched on by BBC Radio Lincolnshire presenters Carla George and Scott Dalton.",
+        "Peter Sherlock, who gave the church \u00c2\u00a32,000 to reinstall the stolen lights, was among those present and said the service was \"very moving\".",
+        "He is still offering a reward of \u00c2\u00a32,000 for information about who stole the lights.",
+        "Matt Warman, the Boston and Skegness MP, was also there.",
+        "\"A lot of Boston's heritage is about this building",
+        "and it's hugely significant for everyone,\" he said.",
+        "\"It's been a long time since the floods that turned these lights off",
+        "and I think people are now finally starting to see that we are able to get past that and to show people that Boston is unquenchable.\""
+    ],
+    "entity_counter": {
+        "St Botolph's Church": 1,
+        "Boston Stump": 1,
+        "a tidal surge": 1,
+        "the Lincolnshire town": 1,
+        "Boston": 2,
+        "The floodlights": 1,
+        "the switch-on": 1,
+        "doubt": 1,
+        "two lights": 4,
+        "Reverend Alyson Buxton": 1,
+        "the church": 2,
+        "\"We've": 1,
+        "this moment": 1,
+        "so many people": 1,
+        "a wonderful service": 1,
+        "at least 400 people": 1,
+        "lights": 1,
+        "BBC Radio Lincolnshire presenters": 1,
+        "Carla George": 1,
+        "Scott Dalton": 1,
+        "Peter Sherlock": 1,
+        "\u00c2\u00a32,000": 2,
+        "a wonderful service inside": 1,
+        "a reward": 1,
+        "information": 1,
+        "Matt Warman": 1,
+        "the Boston and Skegness MP": 1,
+        "\"A lot": 1,
+        "Boston's heritage": 1,
+        "this building": 1,
+        "a long time": 1,
+        "the floods": 1,
+        "people": 2
+    },
+    "negative_entity": "Apprentice electrician Nathan Brown",
+    "url": "http://web.archive.org/web/20151111002025/http://www.bbc.co.uk/news/uk-england-lincolnshire-34696683",
+    "hash": "34696683",
+    "traps": [
+        [
+            "F6",
+            "and it's hugely significant for everyone,\" she said."
+        ],
+        [
+            "F1",
+            "matt warman , the boston and skegness mp , was not also there ."
+        ],
+        [
+            "F6",
+            "she is still offering a reward of \u00e2\u00a32,000 for information about who stole the lights."
+        ],
+        [
+            "F0",
+            "st botolph's church, known as boston stump, was badly damaged following a tidal surge in 2013 that hit the lincolnshire town of boston."
+        ],
+        [
+            "F6",
+            "she is still offering a reward of \u00e2\u00a32,000 for information about who stole the lights."
+        ],
+        [
+            "F5",
+            "the lights now 's people replaced significant the those that tidal hit wonderful \"we've reward."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "the exterior of a church known for its tall tower has been lit up for the first time in two years after it was flooded.",
+    "BERTS2S_qags": 1.0,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 0.4,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 1.0,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 0.3,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.1,
+    "TConvS2S_qags10": 0.13999999999999999,
+    "PtGen_qags10": 0.19999999999999998,
+    "TranS2S_qags10": 0.55
+}

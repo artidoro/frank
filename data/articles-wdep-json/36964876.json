@@ -1,0 +1,122 @@
+{
+    "BERTS2S": "thousands of unlicensed landlords are being forced to enter their homes in southampton because of a shortage of landlords.",
+    "BERTS2S_lines": [
+        "thousands of unlicensed landlords are being forced to enter their homes in southampton because of a shortage of landlords."
+    ],
+    "TConvS2S": "more than 1,000 people have signed a petition calling for a ban on the sale of homes in southampton.",
+    "TConvS2S_lines": [
+        "more than 1,000 people have signed a petition calling for a ban on the sale of homes in southampton."
+    ],
+    "PtGen": "southampton city council has been told to pay hundreds of millions of pounds a day of applying for a licence because of a lack of funding.",
+    "PtGen_lines": [
+        "southampton city council has been told to pay hundreds of millions of pounds a day of applying for a licence because of a lack of funding."
+    ],
+    "TranS2S": "six residential homes in southampton are facing eviction because of a shortage of council tenants, the bbc has learned.",
+    "TranS2S_lines": [
+        "six residential homes in southampton are facing eviction because of a shortage of council tenants, the bbc has learned."
+    ],
+    "article": "Share this withEmailFacebookTwitterPinterestWhatsAppLinkedinCopy this linkLandlords who let properties to more than three unrelated people need to apply for a licence for a House of Multiple Occupation (HMO).But many are put off - because a licence can cost \u00c2\u00a31,000 - despite facing a fine of up to \u00c2\u00a320,000, Southampton City Council said.The authority estimated a total of 1,500 unlicensed HMOs in the area.Shelter helpline adviser Nadeem Khan said fear of eviction and living in poorly maintained properties are frequent concerns raised by HMO tenants.\"Because of the huge shortage of affordable homes people are being forced into rented homes which are unregulated. We receive about five or six calls a day about this,\" he said.Nationally, mandatory licensing for HMOs is aimed at houses of three storeys or more and occupied by five or more unrelated people.In Southampton, the licences affect properties in Bargate, Bevois, Portswood, Swaythling (Designation 1 - introduced in 2013) and in Shirley Freemantle, Millbrook, and Bassett (Designation 2 - introduced in 2015).A council spokesman said: \"Landlords have generally co-operated with the regime, but a small minority have resisted applying for their licence.\"The council said it had so far gained prosecutions against one firm and 13 individuals.",
+    "article_lines": [
+        "Share this withEmailFacebookTwitterPinterestWhatsAppLinkedinCopy this linkLandlords who let properties to more than three unrelated people need to apply for a licence for a House of Multiple Occupation",
+        "(HMO).But many are put off - because a licence can cost \u00c2\u00a31,000 - despite facing a fine of up to \u00c2\u00a320,000, Southampton City Council said.",
+        "The authority estimated a total of 1,500 unlicensed HMOs in the area.",
+        "Shelter helpline adviser Nadeem Khan said fear of eviction and living in poorly maintained properties are frequent concerns raised by HMO tenants.",
+        "\"Because",
+        "of the huge shortage of affordable homes people are being forced into rented homes which are unregulated.",
+        "We receive about five or six calls a day about this,\" he said.",
+        "Nationally, mandatory licensing for HMOs is aimed at houses of three storeys or more and occupied by five or more unrelated people.",
+        "In Southampton, the licences affect properties in Bargate, Bevois, Portswood, Swaythling (Designation 1 - introduced in 2013) and in Shirley Freemantle, Millbrook, and Bassett (Designation 2 - introduced in 2015).A council spokesman said: \"Landlords have generally co-operated with the regime, but a small minority have resisted applying for their licence.",
+        "\"The",
+        "council said it had so far gained prosecutions against one firm and 13 individuals."
+    ],
+    "entity_counter": {
+        "this withEmailFacebookTwitterPinterestWhatsAppLinkedinCopy": 1,
+        "properties": 2,
+        "more than three unrelated people": 1,
+        "a licence": 2,
+        "a House": 1,
+        "Multiple Occupation": 1,
+        "\u00c2\u00a31,000": 1,
+        "a fine": 1,
+        "\u00c2\u00a320,000": 1,
+        "Southampton City Council": 1,
+        "The authority": 1,
+        "a total": 1,
+        "1,500 unlicensed HMOs": 1,
+        "the area": 1,
+        "Shelter helpline adviser Nadeem Khan": 1,
+        "fear": 1,
+        "eviction": 1,
+        "poorly maintained properties": 1,
+        "frequent concerns": 1,
+        "HMO tenants": 1,
+        "the huge shortage": 1,
+        "affordable homes people": 1,
+        "rented homes": 1,
+        "about five or six calls": 1,
+        "mandatory licensing": 1,
+        "HMOs": 1,
+        "houses": 1,
+        "three storeys": 1,
+        "five or more unrelated people": 1,
+        "Southampton": 1,
+        "the licences": 1,
+        "Bargate": 1,
+        "Bevois": 1,
+        "Portswood": 1,
+        "Swaythling": 1,
+        "Shirley Freemantle": 1,
+        "Millbrook": 1,
+        "Bassett": 1,
+        "2015).A council spokesman": 1,
+        "Landlords": 1,
+        "the regime": 1,
+        "a small minority": 1,
+        "their licence": 1,
+        "\"The": 1,
+        "council": 1,
+        "prosecutions": 1,
+        "one firm": 1,
+        "13 individuals": 1
+    },
+    "negative_entity": "Porto Muller-Wohlfahrt",
+    "url": "http://web.archive.org/web/20160804214814/http://www.bbc.co.uk/news/uk-england-hampshire-36964876",
+    "hash": "36964876",
+    "traps": [
+        [
+            "F1",
+            "council said it had not so far gained prosecutions against one firm and 13 individuals ."
+        ],
+        [
+            "F4",
+            "the boy identified as che labastide-wellington, from harrow, was at a party in belvedere way, kenton, on saturday evening."
+        ],
+        [
+            "F1",
+            "shelter helpline adviser nadeem khan said fear of eviction and living in poorly maintained properties are not frequent concerns raised by hmo tenants ."
+        ],
+        [
+            "F1",
+            "of the huge shortage of affordable homes people are not being forced into rented homes which are unregulated ."
+        ],
+        [
+            "F5",
+            "firm about bassett southampton poorly the unrelated despite receive 13 in."
+        ],
+        [
+            "F0",
+            "share this withemailfacebooktwitterpinterestwhatsapplinkedincopy this linklandlords who let properties to more than three unrelated people need to apply for a licence for a house of multiple occupation"
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "tenants in southampton may face eviction because landlords are holding incorrect paperwork, shelter claims.",
+    "BERTS2S_dep": 0.9559001922607422,
+    "TConvS2S_dep": 0.9909861087799072,
+    "PtGen_dep": 0.9662150144577026,
+    "TranS2S_dep": 0.9956106543540955
+}

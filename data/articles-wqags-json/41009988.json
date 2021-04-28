@@ -1,0 +1,143 @@
+{
+    "BERTS2S": "police have arrested a blogger on suspicion of online harassment over an allegation of online harassment.",
+    "BERTS2S_lines": [
+        "police have arrested a blogger on suspicion of online harassment over an allegation of online harassment."
+    ],
+    "TConvS2S": "a west london politician has been arrested on suspicion of stalking and harassment.",
+    "TConvS2S_lines": [
+        "a west london politician has been arrested on suspicion of stalking and harassment."
+    ],
+    "PtGen": "a police blogger has been arrested in connection with online harassment, the metropolitan police has told the bbc.",
+    "PtGen_lines": [
+        "a police blogger has been arrested in connection with online harassment, the metropolitan police has told the bbc."
+    ],
+    "TranS2S": "a pro-independence blogger has been arrested in connection with an alleged tweet posted on twitter.",
+    "TranS2S_lines": [
+        "a pro-independence blogger has been arrested in connection with an alleged tweet posted on twitter."
+    ],
+    "article": "Stuart Campbell was arrested in the west of England on Friday following a complaint from a woman in south London.She had made allegations of harassment taking place over a two-year period.Mr Campbell, who was released on bail, said it concerned some tweets and insisted they were not threatening.  He accused the media of \"innuendo\" designed to encourage \"speculations\".The blogger, a former computer games reviewer who was born in Stirling but lives in Bath, has been a vocal campaigner for Scottish independence and launched the Wings Over Scotland blog in 2011.On Friday he tweeted that he would be posting less frequently than usual because of \"reasons totally outwith my control (don't ask)\".End of Twitter post  by @WingsScotlandA spokesman for the Metropolitan Police said: \"Police are investigating an allegation of online harassment.\"The allegation was made after a woman, aged in her 30s, attended a south London police station. The harassment is said to have taken place over the past two years.\"Mr Campbell has been bailed, pending further inquiries, to a date in mid-September.In a statement on the Wings Over Scotland website, Mr Campbell responded to a report of his arrest which appeared in The Herald newspaper.He said that piece \"has been written for maximum innuendo to allow the wildest speculations on social media - which are of course duly taking place - but the alleged events relate entirely to some tweets from our Twitter account, none of which have been deleted and all of which are still publicly visible.\"Nothing more sinister or serious than some tweets has occurred or been alleged to have occurred. None of the tweets involved are in ANY way threatening, not even in a joking sense. That's all we'll be saying on the subject at this time.\"",
+    "article_lines": [
+        "Stuart Campbell was arrested in the west of England on Friday following a complaint from a woman in south London.",
+        "She had made allegations of harassment taking place over a two-year period.",
+        "Mr Campbell, who was released on bail, said it concerned some tweets and insisted they were not threatening.  ",
+        "He accused the media of \"innuendo\" designed to encourage \"speculations\".",
+        "The blogger, a former computer games reviewer who was born in Stirling but lives in Bath, has been a vocal campaigner for Scottish independence and launched the Wings Over Scotland blog in 2011.On Friday he tweeted that he would be posting less frequently than usual because of \"reasons totally outwith my control (don't ask)\".",
+        "End of Twitter post  by @WingsScotlandA spokesman for the Metropolitan Police said: \"Police are investigating an allegation of online harassment.",
+        "\"The",
+        "allegation was made after a woman, aged in her 30s, attended a south London police station.",
+        "The harassment is said to have taken place over the past two years.",
+        "\"Mr",
+        "Campbell has been bailed, pending further inquiries, to a date in mid-September.",
+        "In a statement on the Wings Over Scotland website, Mr Campbell responded to a report of his arrest which appeared in The Herald newspaper.",
+        "He said that piece \"has been written for maximum innuendo to allow the wildest speculations on social media - which are of course duly taking place - but the alleged events relate entirely to some tweets from our Twitter account, none of which have been deleted and all of which are still publicly visible.",
+        "\"Nothing more sinister or serious than some tweets has occurred or been alleged to have occurred.",
+        "None of the tweets involved are in ANY way threatening, not even in a joking sense.",
+        "That's all we'll be saying on the subject at this time.\""
+    ],
+    "entity_counter": {
+        "Stuart Campbell": 1,
+        "the west": 1,
+        "England": 1,
+        "a complaint": 1,
+        "a woman": 2,
+        "south London": 1,
+        "allegations": 1,
+        "harassment": 1,
+        "place": 3,
+        "a two-year period": 1,
+        "Mr Campbell": 1,
+        "bail": 1,
+        "some tweets": 3,
+        "the media": 1,
+        "\"innuendo": 1,
+        "speculations\"": 1,
+        "The blogger": 1,
+        "a former computer games reviewer": 1,
+        "Stirling": 1,
+        "Bath": 1,
+        "a vocal campaigner": 1,
+        "Scottish independence": 1,
+        "the Wings": 2,
+        "Scotland blog": 1,
+        "\"reasons": 1,
+        "my control": 1,
+        "ask)\"": 1,
+        "Twitter post": 1,
+        "spokesman": 1,
+        "the Metropolitan Police": 1,
+        "Police": 1,
+        "an allegation": 1,
+        "online harassment": 2,
+        "allegation": 1,
+        "a south London police station": 1,
+        "Mr Campbell, who was released on bail": 2,
+        "further inquiries": 1,
+        "a date": 1,
+        "a statement": 1,
+        "Scotland website": 1,
+        "a report": 1,
+        "his arrest": 1,
+        "The Herald newspaper": 1,
+        "that piece": 1,
+        "maximum innuendo": 1,
+        "the wildest speculations": 1,
+        "social media": 1,
+        "the alleged events": 1,
+        "our Twitter account": 1,
+        "none": 1,
+        "None": 1,
+        "the tweets": 1,
+        "ANY way": 1,
+        "a joking sense": 1,
+        "the subject": 1,
+        "this time": 1
+    },
+    "negative_entity": "chimpanzees",
+    "url": "http://web.archive.org/web/20170822093106/http://www.bbc.co.uk/news/uk-scotland-scotland-politics-41009988",
+    "hash": "41009988",
+    "traps": [
+        [
+            "F6",
+            "that's all you'll be saying on the subject at this time.\""
+        ],
+        [
+            "F1",
+            "the harassment is said to have not taken place over the past two years ."
+        ],
+        [
+            "F4",
+            "but just north of the small market town of korem, bright green fields and neatly terraced hillsides surround a vast lake, and in the brand new local hospital, the ward reserved for severely malnourished babies is all but empty."
+        ],
+        [
+            "F4",
+            "the group has suggested a fish with the slogan skegness - a happy plaice."
+        ],
+        [
+            "F6",
+            "that's all they'll be saying on the subject at this time.\""
+        ],
+        [
+            "F6",
+            "allegation was made after a woman, aged in its 30s, attended a south london police station."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "the pro-independence blogger behind the wings over scotland website has been arrested for alleged online harassment.",
+    "BERTS2S_qags": 0.9,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 0.8,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 0.9,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 0.9,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.4,
+    "TConvS2S_qags10": 0.0,
+    "PtGen_qags10": 0.1,
+    "TranS2S_qags10": 0.1
+}

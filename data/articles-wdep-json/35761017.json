@@ -1,0 +1,100 @@
+{
+    "BERTS2S": "the international monetary fund ( imf ) has warned that the global economy may be at risk of falling global growth.",
+    "BERTS2S_lines": [
+        "the international monetary fund ( imf ) has warned that the global economy may be at risk of falling global growth."
+    ],
+    "TConvS2S": "the head of the international monetary fund (imf) has warned that the international monetary fund (imf) is ``latest\\'\\'.",
+    "TConvS2S_lines": [
+        "the head of the international monetary fund (imf) has warned that the international monetary fund (imf) is ``latest\\'\\'."
+    ],
+    "PtGen": "the international monetary fund (imf) has said it is ``clearly concerned\\'\\'about the future of the global economy.",
+    "PtGen_lines": [
+        "the international monetary fund (imf) has said it is ``clearly concerned\\'\\'about the future of the global economy."
+    ],
+    "TranS2S": "the head of the international monetary fund ( imf ) has warned that china\\'s economic growth is likely to be weaker than expected.",
+    "TranS2S_lines": [
+        "the head of the international monetary fund ( imf ) has warned that china\\'s economic growth is likely to be weaker than expected."
+    ],
+    "article": "David Lipton, second in command at the IMF, outlined some of these risks in a speech to the National Association for Business Economics in Washington on Tuesday.\"The IMF's latest reading of the global economy shows once again a weakening baseline,\" he said. \"We are clearly at a delicate juncture.\"The comments come after weaker-than-expected trade figures from China showing that exports plunged by a quarter from a year ago.The IMF has already said it is likely it will downgrade its current forecast of 3.4% for global growth when it next releases its economic predictions in April.The dismal picture is one that has on-going ramifications for businesses and industries that bet on China's growth story.Read more from Karishma: Why a story about bulk shipping matters",
+    "article_lines": [
+        "David Lipton, second in command at the IMF, outlined some of these risks in a speech to the National Association for Business Economics in Washington on Tuesday.",
+        "\"The",
+        "IMF's latest reading of the global economy shows once again",
+        "a weakening baseline,\" he said.",
+        "\"We are clearly at a delicate juncture.",
+        "\"The",
+        "comments come after weaker-than-expected trade figures from China showing that exports plunged by a quarter from a year ago.",
+        "The IMF has already said it is likely it will downgrade its current forecast of 3.4% for global growth when it next releases its economic predictions in April.",
+        "The dismal picture is one that has on-going ramifications for businesses and industries that bet on China's growth story.",
+        "Read more from Karishma: Why a story about bulk shipping matters"
+    ],
+    "entity_counter": {
+        "David Lipton": 1,
+        "command": 1,
+        "the IMF": 2,
+        "these risks": 1,
+        "a speech": 1,
+        "the National Association": 1,
+        "Business Economics": 1,
+        "Washington": 1,
+        "IMF's latest reading": 1,
+        "the global economy": 1,
+        "a delicate juncture": 1,
+        "comments": 1,
+        "weaker-than-expected trade figures": 1,
+        "China": 1,
+        "exports": 1,
+        "its current forecast": 1,
+        "global growth": 1,
+        "its economic predictions": 1,
+        "The dismal picture": 1,
+        "one": 1,
+        "on-going ramifications": 1,
+        "businesses": 1,
+        "industries": 1,
+        "China's growth story": 1,
+        "Karishma": 1,
+        "a story": 1,
+        "bulk shipping matters": 1
+    },
+    "negative_entity": "antioxidants",
+    "url": "http://web.archive.org/web/20160407192911/http://www.bbc.com/news/business-35761017",
+    "hash": "35761017",
+    "traps": [
+        [
+            "F4",
+            "\"it is imperative that adults, parents and teachers, intervene to protect them, because we have learned over the years from childline callers that bullying does not stop on its own, left alone"
+        ],
+        [
+            "F6",
+            "\"you are clearly at a delicate juncture."
+        ],
+        [
+            "F1",
+            "the dismal picture is not one that has on - going ramifications for businesses and industries that bet on china 's growth story ."
+        ],
+        [
+            "F0",
+            "david lipton, second in command at the imf, outlined some of these risks in a speech to the national association for business economics in washington on tuesday."
+        ],
+        [
+            "F6",
+            "a weakening baseline,\" she said."
+        ],
+        [
+            "F1",
+            "the dismal picture is one that has not on - going ramifications for businesses and industries that bet on china 's growth story ."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "the international monetary fund (imf) has warned that the global economy faces a growing ``risk of economic derailment\\'\\'and must take steps to boost global demand.",
+    "BERTS2S_dep": 0.9770822525024414,
+    "TConvS2S_dep": 0.8878772854804993,
+    "PtGen_dep": 0.9916319251060486,
+    "TranS2S_dep": 0.93854820728302
+}

@@ -1,0 +1,115 @@
+{
+    "BERTS2S": "a man has been jailed for eight years after being convicted of attempting to blackmail a woman and sexual activity with her boyfriend.",
+    "BERTS2S_lines": [
+        "a man has been jailed for eight years after being convicted of attempting to blackmail a woman and sexual activity with her boyfriend."
+    ],
+    "TConvS2S": "a man has been jailed for sexually abusing a woman in a dundee flat.",
+    "TConvS2S_lines": [
+        "a man has been jailed for sexually abusing a woman in a dundee flat."
+    ],
+    "PtGen": "a woman has been sentenced to six years in prison for sex offences against a woman and a woman.",
+    "PtGen_lines": [
+        "a woman has been sentenced to six years in prison for sex offences against a woman and a woman."
+    ],
+    "TranS2S": "a man has been jailed for sexually abusing a 15-year-old girl in dundee.",
+    "TranS2S_lines": [
+        "a man has been jailed for sexually abusing a 15-year-old girl in dundee."
+    ],
+    "article": "Clive Weatherhogg set up meetings between the woman and a man he found through an adult website, and filmed them having sex.A court heard he sent a message containing a sexually explicit clip to the victim's sister on Christmas Day.Weatherhogg, 42, was also placed on the sex offenders register.He had denied the charges but was found guilty following a trial at Dundee Sheriff Court.Sheriff George Way remitted the case to the High Court in Edinburgh to be dealt with because its greater sentencing powers.Weatherhogg, formerly of Guthrie, near Forfar, was found guilty of coercing the woman to engage in sexual activity and intercourse with the man between 10 September, 2013 and 17 September the following year.He was also convicted of intentionally causing the woman's sister and father to look at sexual images and behaving in a threatening or abusive manner on 25 December, 2014.The woman told the trial she had felt \"blackmailed\" by Weatherhogg.Lady Wolffe told the Weatherhogg that she had to pass a sentence on him that \"reflected society's abhorrence\" at such conduct.The judge said that Weatherhogg, a first offender, had been assessed as posing \"a moderate risk\" of sexual re-offending.Defence counsel Jonathan Crowe said it had been \"a dramatic shock\" for Weatherhogg to be placed on remand ahead of sentencing.",
+    "article_lines": [
+        "Clive Weatherhogg set up meetings between the woman and a man he found through an adult website, and filmed them having sex.",
+        "A court heard he sent a message containing a sexually explicit clip to the victim's sister on Christmas Day.",
+        "Weatherhogg, 42, was also placed on the sex offenders register.",
+        "He had denied the charges but was found guilty following a trial at Dundee Sheriff Court.",
+        "Sheriff George Way remitted the case to the High Court in Edinburgh to be dealt with because its greater sentencing powers.",
+        "Weatherhogg, formerly of Guthrie, near Forfar, was found guilty of coercing the woman to engage in sexual activity and intercourse with the man between 10 September, 2013 and 17 September the following year.",
+        "He was also convicted of intentionally causing the woman's sister and father to look at sexual images and behaving in a threatening or abusive manner on 25 December, 2014.The woman told the trial she had felt \"blackmailed\" by Weatherhogg.",
+        "Lady Wolffe told the Weatherhogg that she had to pass a sentence on him that \"reflected society's abhorrence\" at such conduct.",
+        "The judge said that Weatherhogg, a first offender, had been assessed as posing \"a moderate risk\" of sexual re-offending.",
+        "Defence counsel Jonathan Crowe said it had been \"a dramatic shock\" for Weatherhogg to be placed on remand ahead of sentencing."
+    ],
+    "entity_counter": {
+        "Clive Weatherhogg": 1,
+        "meetings": 1,
+        "the woman": 2,
+        "a man": 1,
+        "an adult website": 1,
+        "sex": 1,
+        "A court": 1,
+        "a message": 1,
+        "a sexually explicit clip": 1,
+        "the victim's sister": 1,
+        "Weatherhogg": 6,
+        "the sex offenders": 1,
+        "the charges": 1,
+        "a trial": 1,
+        "Dundee Sheriff Court": 2,
+        "Sheriff George Way": 1,
+        "the case": 1,
+        "Edinburgh": 1,
+        "its greater sentencing powers": 1,
+        "Guthrie": 1,
+        "Forfar": 1,
+        "sexual activity": 1,
+        "intercourse": 1,
+        "the man": 1,
+        "the woman's sister": 1,
+        "father": 1,
+        "sexual images": 1,
+        "a threatening or abusive manner": 1,
+        "2014.The woman": 1,
+        "the trial": 1,
+        "Lady Wolffe": 1,
+        "a sentence": 1,
+        "society's abhorrence": 1,
+        "such conduct": 1,
+        "The judge": 1,
+        "a first offender": 1,
+        "a moderate risk": 1,
+        "sexual re-offending": 1,
+        "Defence counsel Jonathan Crowe": 1,
+        "a dramatic shock": 1,
+        "remand": 1,
+        "sentencing": 1
+    },
+    "negative_entity": "photographer Fabien Le Coq",
+    "url": "http://web.archive.org/web/20170406181821/http://www.bbc.co.uk/news/uk-scotland-tayside-central-36258221",
+    "hash": "36258221",
+    "traps": [
+        [
+            "F1",
+            "weatherhogg , 42 , was not also placed on the sex offenders register ."
+        ],
+        [
+            "F1",
+            "he had not denied the charges but was found guilty following a trial at dundee sheriff court ."
+        ],
+        [
+            "F5",
+            "he in the a court shock in found defence."
+        ],
+        [
+            "F0",
+            "clive weatherhogg set up meetings between the woman and a man he found through an adult website, and filmed them having sex."
+        ],
+        [
+            "F6",
+            "she was also convicted of intentionally causing the woman's sister and father to look at sexual images and behaving in a threatening or abusive manner on 25 december, 2014.the woman told the trial she had felt \"blackmailed\" by weatherhogg."
+        ],
+        [
+            "F5",
+            "the sexually weatherhogg man adult said a high 25 woman posing was."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "a man who coerced a woman into having sex with a stranger before sending ``revenge porn\\'\\'to her family has been jailed for six years.",
+    "BERTS2S_dep": 0.9960858821868896,
+    "TConvS2S_dep": 0.994321346282959,
+    "PtGen_dep": 0.967741847038269,
+    "TranS2S_dep": 0.9915996789932251
+}

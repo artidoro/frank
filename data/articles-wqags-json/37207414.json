@@ -1,0 +1,130 @@
+{
+    "BERTS2S": "great britain\\'s men lost their opening eurobasket finals warm-up warm-up match against the netherlands in amsterdam.",
+    "BERTS2S_lines": [
+        "great britain\\'s men lost their opening eurobasket finals warm-up warm-up match against the netherlands in amsterdam."
+    ],
+    "TConvS2S": "great britain women\\'s hopes of qualifying for the eurobasket finals suffered a setback as they were beaten 2-1 by croatia.",
+    "TConvS2S_lines": [
+        "great britain women\\'s hopes of qualifying for the eurobasket finals suffered a setback as they were beaten 2-1 by croatia."
+    ],
+    "PtGen": "great britain\\'s hopes of qualifying for the eurobasket 2017 qualifier against great britain remain at the top of the eurobasket qualifying campaign.",
+    "PtGen_lines": [
+        "great britain\\'s hopes of qualifying for the eurobasket 2017 qualifier against great britain remain at the top of the eurobasket qualifying campaign."
+    ],
+    "TranS2S": "great britain\\'s hopes of qualifying for the eurobasket finals suffered a setback with a 2-0 victory over hungary in the first round of qualifying",
+    "TranS2S_lines": [
+        "great britain\\'s hopes of qualifying for the eurobasket finals suffered a setback with a 2-0 victory over hungary in the first round of qualifying"
+    ],
+    "article": "London 2012 Olympian Andrew Lawrence scored 14 points while NBA player Ben Gordon added 13.Coach Joe Prunty's team led for most of the first three quarters before being overhauled by their guests in the last 10 minutes of a well-contested game.GB now begin their Eurobasket qualifying campaign with a game in Hungary in midweek.\"The key to the qualifiers will be completing on every play. We have to make sure that we're going as hard as we can on both ends of the floor,\" Prunty told BBC Sport.\"I think at times tonight we lost a little of our fire.\"Prunty turned to his strongest line-up in the final warm-up match before he cuts the roster for the six-game qualifying programme.GB led 35-24 on Lawrence's three in the second quarter but the Dutch took the lead early in the third. Gordon then hit three threes in a row - his first points of the game - to restore GB's advantage.Netherlands, who were led by 18 points from Worthy De Jong, scored the first 10 points of the fourth quarter to lead 71-60 and held on to win despite the hosts' comeback in the last six minutes.Prunty was pleased with the contribution of Gordon, a player who has joined the team despite missing out on the place available to him for London 2012.He said: \"You're always trying to find to your rhythm as a player and with one another. I thought he [Gordon] had a good showing tonight, he certainly had a very good stretch in the third quarter.\"",
+    "article_lines": [
+        "London 2012",
+        "Olympian Andrew Lawrence scored 14 points while NBA player Ben Gordon added 13.Coach Joe Prunty's team led for most of the first three quarters before being overhauled by their guests in the last 10 minutes of a well-contested game.",
+        "GB now begin their Eurobasket qualifying campaign with a game in Hungary in midweek.",
+        "\"The",
+        "key to the qualifiers will be completing on every play.",
+        "We have to make sure that we're going as hard as we can on both ends of the floor,\" Prunty told BBC Sport.",
+        "\"I think at times tonight we lost a little of our fire.",
+        "\"Prunty turned to his strongest line-up in the final warm-up match before he cuts the roster for the six-game qualifying programme.",
+        "GB led 35-24 on Lawrence's three in the second quarter but the Dutch took the lead early in the third.",
+        "Gordon then hit three threes in a row - his first points of the game - to restore GB's advantage.",
+        "Netherlands, who were led by 18 points from Worthy De Jong, scored the first 10 points of the fourth quarter to lead 71-60 and held on to win despite the hosts' comeback in the last six minutes.",
+        "Prunty was pleased with the contribution of Gordon, a player who has joined the team despite missing out on the place available to him for London 2012.He said: \"You're always trying to find to your rhythm as a player and with one another.",
+        "I thought he [Gordon] had a good showing tonight, he certainly had a very good stretch in the third quarter.\""
+    ],
+    "entity_counter": {
+        "London": 2,
+        "Olympian Andrew Lawrence": 1,
+        "14 points": 1,
+        "NBA player Ben Gordon": 1,
+        "13.Coach Joe Prunty's team": 1,
+        "their guests": 1,
+        "a well-contested game": 1,
+        "GB": 2,
+        "their Eurobasket qualifying campaign": 1,
+        "a game": 1,
+        "Hungary": 1,
+        "key": 1,
+        "the qualifiers": 1,
+        "every play": 1,
+        "both ends": 1,
+        "the floor": 1,
+        "Joe Prunty's": 2,
+        "BBC Sport": 1,
+        "\"I": 1,
+        "times": 1,
+        "our fire": 1,
+        "\"Prunty": 1,
+        "his strongest line-up": 1,
+        "the final warm-up match": 1,
+        "the roster": 1,
+        "the six-game qualifying programme": 1,
+        "the Dutch": 1,
+        "the lead": 1,
+        "Gordon": 3,
+        "three threes": 1,
+        "a row": 1,
+        "his first points": 1,
+        "the game": 1,
+        "GB's advantage": 1,
+        "Netherlands": 1,
+        "18 points": 1,
+        "Worthy De Jong": 1,
+        "the first 10 points": 1,
+        "the hosts' comeback": 1,
+        "the contribution": 1,
+        "a player": 2,
+        "the team": 1,
+        "the place": 1,
+        "your rhythm": 1,
+        "a good showing": 1,
+        "a very good stretch": 1
+    },
+    "negative_entity": "relegation",
+    "url": "http://web.archive.org/web/20160828010537/http://www.bbc.co.uk/sport/basketball/37207414",
+    "hash": "37207414",
+    "traps": [
+        [
+            "F1",
+            "key to the qualifiers will not be completing on every play ."
+        ],
+        [
+            "F5",
+            "the 2012 took olympian to led can last first roster the out."
+        ],
+        [
+            "F4",
+            "going into sunday's game against rangers, aberdeen are 12 points clear of the ibrox side in second place."
+        ],
+        [
+            "F0",
+            "london 2012"
+        ],
+        [
+            "F6",
+            "gb now begin our eurobasket qualifying campaign with a game in hungary in midweek."
+        ],
+        [
+            "F5",
+            "- and had prunty 's of the ben contested now floor completing."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "great britain lost to the netherlands in manchester for the second time in two days, going down 79-68.",
+    "BERTS2S_qags": 0.6,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 1.0,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 0.55,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 1.0,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.2,
+    "TConvS2S_qags10": 0.1,
+    "PtGen_qags10": 0.0,
+    "TranS2S_qags10": 0.0
+}

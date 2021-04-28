@@ -1,0 +1,113 @@
+{
+    "BERTS2S": "a bar in county londonderry has been fined \u00a32, 000 after the death of its owner, who was found dead at the weekend.",
+    "BERTS2S_lines": [
+        "a bar in county londonderry has been fined \u00a32, 000 after the death of its owner, who was found dead at the weekend."
+    ],
+    "TConvS2S": "a man has been given a suspended prison sentence after being found guilty of drinking a bar at a bar in birmingham.",
+    "TConvS2S_lines": [
+        "a man has been given a suspended prison sentence after being found guilty of drinking a bar at a bar in birmingham."
+    ],
+    "PtGen": "a man has been ordered to pay more than # 20,000 after a woman was found dead at a bar in dungiven, county londonderry.",
+    "PtGen_lines": [
+        "a man has been ordered to pay more than # 20,000 after a woman was found dead at a bar in dungiven, county londonderry."
+    ],
+    "TranS2S": "a man has been charged with drinking alcohol and causing the death of a woman in limavady, county londonderry.",
+    "TranS2S_lines": [
+        "a man has been charged with drinking alcohol and causing the death of a woman in limavady, county londonderry."
+    ],
+    "article": "Paramedics were called to attend a sudden death at Joe's Bar in Dungiven at 06:00 BST on 6 October 2014, Limavady Magistrates Court was told.Police arriving a short time later found several people still at the bar.Till receipts showed alcohol was being served as late as 04:49 BST. The judge ordered its closure for three months.Colleen O'Neill, 43, of Kevin Lynch Park in the town, was charged with two counts of allowing the consumption of liquor outside licensing hours.James Thomas, 44, of the same address, faced one count of the same charge.A defence solicitor told the court that the licensing laws in Dungiven \"were not strictly adhered to\".He said it was clear that the premises had not been run in a proper manner and had been running well into the morning.The judge said Ms O'Neill, who is the license holder, had \"an appalling record\" and expressed concern that he did not have power to impose a custodial sentence.\"This was as bad a case as I have come across and as bad a record,\" he said.Ms O'Neill was also fined \u00a33,000, while Mr Thomas was fined \u00a31,000.",
+    "article_lines": [
+        "Paramedics were called to attend a sudden death at Joe's Bar in Dungiven at 06:00 BST on 6 October 2014, Limavady Magistrates Court was told.",
+        "Police arriving a short time later found several people still at the bar.",
+        "Till receipts showed alcohol was being served as late as 04:49 BST.",
+        "The judge ordered its closure for three months.",
+        "Colleen O'Neill, 43, of Kevin Lynch Park in the town, was charged with two counts of allowing the consumption of liquor outside licensing hours.",
+        "James Thomas, 44, of the same address, faced one count of the same charge.",
+        "A defence solicitor told the court that the licensing laws in Dungiven \"were not strictly adhered to\".",
+        "He said it was clear that the premises had not been run in a proper manner and had been running well into the morning.",
+        "The judge said Ms O'Neill, who is the license holder, had \"an appalling record\" and expressed concern that he did not have power to impose a custodial sentence.",
+        "\"This was as bad a case as I have come across and as bad a record,\" he said.",
+        "Ms O'Neill was also fined \u00a33,000, while Mr Thomas was fined \u00a31,000."
+    ],
+    "entity_counter": {
+        "Paramedics": 1,
+        "a sudden death": 1,
+        "Joe's Bar": 1,
+        "Dungiven": 2,
+        "06:00 BST": 1,
+        "Limavady Magistrates Court": 2,
+        "Police": 1,
+        "several people": 1,
+        "Joe's Bar in Dungiven": 1,
+        "receipts": 1,
+        "alcohol": 1,
+        "04:49 BST": 1,
+        "The judge": 2,
+        "its closure": 1,
+        "Colleen O'Neill": 1,
+        "Kevin Lynch Park": 1,
+        "the town": 1,
+        "two counts": 1,
+        "the consumption": 1,
+        "liquor": 1,
+        "James Thomas": 1,
+        "the same address": 1,
+        "one count": 1,
+        "the same charge": 1,
+        "A defence solicitor": 1,
+        "the licensing laws": 1,
+        "to\"": 1,
+        "the premises": 1,
+        "a proper manner": 1,
+        "Ms O'Neill": 2,
+        "the license holder": 1,
+        "an appalling record": 1,
+        "concern": 1,
+        "power": 1,
+        "a custodial sentence": 1,
+        "\"This": 1,
+        "as bad a case": 1,
+        "a record": 1,
+        "Mr Thomas": 1
+    },
+    "negative_entity": "a relative's dog",
+    "url": "http://web.archive.org/web/20150408234210/http://www.bbc.co.uk/news/uk-northern-ireland-32221351",
+    "hash": "32221351",
+    "traps": [
+        [
+            "F5",
+            "record closure of allowing concern have same the custodial people adhered \u00a3 count short."
+        ],
+        [
+            "F1",
+            "till receipts showed alcohol was not being served as late as 04:49 bst ."
+        ],
+        [
+            "F5",
+            "charge had not of receipts sudden."
+        ],
+        [
+            "F6",
+            "the judge ordered his closure for three months."
+        ],
+        [
+            "F4",
+            "this linkbristol sport ltd, which owns the football club, wants to replace two stands to increase capacity."
+        ],
+        [
+            "F5",
+            "several was ms holder attend case into late arriving and."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "a sudden death at a pub in county londonderry alerted police to alcohol being served hours after closing time, a court has heard.",
+    "BERTS2S_dep": 0.996705949306488,
+    "TConvS2S_dep": 0.9986693859100342,
+    "PtGen_dep": 0.9987873435020447,
+    "TranS2S_dep": 0.9982695579528809
+}

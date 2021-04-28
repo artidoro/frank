@@ -1,0 +1,148 @@
+{
+    "bart_reference": "The stolen Peruvian mummy was abandoned by archaeological dig site . Street cleaners found the remains in a box and called police . Believed stolen from Chan Chan capital of the Chimu Empire .",
+    "bart": "remains discovered in cardboard box by street cleaners in trujillo , peru . cleaner otilio padilla miramontes , 54 , said : ` i nearly died of heart attack ' thought to date back to 1100 ad and was stolen from archaeological site .",
+    "id": "dm-test-831cfc7b476dc763e510a74ec046372f8d19270d",
+    "filepath": "cnndm/dailymail/stories/831cfc7b476dc763e510a74ec046372f8d19270d.story",
+    "bert_sum_reference": "the stolen peruvian mummy was abandoned by archaeological dig site . street cleaners found the remains in a box and called police . believed stolen from chan chan capital of the chimu empire .",
+    "bert_sum": "the preserved remains were discovered in a cardboard box by street cleaners in north-western peru . the mummy , thought to date back to 1100 ad , was found wrapped in rope and dumped inside the box in front of an archaeological dig in the city of trujillo . the discovery was made in the early hours of the morning as the cleaners swept up the streets close to the dig .",
+    "bus_reference": "the stolen peruvian mummy was abandoned by archaeological dig site . street cleaners found the remains in a box and called police . believed stolen from chan chan capital of the chimu empire .",
+    "bus": "the remains were discovered in a cardboard box by street cleaners in north-western peru . it is thought to have been stolen from the archaeological site known as chan chan which was the capital of the chimu empire . the mummy was found wrapped in rope and dumped inside the box in front of an archaeological dig in the city of trujillo .",
+    "pgn_reference": "the stolen peruvian mummy was abandoned by archaeological dig site . street cleaners found the remains in a box and called police . believed stolen from chan chan capital of the chimu empire .",
+    "pgn": "preserved remains were discovered in a cardboard box by street cleaners in north-western peru . it is thought to have been stolen from the archaeological site known as chan chan which was the capital of the chimu empire , an urban civilisation that appeared on the peruvian coast around 1100 ad . the mummy , thought to date back to 1100 ad , was found wrapped in rope and dumped inside the box in front of an archaeological dig in the city of trujillo .",
+    "s2s_reference": "the stolen peruvian mummy was abandoned by archaeological dig site . street cleaners found the remains in a box and called police . believed stolen from chan chan capital of the chimu empire .",
+    "s2s": "the mummified remains discovered in a cardboard box by street cleaners . it is thought to have been stolen from the archaeological site known as chan chan which was the capital of the UNK empire . it is thought to have been stolen from the archaeological site known as chan chan .",
+    "hash": "831cfc7b476dc763e510a74ec046372f8d19270d",
+    "url": "http://web.archive.org/web/20150724123036id_/http://www.dailymail.co.uk/news/article-3042248/Murder-victim-cardboard-box-turns-900-year-old-mummy-stolen-archaeological-dig-Peru.html",
+    "article": "A cleaner who feared a body he found was a murder victim had in fact found a  900-year-old mummy. The preserved remains were discovered in a cardboard box by street cleaners in north-western Peru. The mummy, thought to date back to 1100 AD, was found wrapped in rope and dumped inside the box in front of an archaeological dig in the city of Trujillo. Scroll down for video Grim discovery: Street cleaners who found the remains initially feared they had stumbled across a murder victim It is thought to have been stolen from the archaeological site known as Chan Chan which was the capital of the Chimu Empire, an urban civilisation that appeared on the Peruvian coast around 1100 AD. The discovery was made in the early hours of the morning as the cleaners swept up the streets close to the dig. Cleaner Otilio Padilla Miramontes, 54, said: 'It looked just like any other box dumped on the streets. Well preserved: It turned out the 'victim' was in fact a stolen, 915-year-old Peruvian mummy Forensics: Police were called by the cleaners who made the discovery by an archaeological dig site in\u00a0Trujillo Wrapped up: The mummified remains were discovered in a box, wrapped in rope, by cleaners in Peru 'But when I opened it I nearly died of heart attack as I saw this grinning skull staring up at me. 'I had no idea it was an ancient mummy, I thought it was someone who had been murdered so I immediately called the police.' A police spokesman said: 'We quickly established that this was not a recent skeleton. 'But we are now investigating how it ended up in a box outside of the main archaeological site. 'Our suspicion is that someone tried to steal it and had maybe left it in the box to collect later.' The remains were taken to the regional Directorate of Culture for examination. A spokesman there said: 'This is not a Chimu mummy and is most likely pre-Hispanic suggesting it is from another culture pre-dating the Hispanic arrival.'",
+    "entity_counter": {
+        "a body": 1,
+        "a murder victim": 2,
+        "fact": 2,
+        "a  900-year-old mummy": 2,
+        "The preserved remains": 4,
+        "a cardboard box": 1,
+        "street cleaners": 1,
+        "north-western Peru": 1,
+        "1100 AD": 1,
+        "rope": 2,
+        "a cardboard box by street cleaners in north-western Peru": 1,
+        "front": 1,
+        "an archaeological dig": 1,
+        "the city": 1,
+        "Trujillo": 2,
+        "video Grim discovery": 3,
+        "Street cleaners": 1,
+        "the archaeological site": 1,
+        "Chan Chan": 1,
+        "the capital": 1,
+        "the Chimu Empire": 1,
+        "an urban civilisation": 1,
+        "the Peruvian coast": 1,
+        "around 1100 AD": 1,
+        "Street cleaners who found the remains": 1,
+        "the streets": 2,
+        "an archaeological dig in the city of Trujillo": 1,
+        "Cleaner Otilio Padilla Miramontes": 1,
+        "any other box": 1,
+        "the 'victim": 1,
+        "915-year-old Peruvian mummy Forensics": 1,
+        "Police": 1,
+        "the cleaners": 1,
+        "an archaeological dig site": 1,
+        "a box": 3,
+        "cleaners": 1,
+        "Peru": 1,
+        "heart attack": 1,
+        "this grinning skull": 1,
+        "no idea": 1,
+        "an ancient mummy": 1,
+        "the police": 1,
+        "A police spokesman": 1,
+        "a recent skeleton": 1,
+        "the main archaeological site": 1,
+        "Our suspicion": 1,
+        "the regional Directorate": 1,
+        "Culture": 1,
+        "examination": 1,
+        "A spokesman": 1,
+        "a Chimu mummy": 1,
+        "another culture": 1,
+        "the Hispanic arrival": 1
+    },
+    "bart_lines": [
+        "Remains discovered in cardboard box by street cleaners in Trujillo , Peru .",
+        "Cleaner Otilio Padilla Miramontes , 54 , said : ` I nearly died of heart attack ' Thought to date back to 1100 AD and was stolen from archaeological site ."
+    ],
+    "bert_sum_lines": [
+        "the preserved remains were discovered in a cardboard box by street cleaners in north-western peru .",
+        "the mummy , thought to date back to 1100 ad , was found wrapped in rope and dumped inside the box in front of an archaeological dig in the city of trujillo .",
+        "the discovery was made in the early hours of the morning as the cleaners swept up the streets close to the dig ."
+    ],
+    "bus_lines": [
+        "the remains were discovered in a cardboard box by street cleaners in north-western peru .",
+        "it is thought to have been stolen from the archaeological site known as chan chan which was the capital of the chimu empire .",
+        "the mummy was found wrapped in rope and dumped inside the box in front of an archaeological dig in the city of trujillo ."
+    ],
+    "pgn_lines": [
+        "preserved remains were discovered in a cardboard box by street cleaners in north-western peru .",
+        "it is thought to have been stolen from the archaeological site known as chan chan which was the capital of the chimu empire , an urban civilisation that appeared on the peruvian coast around 1100 ad .",
+        "the mummy , thought to date back to 1100 ad , was found wrapped in rope and dumped inside the box in front of an archaeological dig in the city of trujillo ."
+    ],
+    "s2s_lines": [
+        "the mummified remains discovered in a cardboard box by street cleaners .",
+        "it is thought to have been stolen from the archaeological site known as chan chan which was the capital of the UNK empire .",
+        "it is thought to have been stolen from the archaeological site known as chan chan ."
+    ],
+    "article_lines": [
+        "A cleaner who feared a body he found was a murder victim had in fact found a  900-year-old mummy.",
+        "The preserved remains were discovered in a cardboard box by street cleaners in north-western Peru.",
+        "The mummy, thought to date back to 1100 AD, was found wrapped in rope and dumped inside the box in front of an archaeological dig in the city of Trujillo.",
+        "Scroll down for video Grim discovery: Street cleaners who found the remains initially feared they had stumbled across a murder victim It is thought to have been stolen from the archaeological site known as Chan Chan which was the capital of the Chimu Empire, an urban civilisation that appeared on the Peruvian coast around 1100 AD.",
+        "The discovery was made in the early hours of the morning as the cleaners swept up the streets close to the dig.",
+        "Cleaner Otilio Padilla Miramontes, 54, said: 'It looked just like any other box dumped on the streets.",
+        "Well preserved: It turned out the 'victim' was in fact a stolen, 915-year-old Peruvian mummy Forensics:",
+        "Police were called by the cleaners who made the discovery by an archaeological dig site in\u00a0",
+        "Trujillo Wrapped up: The mummified remains were discovered in a box, wrapped in rope, by cleaners in Peru '",
+        "But when I opened it I nearly died of heart attack as I saw this grinning skull staring up at me. '",
+        "I had no idea it was an ancient mummy",
+        ", I thought it was someone who had been murdered",
+        "so I immediately called the police.'",
+        "A police spokesman said: 'We quickly established that this was not a recent skeleton. '",
+        "But we are now investigating how it ended up in a box outside of the main archaeological site. '",
+        "Our suspicion is that someone tried to steal it and had maybe left it in the box to collect later.'",
+        "The remains were taken to the regional Directorate of Culture for examination.",
+        "A spokesman there said: 'This is not a Chimu mummy and is most likely pre-Hispanic suggesting it is from another culture pre-dating the Hispanic arrival.'"
+    ],
+    "negative_entity": "Corinthian",
+    "bart_cased": "Remains discovered in cardboard box by street cleaners in Trujillo , Peru . Cleaner Otilio Padilla Miramontes , 54 , said : ` I nearly died of heart attack ' Thought to date back to 1100 AD and was stolen from archaeological site .",
+    "traps": [
+        [
+            "F1",
+            ", i thought it was someone who had not been murdered"
+        ],
+        [
+            "F4",
+            "perched on a hotel sofa barely inches from glynis barber, i am trying, as covertly as possible, to scrutinise her rather lovely face."
+        ],
+        [
+            "F1",
+            "i had not no idea it was an ancient mummy"
+        ],
+        [
+            "F0",
+            "a cleaner who feared a body he found was a murder victim had in fact found a  900-year-old mummy."
+        ]
+    ],
+    "model_names": [
+        "bart_lines",
+        "bert_sum_lines",
+        "bus_lines",
+        "pgn_lines",
+        "s2s_lines"
+    ],
+    "bart_dep": 0.9480176568031311,
+    "bert_sum_dep": 0.997933030128479,
+    "bus_dep": 0.9947932362556458,
+    "pgn_dep": 0.996777355670929,
+    "s2s_dep": 0.9348154067993164
+}

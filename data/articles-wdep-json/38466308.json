@@ -1,0 +1,144 @@
+{
+    "BERTS2S": "swansea city\\'s new manager alan curtis says it would be difficult to get back into the premier league.",
+    "BERTS2S_lines": [
+        "swansea city\\'s new manager alan curtis says it would be difficult to get back into the premier league."
+    ],
+    "TConvS2S": "new swansea city head coach alan curtis says the club have a ``big chance\\'\\'of being relegated from the premier league.",
+    "TConvS2S_lines": [
+        "new swansea city head coach alan curtis says the club have a ``big chance\\'\\'of being relegated from the premier league."
+    ],
+    "PtGen": "swansea city manager neil curtis has urged his players to ``get back up up\\'\\'if they are to leave the premier league.",
+    "PtGen_lines": [
+        "swansea city manager neil curtis has urged his players to ``get back up up\\'\\'if",
+        "they are to leave the premier league."
+    ],
+    "TranS2S": "swansea city interim manager alan curtis believes the club have a \" strong position \" at the top of the premier league.",
+    "TranS2S_lines": [
+        "swansea city interim manager alan curtis believes the club have a \" strong position \" at the top of the premier league."
+    ],
+    "article": "Curtis and assistant manager Paul Williams will take charge of Saturday's match against Bournemouth after Bob Bradley's sacking.Swansea want to appoint their new boss as soon as possible, with ex-Derby manager Paul Clement the first choice.\"We've got to go with somebody who will to get us out of trouble,\" he said.\"If we were to go down - and there's obviously that possibility - you look at the Championship and it seems to have got a lot stronger. It's not a foregone conclusion [to go straight back up].\"I know Norwich and Burnley have done it but it's difficult. Newcastle look like they'll do it but they're a big, powerful club who can hang on to a lot of their top players. I'm not sure we'd be able to do that.\"If we go down, it's going to be tough to get back.\"Swansea were promoted to the Premier League in 2011 and quickly established a reputation as a well-run club with a team that played exciting, possession-based football.Their promotion capped a remarkable rise from the brink of bankruptcy a decade earlier and almost being relegated out of the Football League altogether in 2003.Curtis - a former player who was at the club throughout their rise up the divisions - believes the Swans have not been the same since Michael Laudrup left in 2014.\"I think we have [lost our way]. It's just the change of management all the time,\" Curtis added.\"The best eras were Roberto Martinez, Brendan Rodgers and Michael Laudrup. But we've probably lost a bit of the 'Swansea Way'. It has been diluted.\"We've lost quite a few players too but have we adequately replaced them?\"Media playback is not supported on this deviceCurtis believes the current Swansea squad is good enough to stay up, and the 62-year-old reminds every new signing of how far the club has come.\"I know a lot of the foreign boys have seen [the documentary] Jack to a King. So they've got a brief history of where we were and where we are now,\" he said.\"They might not be 100% passionate about it but they know where we came from and how important it is [to stay up]. Not just for the club but for the whole area.\"",
+    "article_lines": [
+        "Curtis and assistant manager Paul Williams will take charge of Saturday's match against Bournemouth after Bob Bradley's sacking.",
+        "Swansea want to appoint their new boss as soon as possible, with ex-Derby manager Paul Clement the first choice.",
+        "\"We've got to go with somebody who will to get us out of trouble,\" he said.",
+        "\"If",
+        "we were to go down - and there's obviously that possibility -",
+        "you look at the Championship and it seems to have got a lot stronger.",
+        "It's not a foregone conclusion [to go straight back",
+        "up].\"I know",
+        "Norwich and Burnley have done it",
+        "but it's difficult.",
+        "Newcastle look like they'll do it",
+        "but they're a big, powerful club who can hang on to a lot of their top players.",
+        "I'm not sure we'd be able to do that.",
+        "\"If",
+        "we go down, it's going to be tough to get back.",
+        "\"Swansea were promoted to the Premier League in 2011 and quickly established a reputation as a well-run club with a team that played exciting, possession-based football.",
+        "Their promotion capped a remarkable rise from the brink of bankruptcy a decade earlier and almost being relegated out of the Football League altogether in 2003.Curtis - a former player who was at the club throughout their rise up the divisions - believes the Swans have not been the same since Michael Laudrup left in 2014.\"I",
+        "think we have [lost our way].",
+        "It's just the change of management all the time,\" Curtis added.",
+        "\"The best eras were Roberto Martinez, Brendan Rodgers and Michael Laudrup.",
+        "But we've probably lost a bit of the 'Swansea Way'.",
+        "It has been diluted.",
+        "\"We've lost quite a few players too but have we adequately replaced",
+        "them?\"Media playback is not supported on this deviceCurtis believes the current Swansea squad is good enough to stay up, and the 62-year-old reminds every new signing of how far the club has come.",
+        "\"I know a lot of the foreign boys have seen [the documentary]",
+        "Jack to a King.",
+        "So they've got a brief history of where we were and where we are now,\" he said.",
+        "\"They might not be 100% passionate about it",
+        "but they know where we came from and how important it is [to stay up].",
+        "Not just for the club but for the whole area.\""
+    ],
+    "entity_counter": {
+        "assistant manager Paul Williams": 1,
+        "charge": 1,
+        "Saturday's match": 1,
+        "Bournemouth": 1,
+        "Swansea": 1,
+        "their new boss": 1,
+        "ex-Derby manager Paul Clement": 1,
+        "the first choice": 1,
+        "trouble": 1,
+        "that possibility": 1,
+        "the Championship": 1,
+        "a foregone conclusion": 1,
+        "up].\"I": 1,
+        "Norwich": 1,
+        "Burnley": 1,
+        "Newcastle": 1,
+        "a big, powerful club": 1,
+        "a lot": 2,
+        "their top players": 1,
+        "the Premier League": 2,
+        "a reputation": 1,
+        "a well-run club": 1,
+        "a team": 1,
+        "exciting, possession-based football": 1,
+        "Their promotion": 1,
+        "a remarkable rise": 1,
+        "the brink": 1,
+        "bankruptcy": 1,
+        "a former player": 1,
+        "the club": 3,
+        "their rise": 1,
+        "the divisions": 1,
+        "the Swans": 1,
+        "Michael Laudrup": 2,
+        "our way": 1,
+        "just the change": 1,
+        "management": 1,
+        "best eras": 1,
+        "Roberto Martinez": 1,
+        "Brendan Rodgers": 1,
+        "a bit": 1,
+        "the 'Swansea Way": 1,
+        "\"We've": 1,
+        "quite a few players": 1,
+        "them?\"Media playback": 1,
+        "this deviceCurtis": 1,
+        "the current Swansea squad": 1,
+        "every new signing": 1,
+        "the foreign boys": 1,
+        "the documentary": 1,
+        "Jack": 1,
+        "a King": 1,
+        "a brief history": 1,
+        "the whole area": 1
+    },
+    "negative_entity": "a construction site",
+    "url": "http://web.archive.org/web/20170101053958/http://www.bbc.co.uk/sport/football/38466308",
+    "hash": "38466308",
+    "traps": [
+        [
+            "F6",
+            "us look at the championship and it seems to have got a lot stronger."
+        ],
+        [
+            "F1",
+            "\" they might be 100 % passionate about it"
+        ],
+        [
+            "F4",
+            "the action should stop the tool from being able to infiltrate apple's internet storage service if the safety measure is implemented."
+        ],
+        [
+            "F4",
+            "the national trust said it believed a container had gone overboard from a ship, during the stormy weather."
+        ],
+        [
+            "F0",
+            "curtis and assistant manager paul williams will take charge of saturday's match against bournemouth after bob bradley's sacking."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "swansea\\'s caretaker manager alan curtis says there would be no guarantee the club would return to the premier league if they were relegated this season.",
+    "BERTS2S_dep": 0.9859547019004822,
+    "TConvS2S_dep": 0.9930993318557739,
+    "PtGen_dep": 0.9874517321586609,
+    "TranS2S_dep": 0.9977499842643738
+}

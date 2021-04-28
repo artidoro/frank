@@ -1,0 +1,149 @@
+{
+    "BERTS2S": "the scottish spca has called for new rules on airguns after a cat was injured in a shooting in east ayrshire.",
+    "BERTS2S_lines": [
+        "the scottish spca has called for new rules on airguns after a cat was injured in a shooting in east ayrshire."
+    ],
+    "TConvS2S": "a dog that was shot in the leg by a dog in fife has been named as shot one-year-old.",
+    "TConvS2S_lines": [
+        "a dog that was shot in the leg by a dog in fife has been named as shot one-year-old."
+    ],
+    "PtGen": "the owners of a cat that crashed into a house in the scottish borders have said they are ``upset\\'\\'by the scottish government.",
+    "PtGen_lines": [
+        "the owners of a cat that crashed into a house in the scottish borders have said they are ``upset\\'\\'by the scottish government."
+    ],
+    "TranS2S": "the scottish spca has called for a licensing of airguns after the scottish spca was shot in the leg by a gunman.",
+    "TranS2S_lines": [
+        "the scottish spca has called for a licensing of airguns after the scottish spca was shot in the leg by a gunman."
+    ],
+    "article": "The animal had been shot twice in the shoulder and once in its left back leg, which vets had to amputate.The charity said the one-year-old cat was \"incredibly lucky\" to survive.Last year the Scottish government held a consultation on licensing air weapons, but a majority of responders opposed the plan.One-year-old Teenie was found injured by her owner Sarah Nisbett in NiddryView, Winchburgh, at about 16:30 on Friday 14 March and taken to the Scottish SPCA.Mrs Nisbett said the cat was now having to learn how to walk again.\"The gun that was used must have some power because the pellet actually went through her back leg, that's why it was so badly damaged,\" she said.\"She's now learning how to hop around the house, it's terrible.\"The fact that it was three shots is crazy. We live in a housing estate and there are lots of kids. That just makes it worse because any of them could have been hit in the crossfire.\"She added: \"There's some sick people out there, hopefully somebody will know who's done this and let the police or the Scottish SPCA know.\"Scottish SPCA Ch Supt Mike Flynn said: \"Teenie's owners are understandably very upset and keen for us to find the callous person responsible to ensure no more cats come to harm.\"This is an alarming incident which only highlights why the Scottish government should implement the licensing of airguns as a matter of urgency.\"He added: \"The new licensing regime should ensure that only those with a lawful reason are allowed to possess such a dangerous weapon. It will also help the police trace anyone using an air gun irresponsibly.\"Last year the Scottish government launched a consultation on licensing air weapons, with a large majority of those who responded opposing the plan.Under the proposed scheme, anyone wanting to own an air gun would need to demonstrate they had a legitimate reason for doing so.A total of 87% of respondents rejected the idea - with some describing it as \"draconian\" and \"heavy-handed\". A small number of people felt ministers were not going far enough.The Scottish SPCA urged anyone with information about the incident to contact them.",
+    "article_lines": [
+        "The animal had been shot twice in the shoulder and once in its left back leg, which vets had to amputate.",
+        "The charity said the one-year-old cat was \"incredibly lucky\" to survive.",
+        "Last year the Scottish government held a consultation on licensing air weapons, but a majority of responders opposed the plan.",
+        "One-year-old Teenie was found injured by her owner Sarah Nisbett in NiddryView, Winchburgh, at about 16:30 on Friday 14 March and taken to the Scottish SPCA.Mrs Nisbett said the cat was now having to learn how to walk again.",
+        "\"The",
+        "gun that was used must have some power because the pellet actually went through her back leg, that's why it was so badly damaged,\" she said.",
+        "\"She's now learning how to hop around the house, it's terrible.",
+        "\"The",
+        "fact that it was three shots is crazy.",
+        "We live in a housing estate and there are lots of kids.",
+        "That just makes it worse because any of them could have been hit in the crossfire.",
+        "\"She added: \"There's some sick people out there, hopefully somebody will know who's done this and let the police or the Scottish SPCA know.",
+        "\"Scottish",
+        "SPCA Ch Supt Mike Flynn said: \"Teenie's owners are understandably very upset and keen for us to find the callous person responsible to ensure no more cats come to harm.",
+        "\"This is an alarming incident which only highlights why the Scottish government should implement the licensing of airguns as a matter of urgency.",
+        "\"He added: \"The new licensing regime should ensure that only those with a lawful reason are allowed to possess such a dangerous weapon.",
+        "It will also help the police trace anyone using an air gun irresponsibly.",
+        "\"Last year the Scottish government launched a consultation on licensing air weapons, with a large majority of those who responded opposing the plan.",
+        "Under the proposed scheme, anyone wanting to own an air gun would need to demonstrate they had a legitimate reason for doing so.",
+        "A total of 87% of respondents rejected the idea - with some describing it as \"draconian\" and \"heavy-handed\".",
+        "A small number of people felt ministers were not going far enough.",
+        "The Scottish SPCA urged anyone with information about the incident to contact them."
+    ],
+    "entity_counter": {
+        "The animal": 1,
+        "the shoulder": 1,
+        "its left back leg": 1,
+        "vets": 1,
+        "The charity": 1,
+        "the one-year-old cat": 2,
+        "the Scottish government": 3,
+        "a consultation": 2,
+        "air weapons": 2,
+        "a majority": 1,
+        "responders": 1,
+        "the plan": 2,
+        "One-year-old Teenie": 1,
+        "her owner": 1,
+        "Sarah Nisbett": 1,
+        "NiddryView": 1,
+        "Winchburgh": 1,
+        "Nisbett": 1,
+        "gun": 1,
+        "some power": 1,
+        "the pellet": 1,
+        "her back leg": 1,
+        "the house": 1,
+        "fact": 1,
+        "three shots": 1,
+        "a housing estate": 1,
+        "lots": 1,
+        "kids": 1,
+        "the crossfire": 1,
+        "some sick people": 1,
+        "the police": 2,
+        "the Scottish SPCA": 1,
+        "\"Scottish": 1,
+        "SPCA Ch Supt Mike Flynn": 1,
+        "Teenie's owners": 1,
+        "the callous person": 1,
+        "no more cats": 1,
+        "harm": 1,
+        "\"This": 1,
+        "an alarming incident": 1,
+        "the licensing": 1,
+        "airguns": 1,
+        "a matter": 1,
+        "urgency": 1,
+        "The new licensing regime": 1,
+        "a lawful reason": 1,
+        "such a dangerous weapon": 1,
+        "an air gun": 2,
+        "a large majority": 1,
+        "the proposed scheme": 1,
+        "a legitimate reason": 1,
+        "A total": 1,
+        "respondents": 1,
+        "the idea": 1,
+        "A small number": 1,
+        "people": 1,
+        "ministers": 1,
+        "The Scottish SPCA": 1,
+        "information": 1,
+        "the incident": 1
+    },
+    "negative_entity": "Floyd Mayweather",
+    "url": "http://web.archive.org/web/20140320174226/http://www.bbc.com/news/uk-scotland-edinburgh-east-fife-26668081",
+    "hash": "26668081",
+    "traps": [
+        [
+            "F0",
+            "the animal had been shot twice in the shoulder and once in its left back leg, which vets had to amputate."
+        ],
+        [
+            "F1",
+            "a small number of people felt ministers were going far enough ."
+        ],
+        [
+            "F6",
+            "one-year-old teenie was found injured by his owner sarah nisbett in niddryview, winchburgh, at about 16:30 on friday 14 march and taken to the scottish spca.mrs nisbett said the cat was now having to learn how to walk again."
+        ],
+        [
+            "F1",
+            "fact that it was not three shots is crazy ."
+        ],
+        [
+            "F1",
+            "we live in a housing estate and there are not lots of kids ."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "an animal charity is calling for the licensing of air guns after a cat in west lothian was left injured after being shot three times.",
+    "BERTS2S_qags": 1.0,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 1.0,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 1.0,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 1.0,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.55,
+    "TConvS2S_qags10": 0.2,
+    "PtGen_qags10": 0.2,
+    "TranS2S_qags10": 0.1
+}

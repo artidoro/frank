@@ -1,0 +1,111 @@
+{
+    "BERTS2S": "a football busker has been found guilty of defrauding the victims of the hillsborough disaster.",
+    "BERTS2S_lines": [
+        "a football busker has been found guilty of defrauding the victims of the hillsborough disaster."
+    ],
+    "TConvS2S": "a former liverpool police officer has been found guilty of fraud and perverting the course of justice.",
+    "TConvS2S_lines": [
+        "a former liverpool police officer has been found guilty of fraud and perverting the course of justice."
+    ],
+    "PtGen": "a man has been found guilty of fraud after he was found guilty of fraud at the hillsborough inquests.",
+    "PtGen_lines": [
+        "a man has been found guilty of fraud after he was found guilty of fraud at the hillsborough inquests."
+    ],
+    "TranS2S": "a man has been found guilty of defrauding an elderly hillsborough charity worker out of thousands of pounds.",
+    "TranS2S_lines": [
+        "a man has been found guilty of defrauding an elderly hillsborough charity worker out of thousands of pounds."
+    ],
+    "article": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAngus Carpenter, of Liverpool, who has played in the city centre for more than 30 years, denied three counts of fraud.The 62-year-old was found guilty of one count when he played with a Hillsborough Justice Campaign banner draped on his bagpipes in April 2015.He was cleared of the two other counts by a jury at Liverpool Crown Court.Sgt Chris Gaynor told the court during the two day trial that Carpenter, from Woolton, gave the impression he was collecting cash for the Hillsborough Justice Campaign.In his defence, Carpenter - who usually wears a kilt and piper's regalia when he performs - said he had piped for the charity in the past but on this occasion he was simply busking.Kenneth Derbyshire, chairman of the Hillsborough Justice Campaign, said he had given Carpenter permission to design and display a banner featuring the eternal flame and the word justice.But he said he had made it clear he was not use it to collect funds for the charity.Carpenter told the court the banner was a tribute to the victims, not an attempt to deceive anyone.He also told the court he was a familiar face on match days at Anfield and known as a busker to the Hillsborough Justice Campaign.He will be sentenced in January.",
+    "article_lines": [
+        "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAngus Carpenter, of Liverpool, who has played in the city centre for more than 30 years, denied three counts of fraud.",
+        "The 62-year-old was found guilty of one count when he played with a Hillsborough Justice Campaign banner draped on his bagpipes in April 2015.He",
+        "was cleared of the two other counts by a jury at Liverpool Crown Court.",
+        "Sgt Chris Gaynor told the court during the two day trial that Carpenter, from Woolton, gave the impression he was collecting cash for the Hillsborough Justice Campaign.",
+        "In his defence, Carpenter - who usually wears a kilt and piper's regalia when he performs - said he had piped for the charity in the past but on this occasion he was simply busking.",
+        "Kenneth Derbyshire, chairman of the Hillsborough Justice Campaign, said he had given Carpenter permission to design and display a banner featuring the eternal flame and the word justice.",
+        "But he said he had made it clear he was not use it to collect funds for the charity.",
+        "Carpenter told the court the banner was a tribute to the victims, not an attempt to deceive anyone.",
+        "He also told the court he was a familiar face on match days at Anfield and known as a busker to the Hillsborough Justice Campaign.",
+        "He will be sentenced in January."
+    ],
+    "entity_counter": {
+        "this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy": 1,
+        "Liverpool": 1,
+        "the city centre": 1,
+        "three counts": 1,
+        "fraud": 1,
+        "one count": 1,
+        "a Hillsborough Justice Campaign banner": 2,
+        "his bagpipes": 1,
+        "three counts of fraud": 1,
+        "a jury": 1,
+        "Liverpool Crown Court": 4,
+        "Sgt Chris Gaynor": 1,
+        "the two day trial": 1,
+        "Carpenter": 3,
+        "Woolton": 1,
+        "the impression": 1,
+        "cash": 1,
+        "the Hillsborough Justice Campaign": 3,
+        "his defence": 1,
+        "a kilt": 1,
+        "piper's regalia": 1,
+        "the charity": 2,
+        "the past": 1,
+        "this occasion": 1,
+        "Kenneth Derbyshire": 1,
+        "chairman": 1,
+        "Carpenter permission": 1,
+        "a banner": 1,
+        "the eternal flame": 1,
+        "the word justice": 1,
+        "funds": 1,
+        "a tribute": 1,
+        "the victims": 1,
+        "an attempt": 1,
+        "a familiar face": 1,
+        "match days": 1,
+        "Anfield": 1,
+        "a busker": 1
+    },
+    "negative_entity": "select committees",
+    "url": "http://web.archive.org/web/20170112181338/http://www.bbc.co.uk:80/news/uk-england-merseyside-38333121",
+    "hash": "38333121",
+    "traps": [
+        [
+            "F1",
+            "carpenter told the court the banner was not a tribute to the victims , not an attempt to deceive anyone ."
+        ],
+        [
+            "F5",
+            "count told who victims banner of was justice it told the."
+        ],
+        [
+            "F0",
+            "share this withemailfacebookmessengermessengertwitterpinterestwhatsapplinkedincopy this linkangus carpenter, of liverpool, who has played in the city centre for more than 30 years, denied three counts of fraud."
+        ],
+        [
+            "F1",
+            "he will not be sentenced in january ."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "a bagpipe-playing busker has been convicted of duping people in liverpool into thinking he was collecting for a hillsborough charity.",
+    "BERTS2S_qags": 1.0,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 1.0,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 1.0,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 1.0,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.1,
+    "TConvS2S_qags10": 0.1,
+    "PtGen_qags10": 0.2,
+    "TranS2S_qags10": 0.008333333333333333
+}

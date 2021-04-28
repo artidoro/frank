@@ -1,0 +1,122 @@
+{
+    "BERTS2S": "a dumfries teacher who downloaded hundreds of indecent images of children has been struck off.",
+    "BERTS2S_lines": [
+        "a dumfries teacher who downloaded hundreds of indecent images of children has been struck off."
+    ],
+    "TConvS2S": "a former teacher who admitted sex offences against young boys has been banned from the profession.",
+    "TConvS2S_lines": [
+        "a former teacher who admitted sex offences against young boys has been banned from the profession."
+    ],
+    "PtGen": "a teacher has been suspended from the profession for taking part in a special programme for sex offenders in dumfries and galloway.",
+    "PtGen_lines": [
+        "a teacher has been suspended from the profession for taking part in a special programme for sex offenders in dumfries and galloway."
+    ],
+    "TranS2S": "a teacher who admitted having sex with a 12-year-old boy has been struck off the profession.",
+    "TranS2S_lines": [
+        "a teacher who admitted having sex with a 12-year-old boy has been struck off the profession."
+    ],
+    "article": "Timothy Geaney admitted taking or permitting the images to be taken between April 2004 and February 2014.He was made the subject of a community payback order and put on the sex offenders register earlier this year.He has now been removed from his profession's register following a General Teaching Council Scotland hearing.In February, Dumfries Sheriff Court heard how most of the images he had downloaded were of young boys partially dressed in erotic poses with no sexual activity.In addition to his payback order he was ordered to take part in a special programme for sex offenders.A GTC Scotland hearing was told that the nature of the offence meant Geaney had \"condoned and participated in an industry that violates and abuses children\".It heard that his conduct was \"fundamentally incompatible\" with being a registered teacher.The panel found that Geaney had failed to uphold the standards expected of the profession.It also noted that the offending behaviour had taken place over a lengthy period of time \"demonstrating that there was a pattern of behaviour, as opposed to an isolated incident\".\"Given the volume of images and the duration of the conduct, taken with the lack of evidence of remedial action, the panel was of the view that there was a strong likelihood of the offending behaviour recurring,\" it concluded.The panel found him unfit to teach and removed him from the professional register.Geaney, who was 69 at the time he was sentenced, was not present at the hearing.He was prohibited from applying to re-register for a period of two years.",
+    "article_lines": [
+        "Timothy Geaney admitted taking or permitting the images to be taken between April 2004 and February 2014.He was made the subject of a community payback order and put on the sex offenders register earlier this year.",
+        "He has now been removed from his profession's register following a General Teaching Council Scotland hearing.",
+        "In February, Dumfries Sheriff Court heard how most of the images he had downloaded were of young boys partially dressed in erotic poses with no sexual activity.",
+        "In addition to his payback order he was ordered to take part in a special programme for sex offenders.",
+        "A GTC Scotland hearing was told that the nature of the offence meant Geaney had \"condoned and participated in an industry that violates and abuses",
+        "children\".",
+        "It heard that his conduct was \"fundamentally incompatible\" with being a registered teacher.",
+        "The panel found that Geaney had failed to uphold the standards expected of the profession.",
+        "It also noted that the offending behaviour had taken place over a lengthy period of time \"demonstrating that there was a pattern of behaviour, as opposed to an isolated incident\".",
+        "\"Given",
+        "the volume of images and the duration of the conduct, taken with the lack of evidence of remedial action, the panel was of the view that there was a strong likelihood of the offending behaviour recurring,\" it concluded.",
+        "The panel found him unfit to teach and removed him from the professional register.",
+        "Geaney, who was 69 at the time he was sentenced, was not present at the hearing.",
+        "He was prohibited from applying to re-register for a period of two years."
+    ],
+    "entity_counter": {
+        "Timothy Geaney": 3,
+        "the images": 2,
+        "a community payback order": 1,
+        "the sex offenders": 1,
+        "his profession's register": 1,
+        "a General Teaching Council Scotland hearing": 1,
+        "Dumfries Sheriff Court": 1,
+        "young boys": 1,
+        "erotic poses": 1,
+        "no sexual activity": 1,
+        "addition": 1,
+        "his payback order": 1,
+        "part": 1,
+        "a special programme": 1,
+        "sex offenders": 1,
+        "A GTC Scotland hearing": 2,
+        "the nature": 1,
+        "the offence": 1,
+        "an industry": 1,
+        "children\"": 1,
+        "his conduct": 1,
+        "a registered teacher": 1,
+        "The panel": 3,
+        "the standards": 1,
+        "the profession": 1,
+        "the offending behaviour": 2,
+        "place": 1,
+        "a lengthy period": 1,
+        "time": 1,
+        "a pattern": 1,
+        "behaviour": 1,
+        "an isolated incident\"": 1,
+        "the volume": 1,
+        "images": 1,
+        "the duration": 1,
+        "the conduct": 1,
+        "the lack": 1,
+        "evidence": 1,
+        "remedial action": 1,
+        "the view": 1,
+        "a strong likelihood": 1,
+        "the professional register": 1,
+        "Geaney": 1,
+        "the time": 1,
+        "a period": 1
+    },
+    "negative_entity": "Australian MP Andrew Robb",
+    "url": "http://web.archive.org/web/20151208162309/http://www.bbc.co.uk/news/uk-scotland-south-scotland-35039462",
+    "hash": "35039462",
+    "traps": [
+        [
+            "F6",
+            "she was prohibited from applying to re-register for a period of two years."
+        ],
+        [
+            "F5",
+            "activity duration he of it most violates take."
+        ],
+        [
+            "F4",
+            "on saturday afternoon, members of the public have been invited to take part in planting thousands of new trees at brackfield wood in the faughan valley."
+        ],
+        [
+            "F5",
+            "the and between of most dumfries in young a."
+        ],
+        [
+            "F4",
+            "how much of a personal setback is not clear because on this, as on other issues, tillerson kept a low profile."
+        ],
+        [
+            "F5",
+            "the programme be to was uphold of heard had of."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "a dumfries and galloway music teacher found with more than 21,000 indecent images of children has been struck off.",
+    "BERTS2S_dep": 0.9988732933998108,
+    "TConvS2S_dep": 0.9981470108032227,
+    "PtGen_dep": 0.9885252118110657,
+    "TranS2S_dep": 0.9948098659515381
+}

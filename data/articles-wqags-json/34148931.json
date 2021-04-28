@@ -1,0 +1,151 @@
+{
+    "BERTS2S": "australia\\'s prime minister tony abbott has said his country has \" no regrets \" over the controversial immigration policy.",
+    "BERTS2S_lines": [
+        "australia\\'s prime minister tony abbott has said his country has \" no regrets \" over the controversial immigration policy."
+    ],
+    "TConvS2S": "australian prime minister tony abbott has called for a ban on migrants entering the mediterranean sea.",
+    "TConvS2S_lines": [
+        "australian prime minister tony abbott has called for a ban on migrants entering the mediterranean sea."
+    ],
+    "PtGen": "australia\\'s executive committee has said it is ``inhumane\\'\\'and ``ruthlessly effective\\'\\'the country\\'s ``genocide\\'\\'scandal.",
+    "PtGen_lines": [
+        "australia\\'s executive committee has said it is ``inhumane\\'\\'and ``ruthlessly effective\\'\\'the",
+        "country\\'s ``genocide\\'\\'scandal."
+    ],
+    "TranS2S": "australia\\'s prime minister tony abbott has accused the country\\'s media of trying to stop migrants trying to hide their boats.",
+    "TranS2S_lines": [
+        "australia\\'s prime minister tony abbott has accused the country\\'s media of trying to stop migrants trying to hide their boats."
+    ],
+    "article": "Mr Abbott told Australian media that the only way to prevent people dying at sea was to \"stop the boats\".Australia detains any migrants trying to reach its shores by boat, and takes them to offshore processing camps to be eventually resettled elsewhere.On Thursday, the New York Times described the policy as \"brutal\".In an editorial, the newspaper said the \"ruthlessly effective\" policy was \"inhumane, of dubious legality and strikingly at odds with the country's tradition of welcoming people fleeing persecution and war\".It said it would be \"unconscionable\" for European leaders to consider adopting similar policies, as Mr Abbott has previously suggested.Australia has not responded to the editorial, but on Friday Mr Abbott said the image of Syrian three-year-old Alan Kurdi, who died trying to reach Greece by boat with his family, was \"very sad\".\"If you want to stop the deaths, if you want to stop the drownings you have got to stop the boats,\" he told ABC Radio.\"Thankfully, we have stopped that in Australia because we have stopped the illegal boats.\"On Thursday, Mr Abbott angered Australian Jewish groups by saying the so-called Islamic State (IS), from which many of the migrants to Europe are fleeing, was worse than the Nazis.\"The Nazis did terrible evil, but they had a sufficient sense of shame to try to hide it,\" he told Sydney Radio 2GB.But IS militants, he said, \"boast about their evil, this is the extraordinary thing\".The Executive Council of Australian Jewry Robert Goot said the comment was \"injudicious and unfortunate\", saying there was \"a fundamental difference between organised acts of terrorism and a genocide systematically implemented by a state as essential policy\".\"The crimes of Islamic State are indeed horrific but cannot be compared to the systematic round-up of millions of people and their despatch to purpose-built death camps for mass murder,\" he told Australian media.Mr Abbott later said he stood by his comments, but that he was not in the \"business of ranking evil\".",
+    "article_lines": [
+        "Mr Abbott told Australian media that the only way to prevent people dying at sea was to \"stop the boats\".",
+        "Australia detains any migrants trying to reach its shores by boat, and takes them to offshore processing camps to be eventually resettled elsewhere.",
+        "On Thursday, the New York Times described the policy as \"brutal\".",
+        "In an editorial, the newspaper said the \"ruthlessly effective\" policy was \"inhumane, of dubious legality and strikingly at odds with the country's tradition of welcoming people fleeing persecution and war\".",
+        "It said it would be \"unconscionable\" for European leaders to consider adopting similar policies, as Mr Abbott has previously suggested.",
+        "Australia has not responded to the editorial, but on Friday Mr Abbott said the image of Syrian three-year-old Alan Kurdi, who died trying to reach Greece by boat with his family, was \"very sad\".",
+        "\"If",
+        "you want to stop the deaths, if you want to stop the drownings you have got to stop the boats,\" he told ABC Radio.",
+        "\"Thankfully",
+        ", we have stopped that in Australia because we have stopped the illegal boats.",
+        "\"On",
+        "Thursday, Mr Abbott angered Australian Jewish groups by saying the so-called Islamic State (IS), from which many of the migrants to Europe are fleeing, was worse than the Nazis.",
+        "\"The",
+        "Nazis did terrible evil, but they had a sufficient sense of shame to try to hide it,\" he told Sydney Radio",
+        "2GB.But IS militants",
+        ", he said, \"boast about their evil, this is the extraordinary thing\".",
+        "The Executive Council of Australian Jewry Robert Goot said the comment was \"injudicious and unfortunate\", saying there was \"a fundamental difference between organised acts of terrorism and a genocide systematically implemented by a state as essential policy\".",
+        "\"The",
+        "crimes of Islamic State are indeed horrific but cannot be compared to the systematic round-up of millions of people and their despatch to purpose-built death camps for mass murder,\" he told Australian media.",
+        "Mr Abbott later said he stood by his comments, but that he was not in the \"business of ranking evil\"."
+    ],
+    "entity_counter": {
+        "Mr Abbott": 5,
+        "Australian media": 2,
+        "the only way": 1,
+        "people": 3,
+        "sea": 1,
+        "the boats\"": 1,
+        "Australia": 3,
+        "any migrants": 1,
+        "its shores": 1,
+        "boat": 2,
+        "offshore processing camps": 1,
+        "the New York Times": 2,
+        "the policy": 1,
+        "an editorial": 2,
+        "the \"ruthlessly effective\" policy": 1,
+        "dubious legality": 1,
+        "odds": 1,
+        "the country's tradition": 1,
+        "persecution": 1,
+        "European leaders": 1,
+        "similar policies": 1,
+        "the image": 1,
+        "Syrian three-year-old Alan Kurdi": 1,
+        "Greece": 1,
+        "his family": 1,
+        "the deaths": 1,
+        "the drownings": 1,
+        "the boats": 2,
+        "ABC Radio": 1,
+        "\"Thankfully": 1,
+        "Australian Jewish groups": 1,
+        "the so-called Islamic State": 1,
+        "the migrants": 1,
+        "Europe": 1,
+        "the Nazis": 2,
+        "terrible evil": 1,
+        "a sufficient sense": 1,
+        "shame": 1,
+        "Sydney Radio": 1,
+        "militants": 1,
+        "their evil": 1,
+        "the extraordinary thing\"": 1,
+        "Australian Jewry": 1,
+        "the comment": 1,
+        "a fundamental difference": 1,
+        "organised acts": 1,
+        "terrorism": 1,
+        "a genocide": 1,
+        "a state": 1,
+        "crimes": 1,
+        "Islamic State": 1,
+        "the systematic round-up": 1,
+        "millions": 1,
+        "their despatch": 1,
+        "purpose-built death camps": 1,
+        "mass murder": 1,
+        "his comments": 1,
+        "the \"business": 1,
+        "evil": 1
+    },
+    "negative_entity": "Gloucestershire",
+    "url": "http://web.archive.org/web/20150906042224/http://www.bbc.co.uk/news/world-australia-34148931",
+    "hash": "34148931",
+    "traps": [
+        [
+            "F4",
+            "mr davis said the uk government would keep scotland, wales and northern ireland up-to-date about negotiations."
+        ],
+        [
+            "F1",
+            "it said it would be \" unconscionable \" for european leaders to consider adopting similar policies , as mr abbott has not previously suggested ."
+        ],
+        [
+            "F4",
+            "arebostfacebookmessengermessengertwittercop\u00efo\u2019r ddolen ymamae\u2019r rhain yn ddolenni allanol ac yn agor mewn ffenest"
+        ],
+        [
+            "F1",
+            "mr abbott told australian media that the only way to prevent people dying at sea was not to \" stop the boats \" ."
+        ],
+        [
+            "F5",
+            "abbott to because said welcoming systematic country difference mr who."
+        ],
+        [
+            "F0",
+            "mr abbott told australian media that the only way to prevent people dying at sea was to \"stop the boats\"."
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "australian prime minister tony abbott has said the refugee and migrant crisis in europe is proof of the need for tough asylum policies.",
+    "BERTS2S_qags": 0.9,
+    "TConvS2S_qags": 1.0,
+    "PtGen_qags": 1.0,
+    "TranS2S_qags": 1.0,
+    "BERTS2S_qags20": 0.9,
+    "TConvS2S_qags20": 1.0,
+    "PtGen_qags20": 1.0,
+    "TranS2S_qags20": 1.0,
+    "BERTS2S_qags10": 0.0,
+    "TConvS2S_qags10": 0.011764705882352943,
+    "PtGen_qags10": 0.41052631578947363,
+    "TranS2S_qags10": 0.2
+}

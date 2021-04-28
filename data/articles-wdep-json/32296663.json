@@ -1,0 +1,136 @@
+{
+    "BERTS2S": "a golfer has said he was surprised to have been attacked by a crocodile at his golf course in australia.",
+    "BERTS2S_lines": [
+        "a golfer has said he was surprised to have been attacked by a crocodile at his golf course in australia."
+    ],
+    "TConvS2S": "a australian australian surfer has said he is ``lucky to be alive\\'\\'after being bitten by a crocodile in australia.",
+    "TConvS2S_lines": [
+        "a australian australian surfer has said he is ``lucky to be alive\\'\\'after being bitten by a crocodile in australia."
+    ],
+    "PtGen": "an australian golfer who disturbed the palmer crocodile crocodile has been rescued from the sea off the coast of australia.",
+    "PtGen_lines": [
+        "an australian golfer who disturbed the palmer crocodile crocodile has been rescued from the sea off the coast of australia."
+    ],
+    "TranS2S": "an australian golfer has been taken to hospital after being bitten by a crocodile at a golf course in australia.",
+    "TranS2S_lines": [
+        "an australian golfer has been taken to hospital after being bitten by a crocodile at a golf course in australia."
+    ],
+    "article": "John Lahiff, 75, told local media that he disturbed the crocodile while looking for a ball in water at the course in Port Douglas, Queensland.He was taken to hospital with a deep laceration to his shin and puncture wounds to his calf, but said he would not be put off playing golf.He told ABC News he would try not to hit balls into the water in future.Crocodiles are a common sight on the golf course, Australian media reported, and signs warn players of the dangers.Police Senior Sergeant James Coate told ABC that the 1.2m (4ft) saltwater crocodile had been in a waterway on the 11th holeMr Lahiff, speaking from Cairns Hospital, said he had seen crocodiles there before and \"should have realised to be a bit more aware\".\"I didn't see the croc sunbaking just on the edge of the water. I walked past it and then it got me on the way back and as soon as it grabbed me it took off into the water.\"He manage to drive himself back to the club house to get help.The Australian newspaper reported that wildlife officers would try to remove the crocodile and relocate it to a crocodile farm or a zoo.But Mr Lahiff told ABC he wanted the croc to stay where it was. \"I think he got more of a fright than me. He's alright,\" he said.The Palmer Sea Reef golf course is owned by Australian billionaire and politician Clive Palmer.After the incident he tweeted that he wished the golfer a speedy recovery.He joked: \"Crocodile has been removed from all menus at Palmer properties following today's incident.\"Crocodiles are a common feature of Australia's tropical north and numbers have increased since being declared a protected species in 1971.",
+    "article_lines": [
+        "John Lahiff, 75, told local media that he disturbed the crocodile while looking for a ball in water at the course in Port Douglas, Queensland.",
+        "He was taken to hospital with a deep laceration to his shin and puncture wounds to his calf, but said he would not be put off playing golf.",
+        "He told ABC News he would try not to hit balls into the water in future.",
+        "Crocodiles are a common sight on the golf course, Australian media reported, and signs warn players of the dangers.",
+        "Police Senior Sergeant James Coate told ABC that the 1.2m (4ft) saltwater crocodile had been in a waterway on the 11th holeMr Lahiff, speaking from Cairns Hospital, said he had seen crocodiles there before and \"should have realised to be a bit more aware\".",
+        "\"I didn't see the croc sunbaking just on the edge of the water.",
+        "I walked past it",
+        "and then it got me on the way back and as soon as it grabbed me it took off into the water.",
+        "\"He manage to drive himself back to the club house to get help.",
+        "The Australian newspaper reported that wildlife officers would try to remove the crocodile and relocate it to a crocodile farm or a zoo.",
+        "But Mr Lahiff told ABC he wanted the croc to stay where it was.",
+        "\"I think he got more of a fright than me.",
+        "He's alright,\" he said.",
+        "The Palmer Sea Reef golf course is owned by Australian billionaire and politician Clive Palmer.",
+        "After the incident he tweeted that he wished the golfer a speedy recovery.",
+        "He joked: \"Crocodile has been removed from all menus at Palmer properties following today's incident.",
+        "\"Crocodiles are a common feature of Australia's tropical north and numbers",
+        "have increased since being declared a protected species in 1971."
+    ],
+    "entity_counter": {
+        "John Lahiff": 1,
+        "local media": 1,
+        "the crocodile": 4,
+        "a ball": 1,
+        "water": 1,
+        "the course": 1,
+        "Port Douglas": 1,
+        "Queensland": 1,
+        "Cairns Hospital": 2,
+        "a deep laceration": 1,
+        "his shin": 1,
+        "puncture": 1,
+        "wounds": 1,
+        "his calf": 1,
+        "golf": 1,
+        "ABC News": 1,
+        "balls": 1,
+        "the water": 3,
+        "future": 1,
+        "Crocodiles": 1,
+        "a common sight": 1,
+        "the golf course": 1,
+        "Australian media": 1,
+        "signs": 1,
+        "players": 1,
+        "the dangers": 1,
+        "Police Senior Sergeant James Coate": 1,
+        "ABC": 2,
+        "a waterway": 1,
+        "the 11th holeMr Lahiff": 2,
+        "crocodiles": 1,
+        "aware\"": 1,
+        "\"I": 1,
+        "the croc sunbaking": 2,
+        "the edge": 1,
+        "the way": 1,
+        "the club house": 1,
+        "help": 1,
+        "The Australian newspaper": 1,
+        "wildlife officers": 1,
+        "a crocodile farm": 1,
+        "a zoo": 1,
+        "a fright": 1,
+        "Palmer": 1,
+        "Australian billionaire": 1,
+        "politician": 1,
+        "Clive Palmer": 1,
+        "the incident": 2,
+        "the golfer": 1,
+        "all menus": 1,
+        "Palmer properties": 1,
+        "a common feature": 1,
+        "Australia's tropical north": 1,
+        "numbers": 1,
+        "a protected species": 1
+    },
+    "negative_entity": "EastEnders",
+    "url": "http://web.archive.org/web/20150414040823/http://www.bbc.com/news/world-australia-32296663",
+    "hash": "32296663",
+    "traps": [
+        [
+            "F6",
+            "police senior sergeant james coate told abc that the 1.2m (4ft) saltwater crocodile had been in a waterway on the 11th holemr lahiff, speaking from cairns hospital, said she had seen crocodiles there before and \"should have realised to be a bit more aware\"."
+        ],
+        [
+            "F4",
+            "conifer forests have been a familiar sight for half a century in wales and have helped the timber industry grow."
+        ],
+        [
+            "F4",
+            "adams, 34, says the extra minute in each round will give her a chance to try out things she has learnt in the gym."
+        ],
+        [
+            "F6",
+            "john lahiff, 75, told local media that she disturbed the crocodile while looking for a ball in water at the course in port douglas, queensland."
+        ],
+        [
+            "F0",
+            "john lahiff, 75, told local media that he disturbed the crocodile while looking for a ball in water at the course in port douglas, queensland."
+        ],
+        [
+            "F1",
+            "\" crocodiles are not a common feature of australia 's tropical north and numbers"
+        ]
+    ],
+    "model_names": [
+        "BERTS2S_lines",
+        "TConvS2S_lines",
+        "PtGen_lines",
+        "TranS2S_lines"
+    ],
+    "reference": "a golfer has suffered leg injuries after being bitten by a crocodile on an australian golf course.",
+    "BERTS2S_dep": 0.9953560829162598,
+    "TConvS2S_dep": 0.938778281211853,
+    "PtGen_dep": 0.9783545732498169,
+    "TranS2S_dep": 0.9965860843658447
+}
