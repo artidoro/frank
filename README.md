@@ -1,8 +1,8 @@
 # FRANK: Factuality Evaluation Benchmark
 
-This repository contains the data for the FRANK Benchmark for factuality evaluation metrics (see our [paper](https://arxiv.org/abs/2104.13346) for more information). The data combines outputs from 9 models on 2 datasets with a total of 2250 annotated modeloutputs. To have an understanding of the performance of a metric at measuring the factuality of different models on standard summarization datasets we chose to conduct the annotation on recent systems on both CNN/DM and XSum datasets providing a large variety of data and factual errors.
+This repository contains the data for the FRANK Benchmark for factuality evaluation metrics (see our [paper](https://arxiv.org/abs/2104.13346) for more information). The data combines outputs from 9 models on 2 datasets with a total of 2250 annotated model outputs. We chose to conduct the annotation on recent systems on both CNN/DM and XSum datasets providing a large variety of data and factual errors.
 
-The annotation was conducted based on a typology of factual errors which is described in detail in our paper. Thanks to this fine-grained annotation scheme, we are able to compare specific strength and weaknesses of factuality metrics.
+The annotation was conducted based on a typology of factual errors which is described in detail in our paper. Thanks to this fine-grained annotation scheme, the annotations we collected can be used to compare specific strength and weaknesses of factuality metrics.
 
 The leaderboard will be made available soon.
 
@@ -28,6 +28,9 @@ Submit your metric output using this [Google Form](https://forms.gle/UBC5VCx4t79
 We expect a `.json` file like `benchmark_data.json` in the `data` directory with each element having an additional field `score` which will store the score returned by your metric on the corresponding summary/article pair. 
 
 If you have any questions feel free to submit an issue.
+
+## Annotation Tools
+Coming soon.
 
 ## Citation
 ```
