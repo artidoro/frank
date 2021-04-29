@@ -18,32 +18,44 @@ import argparse
 def parse_args(args):
     parser = argparse.ArgumentParser(description='Arguments for the evaluation script.')
     
-    metrics = [
-        'Bleu',
-        'Meteor',
-        'Rouge 1',
-        'Rouge 2',
+    baseline_metrics = [
+        # 'Bleu',
+        # 'Meteor',
+        # 'Rouge 1',
+        # 'Rouge 2',
         'Rouge L',
-        'BertScore P',
-        'BertScore R',
-        'BertScore F1',
-        'FEQA',
+        'BertScore P Art',
+        # 'BertScore R Art',
+        # 'BertScore F1 Art',
+        # 'FEQA',
         'QAGS',
+        # 'OpenIE',
         'Dep Entail',
         'FactCC',
     ]
-    ablations_cols = ['Flip_RelE', 'Flip_EntE', 'Flip_CircE', 'Flip_OutE', 'Flip_GramE', 'Flip_CorefE', 'Flip_LinkE', 'Flip_Other']
-    model_names = ['bart_lines', 'pgn_lines', 'bus_lines', 'bert_sum_lines', 's2s_lines', 'TranS2S_lines', 'TConvS2S_lines', 'PtGen_lines', 'BERTS2S_lines']
+    ablations_cols = [
+        'Flip_Semantic_Frame_Errors', 'Flip_Discourse_Errors', 'Flip_Content_Verifiability_Errors',
+        'Flip_RelE', 'Flip_EntE', 'Flip_CircE', 'Flip_OutE', 'Flip_GramE', 'Flip_CorefE', 'Flip_LinkE', 'Flip_Other'
+    ]
+    model_names = [
+        'bart','pgn', 'bus', 'bert_sum', 's2s',
+        'TranS2S', 'TConvS2S', 'PtGen', 'BERTS2S'
+    ]
 
-    parser.add_argument('--base_path', default='../data')
-    parser.add_argument('--human_eval_path', default='human_annotations.csv')
-    parser.add_argument('--cache_path', default='.metrics_cache')
-    parser.add_argument('--overwrite_cache', action='store_true')
-    parser.add_argument('--metrics_info', default='metrics_info.json')
-    parser.add_argument('--metrics', nargs='+', default=metrics, help='metrics to evaluate on (should match the name in the metrics_info).')
+    parser.add_argument('--mode', default='hm-correlation', choices=['hm-correlation', 'ablations', 'ablations-plot', 'mm-correlation'], help=(  
+        'This script can calculate correlation with human judgments (hm-correlation),'
+        ' evaluate the performance of the evaluation metrics at capturing different types of factual errors (ablations),'
+        ' output the ablation as a plot (ablations-plot), and compute the Williams test (mm-correlation)'
+    ))
+    parser.add_argument('--base_path', default='data', help='path to the folder containing the data.')
+    parser.add_argument('--human_eval_path', default='human_annotations.json', help='file containing human annotations expects csv file.')
+    parser.add_argument('--baseline_metrics_outputs', default='baseline_factuality_metrics_outputs.json', help='file name containing outputs of baseline factuality metrics.')
+    parser.add_argument('--baseline_metrics', nargs='+', default=baseline_metrics, help='baseline metrics to evaluate on (should match the name in the baseline metrics output file).')
+    parser.add_argument('--no_baseline_metrics', action='store_true', help='If set, does not evaluate the baseline metrics')
+    parser.add_argument('--metrics_outputs', nargs='+', default=None, help='names of json files containing metric outputs with key "score"')
+    parser.add_argument('--metrics_outputs_info', default=None, help='json file describing how to parse metrics output files. This allows to customize the name of the score key and to have several metrics in one json file.')
     parser.add_argument('--ablations', nargs='+', default=ablations_cols, help='column names for ablations.')
     parser.add_argument('--human', default='Factuality', help='column for human judgements.')
-    parser.add_argument('--mode', default='hm-correlation', choices=['hm-correlation', 'ablations', 'ablations-plot', 'mm-correlation'])
     parser.add_argument('--no_partial_correlation', action='store_true')
     parser.add_argument('--partial_correlation_variable', default='model_name', help='what column to use as confounding to calculate partial correlations')
     parser.add_argument('--store_path', default=None)
@@ -82,7 +94,13 @@ def williams_test(r12, r13, r23, n):
         p = 1 - stats.t.cdf(t, df=n-3) # changed to n-3 on 30/11/14
         return t, p
 
-def human_metric_correlation(data_df, human_col, metrics_cols, partial_correlation=True, partial_correlation_variable=None):
+def human_metric_correlation(
+    data_df,
+    human_col,
+    metrics_cols,
+    partial_correlation=True,
+    partial_correlation_variable=None
+):
     """
     human_df: pandas dataframe, should only contain one column corresponding to human judgements
     metrics_df: pandas dataframe, columns are metrics.
@@ -122,7 +140,13 @@ def human_metric_correlation(data_df, human_col, metrics_cols, partial_correlati
     )
     return correlation_df
 
-def metric_metric_correlation(data_df, human_col, metrics_cols, partial_correlation=True, partial_correlation_variable=None):
+def metric_metric_correlation(
+    data_df,
+    human_col,
+    metrics_cols,
+    partial_correlation=True,
+    partial_correlation_variable=None
+):
     """
     metrics_df: pandas dataframe, columns taken as metrics
     partial_correlation: bool - whether to use partial correlations.
@@ -173,7 +197,14 @@ def metric_metric_correlation(data_df, human_col, metrics_cols, partial_correlat
     williams_df = pd.DataFrame(williams, index=metrics_cols, columns=metrics_cols)
     return (correlations_df, williams_df)
 
-def ablation(data_df, human_col, ablations_cols, metrics_cols, partial_correlation=True, partial_correlation_variable=None):
+def ablation(
+    data_df, 
+    human_col, 
+    ablations_cols, 
+    metrics_cols, 
+    partial_correlation=True, 
+    partial_correlation_variable=None
+):
     """
     human_df: pandas dataframe, should only contain one column corresponding to human judgements
     ablations_df: pandas dataframe, each column corresponds to a different ablation of the human judgements
@@ -208,75 +239,66 @@ def plot_ablations(ablation_df, save_path):
     fig = ax.get_figure()
     fig.savefig(os.path.join(save_path, 'ablations_plot.pdf'), bbox_inches='tight')
     
-
-def load_metrics(data_df, metrics_info, base_path, overwrite_cache=False):
-    """
-    data_df: pandas dataframe, must have columns 'hash' and 'model_name'
-    metrics_info: dictionary containing the information about the metrics
-        schema should look like
-        {
-            "path": "PATH TO FOLDER",
-            "scores": [
-                {"name": "NAME OF SCORE", "key": "KEY TO EXTRACT SCORE"}
-            ]
-        }
-    """
-    metrics_cols = []
-    for metric_info in metrics_info:
-        for score_info in metric_info['scores']:
-            if overwrite_cache or (score_info['name'] not in data_df):
-                data_df[score_info['name']] = data_df.apply(
-                    get_score_lambda(score_info['key'], os.path.join(base_path, metric_info['path'])),
-                    axis=1
-                )
-            else:
-                print(f'Using cached data for metric {score_info["name"]}')
-            metrics_cols.append(score_info['name'])
-    return data_df, metrics_cols
-
-def get_score_lambda(score, path):
-    def get_score(row):
-        try:
-            with open(path+'/'+row['hash']+'.json') as infile:
-                example = json.loads(infile.read())
-                model_name = row['model_name'].replace('_lines', '')
-                if type(score) != str and len(score) > 1:
-                    return example[model_name+"_"+score[0]][score[1]]
-                else:
-                    assert model_name+"_"+score in example, path+'/'+row['hash']+'.json'+' '+model_name
-                    return example[model_name+"_"+score]
-        except:
-            print(f'File {row["hash"]+".json"} was not found at path {path}')
-    return get_score
-
-def cache_data(path, data_df):
-    if not os.path.exists(path):
-        os.makedirs(path)
-    data_df.to_csv(os.path.join(path, 'data_cache.csv'), index=False)
-
 def main(args):
     """
-    1. Load the data into a dataframe: each row corresponds should have hash and model_name column
-    2. Call the functions according to what the user requests
+    Depending on the `mode` used, this script computes correlation between factuality metrics
+    and human judgments of factuality on the FRANK benchmark data. It can also measure how well
+    a metric captures certain types of errors.
+
+    The code uses baseline metric outputs provided as part of FRANK (in `baseline_facutlaity_metrics_outputs.json`).
+    The user can specify which metrics among the baseline metrics to use in the computation.
+
+    In addition to the baseline metrics, this tool allows users to evaluate their own factuality metric outputs on
+    FRANK. There are two ways to do so:
+    1. By providing a FRANK benchmark submission file: a `json` files containing a list of records, each record
+       having both `hash` and `model_name` fields as well as a `score` field with the metric output.
+    2. By defining a `json` file with information on how to parse the metric output files. 
+       the schema should look like:
+       [
+           {
+               "path": "PATH_TO_JSON_FILE_WITH_OUTPUS"
+               "scores": [
+                   {"name": "PRETTY NAME FOR THE METRIC 1", "key": "THE KEY CONTAINING THE METRIC 1 OUTPUT"},
+                   {"name": "PRETTY NAME FOR THE METRIC 2", "key": "THE KEY CONTAINING THE METRIC 2 OUTPUT"},
+                   ...
+               ]
+           },...
+       ]
+       Note that the output files should still be `json` files with a list of records with `hash` and 
+       `model_name` keys, but they can contain several metrics outputs in each record .
+       This allows to specify a name for each metric, and allows several metrics for each output file. 
     """
-    with open(args['metrics_info']) as infile:
-        metrics_info = json.loads(infile.read())
-
-    # Load from cache if available.
-    if os.path.isdir(os.path.join(args['base_path'], args['cache_path'])):
-        data_df = pd.read_csv(os.path.join(args['base_path'], args['cache_path'], 'data_cache.csv'))
-    else:
-        data_df = pd.read_csv(os.path.join(args['base_path'], args['human_eval_path']))
-    # Load metrics that are not in data_df already (unless overwrite cache)
-    data_df, metrics_cols_all = load_metrics(data_df, metrics_info, args['base_path'], overwrite_cache=args['overwrite_cache'])
-    
-    # Store df as cache so that we don't have to load it again.
-    cache_data(os.path.join(args['base_path'], args['cache_path']), data_df)
-
     human_col = args['human']
     ablations_cols = args['ablations']
-    assert all([metric in metrics_cols_all for metric in args['metrics']]), f'not all required metrics are in the metric info file {args["metrics"]}'
-    metrics_cols = args['metrics']
+    metrics_cols = args['baseline_metrics']
+
+    data_df = pd.read_json(os.path.join(args['base_path'], args['human_eval_path']))
+
+    if not args['no_baseline_metrics']:
+        metric_df = pd.read_json(os.path.join(args['base_path'], args['baseline_metrics_outputs']))
+        for baseline_metric in args['baseline_metrics']:
+            assert baseline_metric in metric_df, baseline_metric + ' not found. Your metrics_output_info file is likely not well defined.'
+        data_df = data_df.merge(metric_df[['hash', 'model_name'] + args['baseline_metrics']], on=['hash', 'model_name'], validate='one_to_one')
+        
+    if args['metrics_outputs']:
+        metric_df = pd.read_json(os.path.join(args['base_path'], args['metrics_outputs']))
+        assert 'score' in metric_df, 'The metric output should be in a field named "score"'
+        data_df = data_df.merge(metric_df[['hash', 'model_name', 'score']], on=['hash', 'model_name'], validate='one_to_one')
+        data_df = data_df.rename(columns={score_info['key']:score_info['name']})
+        metrics_cols += 'score'
+
+    if args['metrics_outputs_info']:
+        with open(args['metrics_outputs_info']) as infile:
+            metrics_info = json.loads(infile.read())
+        for metric_info in metrics_info:
+            metric_df = pd.read_json(os.path.join(args['base_path'], metric_info['path']))
+            keys = []
+            for score_info in metric_info['scores']:
+                assert score_info['key'] in metric_df, score_info['key']+' not found. Your metrics_output_info file is likely not well defined.'
+                keys.append(score_info['key'])
+            data_df = data_df.merge(metric_df[['hash', 'model_name'] + keys], on=['hash', 'model_name'], validate='one_to_one')
+            data_df = data_df.rename(columns={score_info['key']:score_info['name'] for score_info in metric_info})
+            metrics_cols += [score_info['name'] for score_info in metric_info]
 
     # Select dataset and models if specified.
     if args['dataset']:
