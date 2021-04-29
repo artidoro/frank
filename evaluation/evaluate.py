@@ -35,7 +35,7 @@ def parse_args(args):
     ]
     ablations_cols = [
         'Flip_Semantic_Frame_Errors', 'Flip_Discourse_Errors', 'Flip_Content_Verifiability_Errors',
-        'Flip_RelE', 'Flip_EntE', 'Flip_CircE', 'Flip_OutE', 'Flip_GramE', 'Flip_CorefE', 'Flip_LinkE', 'Flip_Other'
+        # 'Flip_RelE', 'Flip_EntE', 'Flip_CircE', 'Flip_OutE', 'Flip_GramE', 'Flip_CorefE', 'Flip_LinkE', 'Flip_Other'
     ]
     model_names = [
         'bart','pgn', 'bus', 'bert_sum', 's2s',
@@ -52,7 +52,7 @@ def parse_args(args):
     parser.add_argument('--baseline_metrics_outputs', default='baseline_factuality_metrics_outputs.json', help='file name containing outputs of baseline factuality metrics.')
     parser.add_argument('--baseline_metrics', nargs='+', default=baseline_metrics, help='baseline metrics to evaluate on (should match the name in the baseline metrics output file).')
     parser.add_argument('--no_baseline_metrics', action='store_true', help='If set, does not evaluate the baseline metrics')
-    parser.add_argument('--metrics_outputs', nargs='+', default=None, help='names of json files containing metric outputs with key "score"')
+    parser.add_argument('--metrics_outputs', default=None, help='names of json files containing metric outputs with key "score"')
     parser.add_argument('--metrics_outputs_info', default=None, help='json file describing how to parse metrics output files. This allows to customize the name of the score key and to have several metrics in one json file.')
     parser.add_argument('--ablations', nargs='+', default=ablations_cols, help='column names for ablations.')
     parser.add_argument('--human', default='Factuality', help='column for human judgements.')
@@ -268,27 +268,29 @@ def main(args):
        `model_name` keys, but they can contain several metrics outputs in each record .
        This allows to specify a name for each metric, and allows several metrics for each output file. 
     """
-    human_col = args['human']
-    ablations_cols = args['ablations']
-    metrics_cols = args['baseline_metrics']
-
+    # Load the human judgements.
     data_df = pd.read_json(os.path.join(args['base_path'], args['human_eval_path']))
 
+    human_col = args['human']
+    ablations_cols = args['ablations']
+    metrics_cols = []
+    
+    # Load the metric outputs.
     if not args['no_baseline_metrics']:
         metric_df = pd.read_json(os.path.join(args['base_path'], args['baseline_metrics_outputs']))
         for baseline_metric in args['baseline_metrics']:
             assert baseline_metric in metric_df, baseline_metric + ' not found. Your metrics_output_info file is likely not well defined.'
         data_df = data_df.merge(metric_df[['hash', 'model_name'] + args['baseline_metrics']], on=['hash', 'model_name'], validate='one_to_one')
-        
+        metrics_cols += args['baseline_metrics']
+    
     if args['metrics_outputs']:
         metric_df = pd.read_json(os.path.join(args['base_path'], args['metrics_outputs']))
         assert 'score' in metric_df, 'The metric output should be in a field named "score"'
         data_df = data_df.merge(metric_df[['hash', 'model_name', 'score']], on=['hash', 'model_name'], validate='one_to_one')
-        data_df = data_df.rename(columns={score_info['key']:score_info['name']})
-        metrics_cols += 'score'
+        metrics_cols += ['score']
 
     if args['metrics_outputs_info']:
-        with open(args['metrics_outputs_info']) as infile:
+        with open(os.path.join(args['base_path'], args['metrics_outputs_info'])) as infile:
             metrics_info = json.loads(infile.read())
         for metric_info in metrics_info:
             metric_df = pd.read_json(os.path.join(args['base_path'], metric_info['path']))
@@ -297,8 +299,8 @@ def main(args):
                 assert score_info['key'] in metric_df, score_info['key']+' not found. Your metrics_output_info file is likely not well defined.'
                 keys.append(score_info['key'])
             data_df = data_df.merge(metric_df[['hash', 'model_name'] + keys], on=['hash', 'model_name'], validate='one_to_one')
-            data_df = data_df.rename(columns={score_info['key']:score_info['name'] for score_info in metric_info})
-            metrics_cols += [score_info['name'] for score_info in metric_info]
+            data_df = data_df.rename(columns={score_info['key']:score_info['name'] for score_info in metric_info['scores']})
+            metrics_cols += [score_info['name'] for score_info in metric_info['scores']]
 
     # Select dataset and models if specified.
     if args['dataset']:

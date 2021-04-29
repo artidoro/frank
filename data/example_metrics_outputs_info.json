@@ -1,0 +1,8 @@
+[
+    {
+        "path": "example_benchmark_data_scored.json",
+        "scores": [
+            { "name":"pretty metric name", "key":"score" }
+        ]
+    }
+]
