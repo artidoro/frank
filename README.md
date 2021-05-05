@@ -80,7 +80,7 @@ Coming soon.
 ## Citation
 ```
 @inproceedings{pagnoni-2021-frank,
-    title={Understanding Factuality in Abstractive Summarization with FRANK: A Benchmark for Factuality Metrics},
+    title={Understanding Factuality in Abstractive Summarization with {FRANK}: A Benchmark for Factuality Metrics},
     author={Pagnoni, Artidoro and Balachandran, Vidhisha and Tsvetkov, Yulia},
     booktitle =   {Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)},
     year =        {2021},
