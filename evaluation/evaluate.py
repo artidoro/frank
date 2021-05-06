@@ -47,9 +47,8 @@ def parse_args(args):
         ' evaluate the performance of the evaluation metrics at capturing different types of factual errors (ablations),'
         ' output the ablation as a plot (ablations-plot), and compute the Williams test (mm-correlation)'
     ))
-    parser.add_argument('--base_path', default='data', help='path to the folder containing the data.')
-    parser.add_argument('--human_eval_path', default='human_annotations.json', help='file containing human annotations expects csv file.')
-    parser.add_argument('--baseline_metrics_outputs', default='baseline_factuality_metrics_outputs.json', help='file name containing outputs of baseline factuality metrics.')
+    parser.add_argument('--human_eval_path', default='data/human_annotations.json', help='file containing human annotations expects csv file.')
+    parser.add_argument('--baseline_metrics_outputs', default='data/baseline_factuality_metrics_outputs.json', help='file name containing outputs of baseline factuality metrics.')
     parser.add_argument('--baseline_metrics', nargs='+', default=baseline_metrics, help='baseline metrics to evaluate on (should match the name in the baseline metrics output file).')
     parser.add_argument('--no_baseline_metrics', action='store_true', help='If set, does not evaluate the baseline metrics')
     parser.add_argument('--metrics_outputs', default=None, help='names of json files containing metric outputs with key "score"')
@@ -269,7 +268,7 @@ def main(args):
        This allows to specify a name for each metric, and allows several metrics for each output file. 
     """
     # Load the human judgements.
-    data_df = pd.read_json(os.path.join(args['base_path'], args['human_eval_path']))
+    data_df = pd.read_json(args['human_eval_path'])
 
     human_col = args['human']
     ablations_cols = args['ablations']
@@ -277,23 +276,23 @@ def main(args):
     
     # Load the metric outputs.
     if not args['no_baseline_metrics']:
-        metric_df = pd.read_json(os.path.join(args['base_path'], args['baseline_metrics_outputs']))
+        metric_df = pd.read_json(args['baseline_metrics_outputs'])
         for baseline_metric in args['baseline_metrics']:
             assert baseline_metric in metric_df, baseline_metric + ' not found. Your metrics_output_info file is likely not well defined.'
         data_df = data_df.merge(metric_df[['hash', 'model_name'] + args['baseline_metrics']], on=['hash', 'model_name'], validate='one_to_one')
         metrics_cols += args['baseline_metrics']
     
     if args['metrics_outputs']:
-        metric_df = pd.read_json(os.path.join(args['base_path'], args['metrics_outputs']))
+        metric_df = pd.read_json(args['metrics_outputs'])
         assert 'score' in metric_df, 'The metric output should be in a field named "score"'
         data_df = data_df.merge(metric_df[['hash', 'model_name', 'score']], on=['hash', 'model_name'], validate='one_to_one')
         metrics_cols += ['score']
 
     if args['metrics_outputs_info']:
-        with open(os.path.join(args['base_path'], args['metrics_outputs_info'])) as infile:
+        with open(args['metrics_outputs_info']) as infile:
             metrics_info = json.loads(infile.read())
         for metric_info in metrics_info:
-            metric_df = pd.read_json(os.path.join(args['base_path'], metric_info['path']))
+            metric_df = pd.read_json(metric_info['path'])
             keys = []
             for score_info in metric_info['scores']:
                 assert score_info['key'] in metric_df, score_info['key']+' not found. Your metrics_output_info file is likely not well defined.'
@@ -305,10 +304,10 @@ def main(args):
     # Select dataset and models if specified.
     if args['dataset']:
         mask = (data_df['dataset'] == args['dataset']) & (data_df['model_name'] != 'reference')
-        df_data = df_data[mask]
+        data_df = data_df[mask]
     if args['model_name']:
         mask = (data_df['model_name'].isin(args['model_name'])) & (data_df['model_name'] != 'reference')
-        df_data = df_data[mask]
+        data_df = data_df[mask]
 
     out_df, williams_df = None, None
     if args['mode'] == 'hm-correlation':
