@@ -35,18 +35,18 @@ python evaluation/evaluate.py
 
 An example submission file is `example_benchmark_data_scored.json`. You can evaluate it with or without baseline metrics using:
 ```python
-python evaluation/evaluate.py --metrics_outputs example_benchmark_data_scored.json
-python evaluation/evaluate.py --metrics_outputs example_benchmark_data_scored.json --no_baseline_metrics
+python evaluation/evaluate.py --metrics_outputs data/example_benchmark_data_scored.json
+python evaluation/evaluate.py --metrics_outputs data/example_benchmark_data_scored.json --no_baseline_metrics
 ```
 
 If you want to specify how to parse the metric outputs using a json file, you can use the `metrics_outputs_info` argument. `example_metrics_outputs_info.json` is a example file that defines how to parse the `example_benchmark_data_scored.json`. You would use it as follows:
 ```python
-python evaluation/evaluate.py --metrics_outputs_info example_metrics_outputs_info.json
+python evaluation/evaluate.py --metrics_outputs_info data/example_metrics_outputs_info.json
 ```
 
 To use different modes, use the argument `mode`. For example, using the `ablations` mode the script measure how much a metric captures a given type of errors. This is done by computing the negative difference between the partial correlation when flipping the label of one type of error and that without flipping the label. Using the `ablations-plot` generates a plot of the ablations on the selected categories of error.
 ```python
-python evaluation/evaluate.py --mode ablations --metrics_outputs example_benchmark_data_scored.json 
+python evaluation/evaluate.py --mode ablations --metrics_outputs data/example_benchmark_data_scored.json 
 ```
 
 To compare different metrics, one should test whether their difference is statistically significant. This can be done with the williams test taking into account the metric-metric correlations. Using the mode `mm-correlation` the script computes the the Williams test and the metric-metric correlations.
@@ -69,7 +69,7 @@ We expect a `.json` file like `benchmark_data.json` in the `data` directory with
 
 You can verify that the `evaluate.py` script works with your `benchmark_data.json`:
 ```python
-    python evaluation/evaluate.py --no_baseline_metrics --metrics_outputs example_benchmark_data_scored.json
+    python evaluation/evaluate.py --no_baseline_metrics --metrics_outputs data/example_benchmark_data_scored.json
 ```
 
 If you have any questions feel free to submit an issue.
