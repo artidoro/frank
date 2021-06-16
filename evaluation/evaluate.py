@@ -60,6 +60,7 @@ def parse_args(args):
     parser.add_argument('--store_path', default=None)
     parser.add_argument('--dataset', default=None, choices=[None, 'cnndm', 'bbc'], help='if None use all data')
     parser.add_argument('--model_name', nargs='+', default=None, help=f'by default use all data, availble model names {model_names}')
+    parser.add_argument('--split', default='valid', choices=['valid', 'test', 'all'], help='Whether to use validation or test splits of FRANK. For experimentations only use validation set. Using all the data is only recommended for analysis of types of error.')
     args = parser.parse_args(args)
     return vars(args)
 
@@ -307,6 +308,11 @@ def main(args):
         data_df = data_df[mask]
     if args['model_name']:
         mask = (data_df['model_name'].isin(args['model_name'])) & (data_df['model_name'] != 'reference')
+        data_df = data_df[mask]
+
+    # Select the data split (validation or test).
+    if args['split'] != 'all':
+        mask = (data_df['split'] == args['split'])
         data_df = data_df[mask]
 
     out_df, williams_df = None, None

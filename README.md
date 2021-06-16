@@ -23,6 +23,11 @@ The file `evaluate.py` can be used to compute partial correlations along with th
 
 The online leaderboard uses the evaluation scripts in `evaluate.py` to evaluate the metrics.
 
+### Validation-Test Splits for FRANK
+The FRANK paper presents results on the entire FRANK dataset since the metrics were not tuned for the FRANK benchmark. However, we expect some tuning in future work. For this reason, we split the data in `validation` and `test`. All tuning and experimentation should be performed on the validation set, while the performance results should be reported on the `test` set. The validation set contains summaries from 149 articles (671 summaries) and the test set contains summaries from 350 articles (1575 summaries).
+
+The files all include a `split` field which indicates whether the datapoint is part of the `validation` or `test` set. The fileds `test_split.txt` and `validation_split.txt` contain the list of test and validation hashes. Note that a hash corresponds to an article and all summaries of the same article are in the same split.
+
 ### Usage
 To install requirements:
 ```python
@@ -31,9 +36,14 @@ cd frank
 pip install -r requirements.txt
 ```
 
-To run on the baseline metrics:
+To run on the baseline metrics on the `validation` set:
 ```python
 python evaluation/evaluate.py
+```
+
+To run on the baseline metrics on the `test` set:
+```python
+python evaluation/evaluate.py --split test
 ```
 
 An example submission file is `example_benchmark_data_scored.json`. You can evaluate it with or without baseline metrics using:
@@ -82,12 +92,19 @@ Coming soon.
 
 ## Citation
 ```
-@inproceedings{pagnoni-2021-frank,
-    title={Understanding Factuality in Abstractive Summarization with {FRANK}: A Benchmark for Factuality Metrics},
-    author={Pagnoni, Artidoro and Balachandran, Vidhisha and Tsvetkov, Yulia},
-    booktitle =   {Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)},
-    year =        {2021},
-    month =       jun,
-    address =     {Mexico City},
+@inproceedings{pagnoni-etal-2021-understanding,
+    title = "Understanding Factuality in Abstractive Summarization with {FRANK}: A Benchmark for Factuality Metrics",
+    author = "Pagnoni, Artidoro  and
+      Balachandran, Vidhisha  and
+      Tsvetkov, Yulia",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.naacl-main.383",
+    doi = "10.18653/v1/2021.naacl-main.383",
+    pages = "4812--4829",
+    abstract = "Modern summarization models generate highly fluent but often factually unreliable outputs. This motivated a surge of metrics attempting to measure the factuality of automatically generated summaries. Due to the lack of common benchmarks, these metrics cannot be compared. Moreover, all these methods treat factuality as a binary concept and fail to provide deeper insights on the kinds of inconsistencies made by different systems. To address these limitations, we devise a typology of factual errors and use it to collect human annotations of generated summaries from state-of-the-art summarization systems for the CNN/DM and XSum datasets. Through these annotations we identify the proportion of different categories of factual errors and benchmark factuality metrics, showing their correlation with human judgement as well as their specific strengths and weaknesses.",
 }
 ```
