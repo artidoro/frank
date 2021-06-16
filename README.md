@@ -9,7 +9,14 @@ The leaderboard will be made available soon.
 ## Data
 The `data` repository contains the data to run new evaluation metrics and the collected human judgements to compute correlations and anaylsis. All the data comes from the test split of each dataset. We use the hashes from the original datasets to identify the documents.
 
+### Validation-Test Split for FRANK
+The FRANK paper presents results on the entire FRANK dataset since the metrics were not tuned for the FRANK benchmark. However, we expect some tuning in future work. For this reason, we split the data in `validation` and `test`. All tuning and experimentation should be performed on the validation set, while the performance results should be reported on the `test` set. The validation set contains summaries from 149 articles (671 summaries) and the test set contains summaries from 350 articles (1575 summaries).
 
+The files all include a `split` field which indicates whether the datapoint is part of the `validation` or `test` set. The fileds `test_split.txt` and `validation_split.txt` contain the list of test and validation hashes. Note that a hash corresponds to an article and all summaries of the same article are in the same split.
+
+
+### Data description
+We describe the contents of the data files below. Note that all files contain a `split` field which indicates whether the datapoint is part of the validation or test split of FRANK.
 - `benchmark_data.json` is the data on which new evaluation metrics have to be executed. It is a list, each element contains a model-generated summary, a reference summary, and an article. There are additional fields used to track the element: `hash` or identifyier in the dataset the article was taken from, and `model_name` with the name of the model used to generate the summary. 
 - `human_annotations.json` contains one record for each article/model pair. It has a `Factuality` field which is the total human judgement assigned to the summary. This is a score between 0 and 1 as we collected judgements on each sentence and average over sentences. The rest of the fields correspond to individual errors or groups of errors. A 1 indicates that there was no such errors in the summary, a 0 indicates that every sentence contained one such error. We also include fields with "flipped" labels for each category. These fields can be used for the ablation study to determine the influence of each category in the overall correlation with human judgement.
 - `human_annotations_sentences.json` contains all human annotations that we collected on the system outputs at the sentence level and for the each annotator (anonymized). We use the same naming convention as in the paper to indicate categories of errors. In addition, "NoE" indicates no error, and "OtherE" indicates an error outside of the typology. This file has the same fields as `human_annotations.json` with two additional fields: `summary_sentence` (the result of running spacy's sentence boundary detection) and `summary_sentences_annotations` which contains the annotations for each sentence. The latter is a list where each element corresponds to a sentence and contains the annoations by the three annoators. Note that an annotator can select more than one category of error if they identify more than one error.
@@ -24,9 +31,7 @@ The file `evaluate.py` can be used to compute partial correlations along with th
 The online leaderboard uses the evaluation scripts in `evaluate.py` to evaluate the metrics.
 
 ### Validation-Test Splits for FRANK
-The FRANK paper presents results on the entire FRANK dataset since the metrics were not tuned for the FRANK benchmark. However, we expect some tuning in future work. For this reason, we split the data in `validation` and `test`. All tuning and experimentation should be performed on the validation set, while the performance results should be reported on the `test` set. The validation set contains summaries from 149 articles (671 summaries) and the test set contains summaries from 350 articles (1575 summaries).
-
-The files all include a `split` field which indicates whether the datapoint is part of the `validation` or `test` set. The fileds `test_split.txt` and `validation_split.txt` contain the list of test and validation hashes. Note that a hash corresponds to an article and all summaries of the same article are in the same split.
+We split the data in `validation` and `test`. All tuning and experimentation should be performed on the validation set, while the performance results should be reported on the `test` set. 
 
 ### Usage
 To install requirements:
