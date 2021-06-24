@@ -93,7 +93,7 @@ You can verify that the `evaluate.py` script works with your `benchmark_data.jso
 If you have any questions feel free to submit an issue.
 
 ## Annotation Tools
-Coming soon.
+The repository with the annotation platoform can be found at https://github.com/artidoro/frank-annotation-platform.
 
 ## Citation
 ```
