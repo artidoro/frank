@@ -4,7 +4,7 @@ This repository contains the data for the FRANK Benchmark for factuality evaluat
 
 The annotation was conducted based on a typology of factual errors which is described in detail in our paper. Thanks to this fine-grained annotation scheme, the annotations we collected can be used to compare specific strength and weaknesses of factuality metrics.
 
-The leaderboard will be made available soon.
+The leaderboard website is accessible here https://frank-benchmark.herokuapp.com
 
 ## Data
 The `data` repository contains the data to run new evaluation metrics and the collected human judgements to compute correlations and anaylsis. All the data comes from the test split of each dataset. We use the hashes from the original datasets to identify the documents.
