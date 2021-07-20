@@ -8,7 +8,7 @@ The leaderboard website is accessible here https://frank-benchmark.herokuapp.com
 
 ## Updates and Fixes
 - 7/20/2021 We fixed an issue with BertScore results reported in the paper. The new results are live on the leaderboard and the file with baseline results `baseline_factuality_metrics_outputs.json` has been updated. 
-It appears that overall BertScore P Art performs best overall. However, we also observe BertScore primarily focuses on Content verifiability errors and is not strong at Semantic Frame errors and Discourse errors.
+It appears that overall BertScore P Art performs best overall in terms of Pearson while FactCC is better in terms of Spearman. However, we also observe BertScore primarily focuses on Content verifiability errors and is not as strong at Semantic Frame errors and Discourse errors.
 - 6/16/2021 Validation-Test splits for FRANK.
 
 ## Data
