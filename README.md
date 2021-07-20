@@ -6,6 +6,11 @@ The annotation was conducted based on a typology of factual errors which is desc
 
 The leaderboard website is accessible here https://frank-benchmark.herokuapp.com
 
+## Updates and Fixes
+- 7/20/2021 We fixed an issue with BertScore results reported in the paper. The new results are live on the leaderboard and the file with baseline results `baseline_factuality_metrics_outputs.json` has been updated. 
+It appears that overall BertScore P Art performs best overall. However, we also observe BertScore primarily focuses on Content verifiability errors and is not strong at Semantic Frame errors and Discourse errors.
+- 6/16/2021 Validation-Test splits for FRANK.
+
 ## Data
 The `data` repository contains the data to run new evaluation metrics and the collected human judgements to compute correlations and anaylsis. All the data comes from the test split of each dataset. We use the hashes from the original datasets to identify the documents.
 
@@ -40,6 +45,75 @@ git clone https://github.com/artidoro/frank.git
 cd frank
 pip install -r requirements.txt
 ```
+
+```bash
+usage: evaluate.py [-h]
+                   [--mode {hm-correlation,ablations,ablations-plot,mm-correlation}]
+                   [--human_eval_path HUMAN_EVAL_PATH]
+                   [--baseline_metrics_outputs BASELINE_METRICS_OUTPUTS]
+                   [--baseline_metrics BASELINE_METRICS [BASELINE_METRICS ...]]
+                   [--no_baseline_metrics]
+                   [--metrics_outputs METRICS_OUTPUTS]
+                   [--metrics_outputs_info METRICS_OUTPUTS_INFO]
+                   [--ablations ABLATIONS [ABLATIONS ...]] [--human HUMAN]
+                   [--no_partial_correlation]
+                   [--partial_correlation_variable PARTIAL_CORRELATION_VARIABLE]
+                   [--store_path STORE_PATH] [--dataset {None,cnndm,bbc}]
+                   [--model_name MODEL_NAME [MODEL_NAME ...]]
+                   [--split {valid,test,all}]
+
+Arguments for the evaluation script.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --mode {hm-correlation,ablations,ablations-plot,mm-correlation}
+                        This script can calculate correlation with human
+                        judgments (hm-correlation), evaluate the performance
+                        of the evaluation metrics at capturing different
+                        types of factual errors (ablations), output the
+                        ablation as a plot (ablations-plot), and compute the
+                        Williams test (mm-correlation)
+  --human_eval_path HUMAN_EVAL_PATH
+                        file containing human annotations expects csv file.
+  --baseline_metrics_outputs BASELINE_METRICS_OUTPUTS
+                        file name containing outputs of baseline factuality
+                        metrics.
+  --baseline_metrics BASELINE_METRICS [BASELINE_METRICS ...]
+                        baseline metrics to evaluate on (should match the
+                        name in the baseline metrics output file).
+  --no_baseline_metrics
+                        If set, does not evaluate the baseline metrics
+  --metrics_outputs METRICS_OUTPUTS
+                        names of json files containing metric outputs with
+                        key "score"
+  --metrics_outputs_info METRICS_OUTPUTS_INFO
+                        json file describing how to parse metrics output
+                        files. This allows to customize the name of the score
+                        key and to have several metrics in one json file.
+  --ablations ABLATIONS [ABLATIONS ...]
+                        column names for ablations.
+  --human HUMAN         column for human judgements.
+  --no_partial_correlation
+  --partial_correlation_variable PARTIAL_CORRELATION_VARIABLE
+                        what column to use as confounding to calculate
+                        partial correlations
+  --store_path STORE_PATH
+  --dataset {None,cnndm,bbc}
+                        if None use all data
+  --model_name MODEL_NAME [MODEL_NAME ...]
+                        by default use all data, availble model names
+                        ['bart', 'pgn', 'bus', 'bert_sum', 's2s', 'TranS2S',
+                        'TConvS2S', 'PtGen', 'BERTS2S']
+  --split {valid,test,all}
+                        Whether to use validation or test splits of FRANK.
+                        For experimentations only use validation set. Using
+                        all the data is only recommended for analysis of
+                        types of error.
+```
+
+
+
+
 
 To run on the baseline metrics on the `validation` set:
 ```python

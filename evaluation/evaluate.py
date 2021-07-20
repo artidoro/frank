@@ -19,15 +19,18 @@ def parse_args(args):
     parser = argparse.ArgumentParser(description='Arguments for the evaluation script.')
     
     baseline_metrics = [
-        # 'Bleu',
-        # 'Meteor',
-        # 'Rouge 1',
-        # 'Rouge 2',
+        'Bleu',
+        'Meteor',
+        'Rouge 1',
+        'Rouge 2',
         'Rouge L',
         'BertScore P Art',
         # 'BertScore R Art',
         # 'BertScore F1 Art',
-        # 'FEQA',
+        # 'BertScore P',
+        # 'BertScore R',
+        # 'BertScore F1',
+        'FEQA',
         'QAGS',
         # 'OpenIE',
         'Dep Entail',
