@@ -20,8 +20,8 @@ class ParseTree():
             self.tokenizer = DistilBertTokenizer.from_pretrained(tokenizer_name)
         self.cached_parses = cached_parses
         self.TREE_HEIGHT = 0
-        self.NGRAM_LIMIT = 1000
-        self.TOKEN_LIMIT = 250
+        self.NGRAM_LIMIT = 10000
+        self.TOKEN_LIMIT = 25000
 
     @staticmethod
     def remove_non_ascii(text):

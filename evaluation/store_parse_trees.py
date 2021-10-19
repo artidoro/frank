@@ -15,13 +15,18 @@ class ParsedDataset(object):
         self.nlp = spacy.load("en_core_web_sm")
 
     def read_and_store_from_tsv(self, input_file_name, output_file_name):
+        hashes_seen = set()
         with open(output_file_name, 'w') as output_file:
             with open(input_file_name, 'r') as open_file:
                 data = json.load(open_file)
-                new_data = []
-                for elt in tqdm(data):
+                for count, elt in tqdm(enumerate(data)):
                     new_elt = dict(**elt)
                     for text_name in ['summary', 'article']:
+                        if text_name == 'article':
+                            if elt['hash'] in hashes_seen:
+                                continue
+                            else:
+                                hashes_seen.add(elt['hash'])
                         sents = [sent.text for sent in self.nlp(elt[text_name]).sents]
                         new_elt[f'{text_name}_sentences'] = sents
                         parse_trees, nt_idx_matrices = [], []
@@ -31,8 +36,10 @@ class ParsedDataset(object):
                             nt_idx_matrices.append(nt_idx_matrix)
                         new_elt['parse_tree'] = parse_trees
                         new_elt['nt_idx_matrices'] = nt_idx_matrices
-                        new_data.append(new_elt)
-                    json.dump(new_data, output_file)
+                        json.dump(new_elt, output_file)
+                        output_file.write('\n')
+                    if count + 1 >= 10:
+                        break
         return
 
     # def store_parse_trees(self, output_file):
