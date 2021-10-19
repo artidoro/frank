@@ -15,7 +15,7 @@ class ParsedDataset(object):
         self.nlp = spacy.load("en_core_web_sm")
 
     def read_and_store_from_tsv(self, input_file_name, output_file_name):
-        hashes_seen = set()
+        hashes_seen = dict()
         with open(output_file_name, 'w') as output_file:
             with open(input_file_name, 'r') as open_file:
                 data = json.load(open_file)
@@ -26,20 +26,32 @@ class ParsedDataset(object):
                             if elt['hash'] in hashes_seen:
                                 continue
                             else:
-                                hashes_seen.add(elt['hash'])
+                                hashes_seen[elt['hash']] = None
                         sents = [sent.text for sent in self.nlp(elt[text_name]).sents]
                         new_elt[f'{text_name}_sentences'] = sents
+
+                        if text_name == 'article' and hashes_seen[elt['hash']] is not None:
+                            new_elt[f'{text_name}_parse_trees'] = hashes_seen[elt['hash']]['parse_trees']
+                            new_elt[f'{text_name}_nt_idx_matrices'] = hashes_seen[elt['hash']]['nt_idx_matrices']
+                            json.dump(new_elt, output_file)
+                            output_file.write('\n')
+                            continue
+
                         parse_trees, nt_idx_matrices = [], []
                         for sent_text in sents:
                             parse_tree, nt_idx_matrix = self.parser.get_parse_tree_for_raw_sent(raw_sent=sent_text)
                             parse_trees.append(parse_tree)
                             nt_idx_matrices.append(nt_idx_matrix)
-                        new_elt['parse_tree'] = parse_trees
-                        new_elt['nt_idx_matrices'] = nt_idx_matrices
+                        new_elt[f'{text_name}_parse_trees'] = parse_trees
+                        new_elt[f'{text_name}_nt_idx_matrices'] = nt_idx_matrices
+                        if text_name == 'article':
+
+                            hashes_seen[elt['hash']] = {
+                                'parse_trees': parse_trees,
+                                'nt_idx_matrices': nt_idx_matrices,
+                            }
                         json.dump(new_elt, output_file)
                         output_file.write('\n')
-                    if count + 1 >= 10:
-                        break
         return
 
     # def store_parse_trees(self, output_file):
