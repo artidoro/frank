@@ -1,4 +1,6 @@
 .metrics_cache/
+data/benchmark_data_with_parse_2.json
+data/benchmark_data_with_parse.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

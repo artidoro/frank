@@ -19,7 +19,7 @@ class ParsedDataset(object):
         with open(output_file_name, 'w') as output_file:
             with open(input_file_name, 'r') as open_file:
                 data = json.load(open_file)
-                for count, elt in tqdm(enumerate(data)):
+                for elt in tqdm(data):
                     new_elt = dict(**elt)
                     for text_name in ['summary', 'article']:
                         if text_name == 'article':
@@ -75,7 +75,7 @@ def main():
 
     # Read input files from folder
     input_file_name = args.data_file + '.json'
-    output_file_name = args.data_file + '_with_parse.json'
+    output_file_name = args.data_file + '_with_parse_2.json'
     parsed_data.read_and_store_from_tsv(input_file_name=input_file_name,
                                         output_file_name=output_file_name)
 
